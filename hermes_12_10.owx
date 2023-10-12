@@ -1,0 +1,2236 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes"
+     versionIRI="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes/1.0.0">
+    <Prefix name="" IRI="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes/"/>
+    <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="opla" IRI="http://ontologydesignpatterns.org/opla/"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="opla1" IRI="http://www.ontologydesignpatterns.org/opla/"/>
+    <Prefix name="terms" IRI="http://purl.org/dc/terms/"/>
+    <Prefix name="catalogue" IRI="https://w3id.org/arco/ontology/catalogue/"/>
+    <Import>https://w3id.org/arco/ontology/arco/1.2</Import>
+    <Declaration>
+        <Class IRI="#AbstractActor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Allegoric"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Archeology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Architecture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ArchitectureStyle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ArchitectureType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Art"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Artist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ArtisticMovement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Astronomy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BusLine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chemistry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chiesa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cinema"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CinemaActor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CinemaDirector"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CinemaPlace"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ComplessoMonumentale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ComplessoTopografico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CulturalEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CulturalMovement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CulturalTradition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cultural_Property_Description"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Divinity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Edificio_monumentale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Edificio_religioso"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Enogastronomy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Farm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Festivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fontana"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Food"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fortificazione"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Garden"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gods"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HistoricalActor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HistoricalEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#History"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InfrastructuralProperty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Legend"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Literature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Location_Infrastructure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mathematics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Medicine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MetroA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MetroB"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MetroC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MetroLine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Monumento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mountain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Musicist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NaturalPlace"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pagan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Painting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PaintingArtist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PaintingStyle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Palazzo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Park"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Photography"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Physics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Politic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PoliticalAct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PoliticalActor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PoliticalEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PoliticalMovement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Politician"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Popular"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Proverbs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Psychology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RecurrentEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Religion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Religious"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ReligiousActor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ReligiousPlace"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ReligiousRitual"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ReligiusEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rituals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Saints"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Science"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Scientist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Social"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SocialActor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SocialEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SocialExperience"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SocialMovement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SocialProperty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SocialTradition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Square"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Street"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Technology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Train"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tram"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnitaMonumentale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnitaTerritoriale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnitaTopografica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Waterfall"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zoo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#connect"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCorrelatedWith"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#email"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#phone"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#visitability"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#visiting_information"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#visiting_price"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#visiting_time"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#website"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Architettura_Medievale"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Architettura_Neoclassica"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Architettura_Paleocristiana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Barocco"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Basilica_di_S.Martino_ai_Monti_desc_History"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Basilica_di_S.Martino_ai_Monti_desc_Rituals"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Basilica_di_S._Martino_ai_Monti"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chiesa_di_Gesù_Bambino"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chiesa_di_Gesù_Bambino_desc_Barocco"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chiesa_di_Gesù_Bambino_desc_Rituals"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chiesa_di_S._Lorenzo_in_Fonte"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chiesa_di_S._Lorenzo_in_Fonte_desc_Architecture"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chiesa_di_S._Lorenzo_in_Fonte_desc_History"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chiesa_di_S._Lorenzo_in_Fonte_desc_Rituals"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chiesa_di_S._Lorenzo_in_Panisperna"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chiesa_di_S._Lorenzo_in_Panisperna_desc_Barocco"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chiesa_di_S._Lorenzo_in_Panisperna_desc_Rituals"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chiesa_di_S._Maria_ai_Monti"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chiesa_di_S._Maria_ai_Monti_desc_Art"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chiesa_di_S._Maria_ai_Monti_desc_Rituals"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chiesa_di_S._Prudenziana_desc_Architecture"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chiesa_di_S._Prudenziana_desc_Art"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chiesa_di_S._Prudenziana_desc_Rituals"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chiesa_di_S._Pudenziana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chiesa_di_S._Salvatore_ai_Monti"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chiesa_di_S._Salvatore_ai_Monti_desc_Barocco"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chiesa_di_S._Salvatore_ai_Monti_desc_Rituals"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chiesa_nazionale_ucraina_dei_Ss._Sergio_e_Bacco"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chiesa_nazionale_ucraina_desc_Architecture"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chiesa_nazionale_ucraina_desc_Barocco"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chiesa_nazionale_ucraina_desc_Rituals"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cristianesimo_cattolico"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cristianesimo_ortodosso"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Eta_antica"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fisici_italiani"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fontana_dei_Catecumeni"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Medioevo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Metro_Cavour"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Novecento"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Palazzo_del_Collegio_dei_Neofiti_e_Catecumeni"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Palazzo_del_Collegio_desc_Barocco"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Piazza_della_Suburra"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Piazza_della_Suburra_desc_History"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rinascimento"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rione_Monti"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rituali"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Torre_dei_Conti"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Torre_dei_Conti_desc._Architecture"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Torre_dei_Conti_desc._History"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Via_Panisperna"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Via_Panisperna_Desc._History"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Via_Panisperna_Descr._Science"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Via_della_Madonna_dei_Monti"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Via_della_Madonna_dei_Monti_desc_History"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rito_bizantino"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rito_romano"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="terms:description"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="https://w3id.org/italia/onto/ADMS/hasContributor"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#AbstractActor"/>
+        <Class IRI="#SocialActor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Allegoric"/>
+        <Class IRI="#AbstractActor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Archeology"/>
+        <Class IRI="https://w3id.org/arco/ontology/context-description/CulturalScope"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Architecture"/>
+        <Class IRI="#Art"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArchitectureStyle"/>
+        <Class IRI="#Architecture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArchitectureType"/>
+        <Class IRI="#Architecture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Art"/>
+        <Class IRI="https://w3id.org/arco/ontology/context-description/CulturalScope"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Artist"/>
+        <Class IRI="#HistoricalActor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArtisticMovement"/>
+        <Class IRI="#CulturalMovement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Astronomy"/>
+        <Class IRI="#Science"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BusLine"/>
+        <Class IRI="#Location_Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chemistry"/>
+        <Class IRI="#Science"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chiesa"/>
+        <Class IRI="#Edificio_religioso"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cinema"/>
+        <Class IRI="#Art"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CinemaActor"/>
+        <Class IRI="#Cinema"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CinemaDirector"/>
+        <Class IRI="#Cinema"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CinemaPlace"/>
+        <Class IRI="#Cinema"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ComplessoMonumentale"/>
+        <Class IRI="https://w3id.org/arco/ontology/arco/ArchaeologicalProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ComplessoMonumentale"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="https://w3id.org/arco/ontology/core/hasPart"/>
+            <Class IRI="https://w3id.org/arco/ontology/arco/MovableCulturalProperty"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ComplessoMonumentale"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="https://w3id.org/arco/ontology/core/hasPart"/>
+            <Class IRI="#UnitaTerritoriale"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ComplessoMonumentale"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="https://w3id.org/arco/ontology/core/hasLocation"/>
+            <Class IRI="https://w3id.org/italia/onto/l0/Location"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ComplessoTopografico"/>
+        <Class IRI="#UnitaTerritoriale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ComplessoTopografico"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="https://w3id.org/arco/ontology/core/hasLocation"/>
+            <Class IRI="https://w3id.org/italia/onto/l0/Location"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ComplessoTopografico"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="https://w3id.org/arco/ontology/core/hasPart"/>
+            <Class IRI="#InfrastructuralProperty"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ComplessoTopografico"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="https://w3id.org/arco/ontology/core/hasPart"/>
+            <Class IRI="#UnitaTopografica"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CulturalEvent"/>
+        <Class IRI="https://w3id.org/arco/ontology/arco/IntangibleCulturalProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CulturalMovement"/>
+        <Class IRI="#CulturalTradition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CulturalTradition"/>
+        <Class IRI="#SocialProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cultural_Property_Description"/>
+        <Class IRI="https://w3id.org/italia/onto/l0/Description"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Divinity"/>
+        <Class IRI="#AbstractActor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Edificio_monumentale"/>
+        <Class IRI="#UnitaMonumentale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Edificio_religioso"/>
+        <Class IRI="#UnitaMonumentale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Enogastronomy"/>
+        <Class IRI="https://w3id.org/arco/ontology/context-description/CulturalScope"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Farm"/>
+        <Class IRI="#NaturalPlace"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Festivity"/>
+        <Class IRI="#RecurrentEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fontana"/>
+        <Class IRI="#Monumento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Food"/>
+        <Class IRI="#CulturalTradition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fortificazione"/>
+        <Class IRI="#Edificio_monumentale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Garden"/>
+        <Class IRI="#Nature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gods"/>
+        <Class IRI="#ReligiousActor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HistoricalActor"/>
+        <Class IRI="#SocialActor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HistoricalEvent"/>
+        <Class IRI="#CulturalEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#History"/>
+        <Class IRI="https://w3id.org/arco/ontology/context-description/CulturalScope"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InfrastructuralProperty"/>
+        <Class IRI="#UnitaTerritoriale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lake"/>
+        <Class IRI="#NaturalPlace"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Legend"/>
+        <Class IRI="#CulturalTradition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Literature"/>
+        <Class IRI="#Art"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Location_Infrastructure"/>
+        <Class IRI="https://w3id.org/italia/onto/l0/Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mathematics"/>
+        <Class IRI="#Science"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medicine"/>
+        <Class IRI="#Science"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MetroA"/>
+        <Class IRI="#MetroLine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MetroB"/>
+        <Class IRI="#MetroLine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MetroC"/>
+        <Class IRI="#MetroLine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MetroLine"/>
+        <Class IRI="#Location_Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Monumento"/>
+        <Class IRI="#UnitaMonumentale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mountain"/>
+        <Class IRI="#NaturalPlace"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Musicist"/>
+        <Class IRI="#HistoricalActor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NaturalPlace"/>
+        <Class IRI="#Nature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nature"/>
+        <Class IRI="https://w3id.org/arco/ontology/context-description/CulturalScope"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pagan"/>
+        <Class IRI="#Rituals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Painting"/>
+        <Class IRI="#Art"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PaintingArtist"/>
+        <Class IRI="#Painting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PaintingStyle"/>
+        <Class IRI="#Painting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Palazzo"/>
+        <Class IRI="#Edificio_monumentale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Park"/>
+        <Class IRI="#Nature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Photography"/>
+        <Class IRI="#Art"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Physics"/>
+        <Class IRI="#Science"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Politic"/>
+        <Class IRI="https://w3id.org/arco/ontology/context-description/CulturalScope"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PoliticalAct"/>
+        <Class IRI="#Politic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PoliticalActor"/>
+        <Class IRI="#Politic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PoliticalEvent"/>
+        <Class IRI="#HistoricalEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PoliticalMovement"/>
+        <Class IRI="#CulturalMovement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Politician"/>
+        <Class IRI="#HistoricalActor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Popular"/>
+        <Class IRI="#AbstractActor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Proverbs"/>
+        <Class IRI="#CulturalTradition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Psychology"/>
+        <Class IRI="#Science"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RecurrentEvent"/>
+        <Class IRI="#CulturalEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Religion"/>
+        <Class IRI="https://w3id.org/arco/ontology/context-description/CulturalScope"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Religious"/>
+        <Class IRI="#Rituals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ReligiousActor"/>
+        <Class IRI="#SocialActor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ReligiousPlace"/>
+        <Class IRI="#Religion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ReligiousRitual"/>
+        <Class IRI="#Religion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ReligiusEvent"/>
+        <Class IRI="#HistoricalEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rituals"/>
+        <Class IRI="#CulturalTradition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Saints"/>
+        <Class IRI="#ReligiousActor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Science"/>
+        <Class IRI="https://w3id.org/arco/ontology/context-description/CulturalScope"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Scientist"/>
+        <Class IRI="#HistoricalActor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Social"/>
+        <Class IRI="https://w3id.org/arco/ontology/context-description/CulturalScope"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SocialActor"/>
+        <Class IRI="#SocialProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SocialEvent"/>
+        <Class IRI="#HistoricalEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SocialExperience"/>
+        <Class IRI="#Social"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SocialMovement"/>
+        <Class IRI="#CulturalMovement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SocialProperty"/>
+        <Class IRI="https://w3id.org/arco/ontology/arco/IntangibleCulturalProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SocialTradition"/>
+        <Class IRI="#Social"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Square"/>
+        <Class IRI="#Location_Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Street"/>
+        <Class IRI="#Location_Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Technology"/>
+        <Class IRI="#Science"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Train"/>
+        <Class IRI="#Location_Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tram"/>
+        <Class IRI="#Location_Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnitaMonumentale"/>
+        <Class IRI="https://w3id.org/arco/ontology/arco/ArchaeologicalProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnitaMonumentale"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="https://w3id.org/arco/ontology/core/hasPart"/>
+            <Class IRI="https://w3id.org/arco/ontology/arco/MovableCulturalProperty"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnitaMonumentale"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="https://w3id.org/arco/ontology/core/hasLocation"/>
+            <Class IRI="https://w3id.org/italia/onto/l0/Location"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnitaTerritoriale"/>
+        <Class IRI="https://w3id.org/arco/ontology/arco/ImmovableCulturalProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnitaTerritoriale"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="https://w3id.org/arco/ontology/core/hasLocation"/>
+            <Class IRI="https://w3id.org/italia/onto/l0/Location"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnitaTerritoriale"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="https://w3id.org/arco/ontology/core/hasPart"/>
+            <Class IRI="#ComplessoTopografico"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnitaTopografica"/>
+        <Class IRI="#ComplessoTopografico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnitaTopografica"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="https://w3id.org/arco/ontology/core/hasPart"/>
+            <Class IRI="#ComplessoMonumentale"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnitaTopografica"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="https://w3id.org/arco/ontology/core/hasPart"/>
+            <Class IRI="https://w3id.org/arco/ontology/arco/MovableCulturalProperty"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnitaTopografica"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="https://w3id.org/arco/ontology/core/hasLocation"/>
+            <Class IRI="https://w3id.org/italia/onto/l0/Location"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Waterfall"/>
+        <Class IRI="#NaturalPlace"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zoo"/>
+        <Class IRI="#NaturalPlace"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://w3id.org/arco/ontology/arco/CulturalProperty"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="https://w3id.org/arco/ontology/context-description/hasDocumentation"/>
+            <Class IRI="https://w3id.org/arco/ontology/context-description/Documentation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://w3id.org/arco/ontology/arco/CulturalProperty"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+            <Class IRI="https://w3id.org/arco/ontology/context-description/CulturalScope"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://w3id.org/arco/ontology/arco/CulturalProperty"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+            <Class IRI="https://w3id.org/italia/onto/l0/Description"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://w3id.org/arco/ontology/arco/IntangibleCulturalProperty"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCorrelatedWith"/>
+            <Class IRI="https://w3id.org/arco/ontology/arco/TangibleCulturalProperty"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#ArchitectureStyle"/>
+        <NamedIndividual IRI="#Architettura_Medievale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ArchitectureStyle"/>
+        <NamedIndividual IRI="#Architettura_Neoclassica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ArchitectureStyle"/>
+        <NamedIndividual IRI="#Architettura_Paleocristiana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ArchitectureStyle"/>
+        <NamedIndividual IRI="#Barocco"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PaintingStyle"/>
+        <NamedIndividual IRI="#Barocco"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cultural_Property_Description"/>
+        <NamedIndividual IRI="#Basilica_di_S.Martino_ai_Monti_desc_History"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cultural_Property_Description"/>
+        <NamedIndividual IRI="#Basilica_di_S.Martino_ai_Monti_desc_Rituals"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chiesa"/>
+        <NamedIndividual IRI="#Basilica_di_S._Martino_ai_Monti"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chiesa"/>
+        <NamedIndividual IRI="#Chiesa_di_Gesù_Bambino"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cultural_Property_Description"/>
+        <NamedIndividual IRI="#Chiesa_di_Gesù_Bambino_desc_Barocco"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cultural_Property_Description"/>
+        <NamedIndividual IRI="#Chiesa_di_Gesù_Bambino_desc_Rituals"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chiesa"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Lorenzo_in_Fonte"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cultural_Property_Description"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Lorenzo_in_Fonte_desc_Architecture"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cultural_Property_Description"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Lorenzo_in_Fonte_desc_History"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cultural_Property_Description"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Lorenzo_in_Fonte_desc_Rituals"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chiesa"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Lorenzo_in_Panisperna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cultural_Property_Description"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Lorenzo_in_Panisperna_desc_Barocco"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cultural_Property_Description"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Lorenzo_in_Panisperna_desc_Rituals"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chiesa"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Maria_ai_Monti"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cultural_Property_Description"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Maria_ai_Monti_desc_Art"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cultural_Property_Description"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Maria_ai_Monti_desc_Rituals"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cultural_Property_Description"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Prudenziana_desc_Architecture"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cultural_Property_Description"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Prudenziana_desc_Art"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cultural_Property_Description"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Prudenziana_desc_Rituals"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chiesa"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Pudenziana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chiesa"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Salvatore_ai_Monti"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cultural_Property_Description"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Salvatore_ai_Monti_desc_Barocco"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cultural_Property_Description"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Salvatore_ai_Monti_desc_Rituals"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chiesa"/>
+        <NamedIndividual IRI="#Chiesa_nazionale_ucraina_dei_Ss._Sergio_e_Bacco"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cultural_Property_Description"/>
+        <NamedIndividual IRI="#Chiesa_nazionale_ucraina_desc_Architecture"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cultural_Property_Description"/>
+        <NamedIndividual IRI="#Chiesa_nazionale_ucraina_desc_Barocco"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cultural_Property_Description"/>
+        <NamedIndividual IRI="#Chiesa_nazionale_ucraina_desc_Rituals"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ReligiousRitual"/>
+        <NamedIndividual IRI="#Cristianesimo_cattolico"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ReligiousRitual"/>
+        <NamedIndividual IRI="#Cristianesimo_ortodosso"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Archeology"/>
+        <NamedIndividual IRI="#Eta_antica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#History"/>
+        <NamedIndividual IRI="#Eta_antica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Physics"/>
+        <NamedIndividual IRI="#Fisici_italiani"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fontana"/>
+        <NamedIndividual IRI="#Fontana_dei_Catecumeni"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#History"/>
+        <NamedIndividual IRI="#Medioevo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MetroB"/>
+        <NamedIndividual IRI="#Metro_Cavour"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#History"/>
+        <NamedIndividual IRI="#Novecento"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Palazzo"/>
+        <NamedIndividual IRI="#Palazzo_del_Collegio_dei_Neofiti_e_Catecumeni"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cultural_Property_Description"/>
+        <NamedIndividual IRI="#Palazzo_del_Collegio_desc_Barocco"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#InfrastructuralProperty"/>
+        <NamedIndividual IRI="#Piazza_della_Suburra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Square"/>
+        <NamedIndividual IRI="#Piazza_della_Suburra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cultural_Property_Description"/>
+        <NamedIndividual IRI="#Piazza_della_Suburra_desc_History"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ArchitectureStyle"/>
+        <NamedIndividual IRI="#Rinascimento"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PaintingStyle"/>
+        <NamedIndividual IRI="#Rinascimento"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UnitaTerritoriale"/>
+        <NamedIndividual IRI="#Rione_Monti"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ReligiousRitual"/>
+        <NamedIndividual IRI="#Rituali"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fortificazione"/>
+        <NamedIndividual IRI="#Torre_dei_Conti"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cultural_Property_Description"/>
+        <NamedIndividual IRI="#Torre_dei_Conti_desc._Architecture"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cultural_Property_Description"/>
+        <NamedIndividual IRI="#Torre_dei_Conti_desc._History"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#InfrastructuralProperty"/>
+        <NamedIndividual IRI="#Via_Panisperna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Street"/>
+        <NamedIndividual IRI="#Via_Panisperna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cultural_Property_Description"/>
+        <NamedIndividual IRI="#Via_Panisperna_Desc._History"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cultural_Property_Description"/>
+        <NamedIndividual IRI="#Via_Panisperna_Descr._Science"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#InfrastructuralProperty"/>
+        <NamedIndividual IRI="#Via_della_Madonna_dei_Monti"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Street"/>
+        <NamedIndividual IRI="#Via_della_Madonna_dei_Monti"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cultural_Property_Description"/>
+        <NamedIndividual IRI="#Via_della_Madonna_dei_Monti_desc_History"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ReligiousRitual"/>
+        <NamedIndividual IRI="#rito_bizantino"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ReligiousRitual"/>
+        <NamedIndividual IRI="#rito_romano"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#Basilica_di_S.Martino_ai_Monti_desc_History"/>
+        <NamedIndividual IRI="#Medioevo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#Basilica_di_S.Martino_ai_Monti_desc_Rituals"/>
+        <NamedIndividual IRI="#Rituali"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/arco/ontology/core/isPartOf"/>
+        <NamedIndividual IRI="#Basilica_di_S._Martino_ai_Monti"/>
+        <NamedIndividual IRI="#Rione_Monti"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#Basilica_di_S._Martino_ai_Monti"/>
+        <NamedIndividual IRI="#Basilica_di_S.Martino_ai_Monti_desc_History"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#Basilica_di_S._Martino_ai_Monti"/>
+        <NamedIndividual IRI="#Basilica_di_S.Martino_ai_Monti_desc_Rituals"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/arco/ontology/core/isPartOf"/>
+        <NamedIndividual IRI="#Chiesa_di_Gesù_Bambino"/>
+        <NamedIndividual IRI="#Rione_Monti"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#Chiesa_di_Gesù_Bambino"/>
+        <NamedIndividual IRI="#Chiesa_di_Gesù_Bambino_desc_Barocco"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#Chiesa_di_Gesù_Bambino"/>
+        <NamedIndividual IRI="#Chiesa_di_Gesù_Bambino_desc_Rituals"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#Chiesa_di_Gesù_Bambino_desc_Barocco"/>
+        <NamedIndividual IRI="#Barocco"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#Chiesa_di_Gesù_Bambino_desc_Rituals"/>
+        <NamedIndividual IRI="#Cristianesimo_cattolico"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#Chiesa_di_Gesù_Bambino_desc_Rituals"/>
+        <NamedIndividual IRI="#rito_romano"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/arco/ontology/core/isPartOf"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Lorenzo_in_Fonte"/>
+        <NamedIndividual IRI="#Rione_Monti"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Lorenzo_in_Fonte"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Lorenzo_in_Fonte_desc_Architecture"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Lorenzo_in_Fonte"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Lorenzo_in_Fonte_desc_History"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Lorenzo_in_Fonte"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Lorenzo_in_Fonte_desc_Rituals"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Lorenzo_in_Fonte_desc_Architecture"/>
+        <NamedIndividual IRI="#Architettura_Neoclassica"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Lorenzo_in_Fonte_desc_History"/>
+        <NamedIndividual IRI="#Eta_antica"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Lorenzo_in_Fonte_desc_Rituals"/>
+        <NamedIndividual IRI="#Cristianesimo_cattolico"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Lorenzo_in_Fonte_desc_Rituals"/>
+        <NamedIndividual IRI="#rito_romano"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/arco/ontology/core/isPartOf"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Lorenzo_in_Panisperna"/>
+        <NamedIndividual IRI="#Rione_Monti"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Lorenzo_in_Panisperna"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Lorenzo_in_Panisperna_desc_Barocco"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Lorenzo_in_Panisperna"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Lorenzo_in_Panisperna_desc_Rituals"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Lorenzo_in_Panisperna_desc_Barocco"/>
+        <NamedIndividual IRI="#Barocco"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Lorenzo_in_Panisperna_desc_Rituals"/>
+        <NamedIndividual IRI="#Cristianesimo_cattolico"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Lorenzo_in_Panisperna_desc_Rituals"/>
+        <NamedIndividual IRI="#rito_romano"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/arco/ontology/core/isPartOf"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Maria_ai_Monti"/>
+        <NamedIndividual IRI="#Rione_Monti"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Maria_ai_Monti"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Maria_ai_Monti_desc_Art"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Maria_ai_Monti"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Maria_ai_Monti_desc_Rituals"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Maria_ai_Monti_desc_Art"/>
+        <NamedIndividual IRI="#Barocco"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Maria_ai_Monti_desc_Art"/>
+        <NamedIndividual IRI="#Rinascimento"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Maria_ai_Monti_desc_Rituals"/>
+        <NamedIndividual IRI="#Cristianesimo_cattolico"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Maria_ai_Monti_desc_Rituals"/>
+        <NamedIndividual IRI="#rito_romano"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Prudenziana_desc_Architecture"/>
+        <NamedIndividual IRI="#Architettura_Paleocristiana"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Prudenziana_desc_Art"/>
+        <NamedIndividual IRI="#Barocco"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Prudenziana_desc_Art"/>
+        <NamedIndividual IRI="#Rinascimento"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Prudenziana_desc_Rituals"/>
+        <NamedIndividual IRI="#Cristianesimo_cattolico"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Prudenziana_desc_Rituals"/>
+        <NamedIndividual IRI="#rito_romano"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/arco/ontology/core/isPartOf"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Pudenziana"/>
+        <NamedIndividual IRI="#Rione_Monti"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Pudenziana"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Prudenziana_desc_Architecture"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Pudenziana"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Prudenziana_desc_Art"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Pudenziana"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Prudenziana_desc_Rituals"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/arco/ontology/core/isPartOf"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Salvatore_ai_Monti"/>
+        <NamedIndividual IRI="#Rione_Monti"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Salvatore_ai_Monti"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Salvatore_ai_Monti_desc_Barocco"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Salvatore_ai_Monti"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Salvatore_ai_Monti_desc_Rituals"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Salvatore_ai_Monti_desc_Barocco"/>
+        <NamedIndividual IRI="#Barocco"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Salvatore_ai_Monti_desc_Rituals"/>
+        <NamedIndividual IRI="#Cristianesimo_ortodosso"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Salvatore_ai_Monti_desc_Rituals"/>
+        <NamedIndividual IRI="#rito_bizantino"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/arco/ontology/core/isPartOf"/>
+        <NamedIndividual IRI="#Chiesa_nazionale_ucraina_dei_Ss._Sergio_e_Bacco"/>
+        <NamedIndividual IRI="#Rione_Monti"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#Chiesa_nazionale_ucraina_dei_Ss._Sergio_e_Bacco"/>
+        <NamedIndividual IRI="#Chiesa_nazionale_ucraina_desc_Architecture"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#Chiesa_nazionale_ucraina_dei_Ss._Sergio_e_Bacco"/>
+        <NamedIndividual IRI="#Chiesa_nazionale_ucraina_desc_Barocco"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#Chiesa_nazionale_ucraina_dei_Ss._Sergio_e_Bacco"/>
+        <NamedIndividual IRI="#Chiesa_nazionale_ucraina_desc_Rituals"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#Chiesa_nazionale_ucraina_desc_Architecture"/>
+        <NamedIndividual IRI="#Architettura_Neoclassica"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#Chiesa_nazionale_ucraina_desc_Barocco"/>
+        <NamedIndividual IRI="#Barocco"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#Chiesa_nazionale_ucraina_desc_Rituals"/>
+        <NamedIndividual IRI="#Cristianesimo_cattolico"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#Chiesa_nazionale_ucraina_desc_Rituals"/>
+        <NamedIndividual IRI="#rito_bizantino"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/arco/ontology/core/hasLocation"/>
+        <NamedIndividual IRI="#Fontana_dei_Catecumeni"/>
+        <NamedIndividual IRI="#Metro_Cavour"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/arco/ontology/core/isPartOf"/>
+        <NamedIndividual IRI="#Palazzo_del_Collegio_dei_Neofiti_e_Catecumeni"/>
+        <NamedIndividual IRI="#Rione_Monti"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#Palazzo_del_Collegio_dei_Neofiti_e_Catecumeni"/>
+        <NamedIndividual IRI="#Barocco"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#Palazzo_del_Collegio_desc_Barocco"/>
+        <NamedIndividual IRI="#Barocco"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/arco/ontology/core/isPartOf"/>
+        <NamedIndividual IRI="#Piazza_della_Suburra"/>
+        <NamedIndividual IRI="#Rione_Monti"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#Piazza_della_Suburra"/>
+        <NamedIndividual IRI="#Piazza_della_Suburra_desc_History"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#Piazza_della_Suburra_desc_History"/>
+        <NamedIndividual IRI="#Eta_antica"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/arco/ontology/core/hasLocation"/>
+        <NamedIndividual IRI="#Rione_Monti"/>
+        <NamedIndividual IRI="#Metro_Cavour"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/arco/ontology/core/isPartOf"/>
+        <NamedIndividual IRI="#Torre_dei_Conti"/>
+        <NamedIndividual IRI="#Rione_Monti"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#Torre_dei_Conti"/>
+        <NamedIndividual IRI="#Torre_dei_Conti_desc._Architecture"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#Torre_dei_Conti"/>
+        <NamedIndividual IRI="#Torre_dei_Conti_desc._History"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#Torre_dei_Conti_desc._Architecture"/>
+        <NamedIndividual IRI="#Architettura_Medievale"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#Torre_dei_Conti_desc._History"/>
+        <NamedIndividual IRI="#Medioevo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/arco/ontology/core/isPartOf"/>
+        <NamedIndividual IRI="#Via_Panisperna"/>
+        <NamedIndividual IRI="#Rione_Monti"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#Via_Panisperna"/>
+        <NamedIndividual IRI="#Via_Panisperna_Desc._History"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#Via_Panisperna"/>
+        <NamedIndividual IRI="#Via_Panisperna_Descr._Science"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#Via_Panisperna_Desc._History"/>
+        <NamedIndividual IRI="#Novecento"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#Via_Panisperna_Descr._Science"/>
+        <NamedIndividual IRI="#Fisici_italiani"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/arco/ontology/core/isPartOf"/>
+        <NamedIndividual IRI="#Via_della_Madonna_dei_Monti"/>
+        <NamedIndividual IRI="#Rione_Monti"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#Via_della_Madonna_dei_Monti"/>
+        <NamedIndividual IRI="#Via_della_Madonna_dei_Monti_desc_History"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#Via_della_Madonna_dei_Monti_desc_History"/>
+        <NamedIndividual IRI="#Eta_antica"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#email"/>
+        <NamedIndividual IRI="#Basilica_di_S._Martino_ai_Monti"/>
+        <Literal>SantiSilvestroeMartino@VicariatusUrbis.org</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#phone"/>
+        <NamedIndividual IRI="#Basilica_di_S._Martino_ai_Monti"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">064784701</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visitability"/>
+        <NamedIndividual IRI="#Basilica_di_S._Martino_ai_Monti"/>
+        <Literal>Prenotazione obbligatoria</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_time"/>
+        <NamedIndividual IRI="#Basilica_di_S._Martino_ai_Monti"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/context-description/address"/>
+        <NamedIndividual IRI="#Basilica_di_S._Martino_ai_Monti"/>
+        <Literal xml:lang="it">viale del Monte Oppio</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/location/lat"/>
+        <NamedIndividual IRI="#Basilica_di_S._Martino_ai_Monti"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">41.8931526</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/location/long"/>
+        <NamedIndividual IRI="#Basilica_di_S._Martino_ai_Monti"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">12.4968349</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/context-description/address"/>
+        <NamedIndividual IRI="#Chiesa_di_Gesù_Bambino"/>
+        <Literal>Via Urbana</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/location/lat"/>
+        <NamedIndividual IRI="#Chiesa_di_Gesù_Bambino"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">41.8985179</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/location/long"/>
+        <NamedIndividual IRI="#Chiesa_di_Gesù_Bambino"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">12.494053</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/context-description/address"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Lorenzo_in_Fonte"/>
+        <Literal>Via Urbana</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/location/lat"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Lorenzo_in_Fonte"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">41.89588</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/location/long"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Lorenzo_in_Fonte"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">12.49373</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#phone"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Lorenzo_in_Panisperna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">06483667</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/context-description/address"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Lorenzo_in_Panisperna"/>
+        <Literal>Via Panisperna 90</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/location/lat"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Lorenzo_in_Panisperna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">41.8969282</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/location/long"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Lorenzo_in_Panisperna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">12.493443</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#phone"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Maria_ai_Monti"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">06485531</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/context-description/address"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Maria_ai_Monti"/>
+        <Literal>Via della Madonna dei Monti</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/location/lat"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Maria_ai_Monti"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">41.8945471</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/location/long"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Maria_ai_Monti"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">12.4906826</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#phone"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Pudenziana"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">064814622</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/context-description/address"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Pudenziana"/>
+        <Literal>via Urbana 160</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/location/lat"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Pudenziana"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">41.8971752</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/location/long"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Pudenziana"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">12.4949028</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/context-description/address"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Salvatore_ai_Monti"/>
+        <Literal>via della Madonna dei Monti fra il civico 38 e il civico 39</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#website"/>
+        <NamedIndividual IRI="#Chiesa_nazionale_ucraina_dei_Ss._Sergio_e_Bacco"/>
+        <Literal>www.turismoroma.it</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/context-description/address"/>
+        <NamedIndividual IRI="#Chiesa_nazionale_ucraina_dei_Ss._Sergio_e_Bacco"/>
+        <Literal>piazza della Madonna dei Monti</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/location/lat"/>
+        <NamedIndividual IRI="#Chiesa_nazionale_ucraina_dei_Ss._Sergio_e_Bacco"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">41.8950838</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/location/long"/>
+        <NamedIndividual IRI="#Chiesa_nazionale_ucraina_dei_Ss._Sergio_e_Bacco"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">12.4886643</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#website"/>
+        <NamedIndividual IRI="#Fontana_dei_Catecumeni"/>
+        <Literal>www.turismoroma.it</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/context-description/address"/>
+        <NamedIndividual IRI="#Fontana_dei_Catecumeni"/>
+        <Literal>piazza della Madonna dei Monti</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/context-description/address"/>
+        <NamedIndividual IRI="#Palazzo_del_Collegio_dei_Neofiti_e_Catecumeni"/>
+        <Literal>via della Madonna dei Monti 40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/context-description/address"/>
+        <NamedIndividual IRI="#Piazza_della_Suburra"/>
+        <Literal>piazza della Suburra</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/location/lat"/>
+        <NamedIndividual IRI="#Piazza_della_Suburra"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">41.8948795</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/location/long"/>
+        <NamedIndividual IRI="#Piazza_della_Suburra"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">12.491439</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/context-description/address"/>
+        <NamedIndividual IRI="#Torre_dei_Conti"/>
+        <Literal>via Cavour</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/location/lat"/>
+        <NamedIndividual IRI="#Torre_dei_Conti"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">41.89368427</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/location/long"/>
+        <NamedIndividual IRI="#Torre_dei_Conti"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">12.48794675</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/core/description"/>
+        <NamedIndividual IRI="#Torre_dei_Conti_desc._Architecture"/>
+        <Literal>Desc Architettonica Torre Dei conti</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/core/description"/>
+        <NamedIndividual IRI="#Torre_dei_Conti_desc._History"/>
+        <Literal>Descr. Storica Torre dei conti</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/context-description/address"/>
+        <NamedIndividual IRI="#Via_Panisperna"/>
+        <Literal>Via Panisperna</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/location/lat"/>
+        <NamedIndividual IRI="#Via_Panisperna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">41.8963815</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/location/long"/>
+        <NamedIndividual IRI="#Via_Panisperna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">12.488452</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/core/description"/>
+        <NamedIndividual IRI="#Via_Panisperna_Desc._History"/>
+        <Literal>Ci sono varie interpretazioni sulle origini del nome di via Panisperna. Era abitudine dei frati della Basilica di S. Lorenzo distribuire pane et perna, cioè panini al prosciutto, ai poveri della zona. Un altra versione vuole che sia la fusione tra i nomi di due famiglie della zona, i Pane ed i Perna.
+
+Ragazzi di via Panisperna è l&apos;appellativo del gruppo di scienziati italiani quasi tutti molto giovani, con a capo Enrico Fermi, che negli anni trenta del Novecento operò presso il Regio istituto di fisica dell&apos;Università di Roma allora ubicato in via Panisperna n. 90,[1] producendo studi di importanza storica nell&apos;ambito della fisica nucleare.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/core/description"/>
+        <NamedIndividual IRI="#Via_Panisperna_Descr._Science"/>
+        <Literal>Ragazzi di via Panisperna è l&apos;appellativo del gruppo di scienziati italiani, con a capo Enrico Fermi, che negli anni trenta del Novecento operò presso il Regio istituto di fisica dell&apos;Università di Roma allora ubicato in via Panisperna n. 90, producendo studi di importanza storica nell&apos;ambito della fisica nucleare.
+
+La principale scoperta del gruppo fu, nel 1934, la proprietà dei neutroni lenti, che portò al premio Nobel per Fermi e diede avvio alla realizzazione del primo reattore nucleare e successivamente della bomba atomica.</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="https://w3id.org/arco/ontology/cataloguing-campaign/hasApplication"/>
+        <ObjectProperty IRI="https://w3id.org/arco/ontology/context-description/hasAssociatedObject"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="https://w3id.org/arco/ontology/cultural-event/hasPreviousSituation"/>
+        <ObjectProperty abbreviatedIRI="catalogue:hasPreviousVersion"/>
+    </SubObjectPropertyOf>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#isCorrelatedWith"/>
+    </SymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#connect"/>
+    </AsymmetricObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#connect"/>
+        <Class IRI="#InfrastructuralProperty"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isCorrelatedWith"/>
+        <Class IRI="https://w3id.org/arco/ontology/arco/IntangibleCulturalProperty"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#connect"/>
+        <Class IRI="#UnitaMonumentale"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isCorrelatedWith"/>
+        <Class IRI="https://w3id.org/arco/ontology/arco/TangibleCulturalProperty"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#email"/>
+        <DataProperty IRI="https://w3id.org/arco/ontology/context-description/contacts"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#phone"/>
+        <DataProperty IRI="https://w3id.org/arco/ontology/context-description/contacts"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#visitability"/>
+        <DataProperty IRI="#visiting_information"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#visiting_price"/>
+        <DataProperty IRI="#visiting_information"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#visiting_time"/>
+        <DataProperty IRI="#visiting_information"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#website"/>
+        <DataProperty IRI="https://w3id.org/arco/ontology/context-description/contacts"/>
+    </SubDataPropertyOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Basilica_di_S.Martino_ai_Monti_desc_History</IRI>
+        <Literal>Descrizione Storica 
+[text to be added]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Basilica_di_S.Martino_ai_Monti_desc_Rituals</IRI>
+        <Literal>Descrizione dei Rituali
+[text to be added]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Basilica_di_S._Martino_ai_Monti</IRI>
+        <Literal xml:lang="it">La Basilicachiude il lato sud-est di Piazza S. Martino ai Monti con l’abside e il cinquecentesco portale posteriore, mentre la facciata principale, prospettante su viale del Monte Oppio, è articolata da due ordini di lesene a fascio (ai lati del portale, S. Martino e S. Silvestro, stucchi di Stefano Castelli). Sull’antico «titulus Equitii» venne eretta da papa Simmaco una prima chiesa, dedicata ai Ss. Silvestro e Martino, poi riedificata da Sergio II; la veste attuale risale ai restauri iniziati nel 1636.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>#Chiesa_di_Gesù_Bambino</IRI>
+        <Literal xml:lang="it">Iniziata da Carlo Buratti nel 1731, fu poi completata da Ferdinando Fuga nel 1736. La facciata, a ordine gigante di lesene, contrasta nell’andamento verticale con l’orizzontalità del convento che la ingloba e appare sproporzionata in seguito all’eliminazione, per l’innalzamento della quota stradale (c. 1872), della doppia scala d’accesso; nell’interno, a croce greca allungata dal profondo coro e dal vestibolo in cui si apre a d. la cappella della Passione (Virginio Vespignani, 1856; le decorazioni sono di Francesco Grandi), all’altare d. S. Agostino trionfa sull’eresia di Domenico Maria Muratori (1736). Nel convento, due sale accolgono un piccolo museo di arte sacra (dipinti del XVII-XIX secolo, oreficerie liturgiche, paramenti sacri) e una raccolta di statue del Bambino Gesù del Sette e Ottocento.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Chiesa_di_Gesù_Bambino_desc_Barocco</IRI>
+        <Literal>Descrizione Barocco 
+[text to be added]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Chiesa_di_Gesù_Bambino_desc_Rituals</IRI>
+        <Literal>Descr rituali 
+[text to be added]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="terms:description"/>
+        <IRI>#Chiesa_di_S._Lorenzo_in_Fonte</IRI>
+        <Literal xml:lang="it">In via Urbana si scorge la facciatina neoclassica della chiesa di S. Lorenzo in Fonte o Ss. Lorenzo e Ippolito, cosi detta dalla presenza, in sotterranei di età romana, di un pozzo con la cui acqua Lorenzo avrebbe battezzato il suo carceriere Ippolito (la tela di Andrea Camassei sull’altare maggiore raffigura tale leggenda).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Chiesa_di_S._Lorenzo_in_Fonte_desc_Architecture</IRI>
+        <Literal>Desc Arch. Neoclassica
+[text to be added]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Chiesa_di_S._Lorenzo_in_Fonte_desc_History</IRI>
+        <Literal>Descrizione Storica
+[text to be added]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Chiesa_di_S._Lorenzo_in_Fonte_desc_Rituals</IRI>
+        <Literal>Desc Rituali
+[text to be added]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>#Chiesa_di_S._Lorenzo_in_Panisperna</IRI>
+        <Literal xml:lang="it">Fu eretta secondo la tradizione al tempo di Costantino sul luogo del martirio del santo e riedificata nel 1300 e nel 1574. Il portale esterno, restaurato da Leone XIII che fece costruire la doppia scala (1893), si apre su un cortile che conserva a d. una rara casa d&apos;impianto medievale con scale esterne; la facciata cinquecentesca della chiesa accoglie una porta lignea scolpita nel 1664.
+L&apos;interno, a navata unica con tre cappelle per lato, fu decorato nel 1756-57; nella tribuna Martirio di S. Lorenzo di Pasquale Cati, a sin. *Crocifisso del sec. XV.
+Sulla vigna del monastero di S. Lorenzo, espropriata dopo il 1873, sorsero il palazzo del Viminale e l&apos;edificio dove ebbe sede l&apos;Istituto di Fisica dell&apos;Università di Roma, legato agli esperimenti di Enrico Fermi ed Ettore Majorana. Vi è stato istituito il Museo della Fisica e Centro Studi «Enrico Fermi», al fine di promuovere la ricerca e diffondere le conoscenze scientifiche.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Chiesa_di_S._Lorenzo_in_Panisperna_desc_Barocco</IRI>
+        <Literal>Descrizione Barocco
+[text to be added]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Chiesa_di_S._Lorenzo_in_Panisperna_desc_Rituals</IRI>
+        <Literal>Descrizione Rituali 
+[Text to be added]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="terms:description"/>
+        <IRI>#Chiesa_di_S._Maria_ai_Monti</IRI>
+        <Literal xml:lang="it">Una delle chiese romane più interessanti della transizione tra Rinascimento e barocco, eretta su disegno di Giacomo Della Porta (1580) per celebrare il rinvenimento di una miracolosa immagine della Vergine. La facciata, derivata da quella del Gesù, è a due ordini di lesene (l&apos;inferiore, corinzio, è raccordato da volute al superiore, composito e più stretto); le tre campate centrali, lievemente avanzate, ospitano tra nicchie il portale e il finestrone a edicola.
+Anche l&apos;interno s&apos;ispira a quello del Gesù, sebbene in scala minore: nella volta, Ascensione, angeli e dottori della Chiesa di Cristoforo Casolani (1602-1609); nella volta e negli arconi delle cappelle, angeli in stucco di Ambrogio Buonvicino (1588). 1ª cappella d.: Madonna con Bambino e S. Carlo Borromeo (1624); gli affreschi (storie di S. Carlo Borromeo) sono di Giovanni da S. Giovanni (1624). 3ª: Pietà, copia (c. 1588) da Lorenzo Sabbatini; alla parete d., Andata al Calvario di Paris Nogari. Altare maggiore: Madonna con Bambino e i Ss. Stefano e Lorenzo (inizi sec. XV). Nell&apos;abside, dipinti di Giacinto Gimignani (S. Michele, Crocifissione, S. Pietro battezza i Ss. Processo e Martiniano, Apparizione di Cristo alla Vergine e Battesimo di Cristo) e del Casolani (storie di Maria ed evangelisti); al di sopra, angeli di Orazio Gentileschi (1599). 3ª cappella sin.: Natività di Girolamo Muziano; ai lati, Adorazione dei Magi e Sogno di S. Giuseppe di Cesare Nebbia. 1ª: Annunciazione di Durante Alberti (1588).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Chiesa_di_S._Maria_ai_Monti_desc_Art</IRI>
+        <Literal>Descrizione artistica
+[text to be added]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Chiesa_di_S._Maria_ai_Monti_desc_Rituals</IRI>
+        <Literal>Descrizione Rituali
+[text to be added]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Chiesa_di_S._Prudenziana_desc_Architecture</IRI>
+        <Literal>Descrizione archietettura</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Chiesa_di_S._Prudenziana_desc_Art</IRI>
+        <Literal>Descrizione artistica
+
+[text to be added]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Chiesa_di_S._Prudenziana_desc_Rituals</IRI>
+        <Literal>Descrizione rituali 
+[text to be added]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>#Chiesa_di_S._Pudenziana</IRI>
+        <Literal xml:lang="it">Fondata secondo la tradizione da Pudenziana, sorella di Prassede, nella casa del padre, il senatore Pudente, che aveva ospitato S. Pietro. In realtà l&apos;edificio sorse, come «titulus Pudentis» (da cui per corruzione Pudenziana), all&apos;interno di una casa romana dove nel sec. II fu eretto un impianto termale; un&apos;aula di questo fu trasformata a fine IV in basilica a tre navate, restaurata da Adriano I e Gregorio VII, e rimaneggiata a fine &apos;500. A sinistra si leva l&apos;alto campanile romanico a cinque ordini (gli ultimi tre a trifore su colonne), che si fa risalire ai primi del sec. XIII; la facciata venne rifatta da Antonio Manno nel 1870. Precede il portale, con motivo a intreccio rilavorato nell&apos;800, un protiro, rimaneggiamento cinquecentesco di elementi medievali: due colonne a scanalatura elicoidale reggono la trabeazione con *fregio a motivi vegetali (sec. XI; restauro sec. XIX), in origine cornice del portale; nei medaglioni, partendo da sin., Pastore, Pudenziana, Agnello mistico, Prassede e Pudente.
+L&apos;interno, originariamente a tre navate divise da sei colonne antiche per lato, è stato trasformato nel 1588, per volere del cardinale Enrico Caetani, da Francesco da Volterra in navata unica murando le prime tre arcate di d. e di sin. e rimettendo in luce le colonne di marmo bigio inglobate in pilastri di rinforzo forse nel sec. VIII; il restauro del 1927 ha lasciato in vista sopra le arcate la muratura antica. 1ª cappella d.: sulla controfacciata, S. Agostino di Giacinto Gimignani. 2ª: Madonna della Clemenza (fine sec. XVI); ai lati, Natività di Maria e Presepe, tele di Lazzaro Baldi. Nel corridoio di accesso alla sagrestia (nella volta, Conversione di S. Guglielmo d&apos;Aquitania attribuita al Domenichino, 1625), Assunzione di Ludovico Gimignani. Presbiterio. La cupola, opera del da Volterra, fu affrescata (Paradiso) da Nicolò Circignani. Sull&apos;altare maggiore, di forme neoclassiche, Gloria di S. Pudenziana di Bernardino Nocchi (1803; suoi i Ss. Novato e Timoteo ai lati). Nell&apos;abside, *mosaico (Cristo in trono, con un libro aperto in mano, circondato dagli apostoli e dalle Ss. Pudenziana e Prassede offerenti corone; sullo sfondo, la Croce, la Rappresentazione simbolica di Gerusalemme e, in cielo, i simboli degli evangelisti) di inizi sec. V, malamente ritagliato nelle zone periferiche in seguito al rimodernamento cinquecentesco. A sinistra del presbiterio, nella cappella in fondo (di S. Pietro), Consegna delle chiavi, gruppo marmoreo di G.B. Della Porta (1596). Presso l&apos;ultima arcata sin. si sale all&apos;Oratorio mariano (lungo la scala, stemma Caetani), che ospita i bolli doliari recuperati negli scavi e affreschi (sull&apos;altare, Madonna con Bambino in trono tra le Ss. Pudenziana e Prassede; a sin., Predicazione di S. Paolo, Battesimo di Novato e Timoteo; sul lato opposto, frammentari, i Ss. Valeriano, Tiburzio e papa Urbano; nella volta, Agnello e i simboli degli evangelisti) databili al 1073-85; a d. dell&apos;altare, Crocifisso, affresco del sec. XVI; il pavimento riutilizza materiali antichi. Sul fianco sin. della navata si apre la cappella Caetani, iniziata dal da Volterra e terminata da Carlo Maderno, trasformazione della cappella di S. Pastore ritenuta il primo luogo di culto della domus di Pudente: i marmi policromi sono del Della Porta, gli stucchi del Valsoldo; nella volta, negli sguinci delle finestre e sulla parete di controfacciata, mosaici di Paolo Rossetti su disegno di Federico Zuccari; all&apos;altare, Adorazione dei Magi, rilievo di Pietro Paolo Olivieri (c. 1599) terminato da Camillo Mariani; ai lati, monumenti funebri del cardinale Enrico (m. 1599) e del duca Filippo Caetani (m. 1614) del Maderno, con angeli reggistemma del Mariani; nelle nicchie, statue delle Virtù cardinali di Giovanni Antonio Mari e altri berniniani (c. 1650).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="terms:description"/>
+        <IRI>#Chiesa_di_S._Salvatore_ai_Monti</IRI>
+        <Literal xml:lang="it">La Chiesa risale all’XI secolo, come riportato su un’antica epigrafe nella quale si ricordava la dedica di papa Clemente II alla chiesa allora denominata “S.Andrea”. La chiesa, distrutta completamente dai lanzichenecchi durante il Sacco di Roma del 1527, fu ricostruita durante il pontificato di Urbano VIII tra il 1630 ed il 1635 su progetto di Gaspare de Vecchi e collegata con l’adiacente Collegio dei Neofiti. 
+Rinnovata dalle fondamenta e ricondotta ad una forma più elegante nell’anno 1762,  fu poi restaurata nel 1904. Dal 2013, la chiesa è stata affidata alla comunità georgiana di Roma, ed è sede della parrocchia di Sant&apos;Andrea Apostolo della diocesi dell&apos;Europa Occidentale del Patriarcato Ortodosso Autocefale Georgiano.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Chiesa_di_S._Salvatore_ai_Monti_desc_Barocco</IRI>
+        <Literal>Descrizione Barocco</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Chiesa_di_S._Salvatore_ai_Monti_desc_Rituals</IRI>
+        <Literal>Descrizione Rituali
+
+[text to be added]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="terms:description"/>
+        <IRI>#Chiesa_nazionale_ucraina_dei_Ss._Sergio_e_Bacco</IRI>
+        <Literal xml:lang="it">Sergio e Bacco erano due ufficiali dell’esercito romano che subirono il martirio sotto l’imperatore Massimiano nel IV secolo: il loro culto si diffuse rapidamente in tutto l’Impero. Proprio del IX secolo è la prima menzione della chiesa, poi nuovamente ricordata due secoli dopo nelle bolle di Gregorio VI e Gregorio VII come monastero di San Sergio in Suburra. Ricostruita dopo il Sacco di Roma nel 1527, la chiesa fu restaurata di nuovo nella prima metà del Seicento a spese del cardinale Antonio Barberini, il cui nome è inciso in un’iscrizione commemorativa sopra il portico della chiesa. Il cardinale era fratello del pontefice Urbano VIII, che assegnò il complesso ai Monaci Ruteni di San Basilio (di rito orientale e della provincia ecclesiastica di Kiev) che tuttora la amministrano. Nel 1718, sotto l’intonaco della sacrestia fu ritrovato un affresco della Madonna: ritenuta miracolosa, l’immagine fu posta sull’altare maggiore, dove è ancora oggi, e la chiesa fu chiamata dal popolo “Madonna del Pascolo”. Fu proprio in seguito a questa scoperta che nel 1741 alcuni fedeli finanziarono la ricostruzione della chiesa su progetto di Francesco Ferrari. La chiesa subì altre modifiche alla fine del Settecento e poi nel 1896. Dal 1961, è una delle tre chiese nazionali degli Ucraini di Roma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Chiesa_nazionale_ucraina_desc_Architecture</IRI>
+        <Literal>Descrizione architettura</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Chiesa_nazionale_ucraina_desc_Barocco</IRI>
+        <Literal>Descrizione Barocco</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Chiesa_nazionale_ucraina_desc_Rituals</IRI>
+        <Literal>Descrizione Rituali 
+
+[ text to be added ]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="terms:description"/>
+        <IRI>#Cultural_Property_Description</IRI>
+        <Literal xml:lang="it">Descrizione tematica/topic based di un certo oggetto culturale.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="terms:description"/>
+        <IRI>#Eta_antica</IRI>
+        <Literal>L&apos;Età antica iniziò verso il 3500 a.C., con la scrittura, e si concluse nel 476 d.C, con la caduta dell&apos;Impero romano d&apos;Occidente.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="terms:description"/>
+        <IRI>#Fontana_dei_Catecumeni</IRI>
+        <Literal xml:lang="it">Così chiamata per la vicinanza con il seicentesco Collegio dei Neofiti o Catecumeni, la fontana che abbellisce piazza della Madonna dei Monti e che è oggi uno dei principali punti di ritrovo del rione fu disegnata da Giacomo Della Porta su commissione di papa Sisto V, nell’ambito del programma di riqualificazione della città da lui promosso. A occuparsi della sua costruzione fu, tra il 1588 e il 1589, lo scalpellino Battista Rusconi mentre la sistemazione della scalinata, che ha anche la funzione di compensare il dislivello della piazza, si deve all’intervento di Girolamo de Rossi, di poco successivo.
+Ispirata al modello della fontana di Santa Maria in Trastevere, anche se con un numero minore di motivi ornamentali, la fontana è costituita da una vasca in travertino di forma ottagonale, poggiata su una base a quattro gradini e decorata con lo stemma di Sisto V e del Comune, a testimonianza del contributo dell’amministrazione civica. Al centro, due balaustri sostengono due catini; da quello superiore, decorato con maschere e festoni e sovrastato dai monti sistini, zampilla l’acqua che si riversa in quello inferiore e da questo, attraverso quattro protomi leonine, ricade nella vasca ottagonale.
+Si racconta che il maestro Ottorino Respighi cercasse ispirazione sostando proprio davanti a questa fontana per la composizione del suo poema sinfonico Le Fontane di Roma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#InfrastructuralProperty</IRI>
+        <Literal xml:lang="it">Tipo di unità territoriale caratterizzata da un&apos;infrastruttura urbana che è di per sé considerata un patrimonio culturale. Es. Vie o piazze</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Location_Infrastructure</IRI>
+        <Literal xml:lang="it">Infrastrutture di mobilita’ associabili a una determinata Unita’ territoriale</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>#Novecento</IRI>
+        <Literal>Periodo storico : 1900 - 1999</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="terms:description"/>
+        <IRI>#Palazzo_del_Collegio_dei_Neofiti_e_Catecumeni</IRI>
+        <Literal xml:lang="it">Palazzo barocco del 1637, opera di C. Gaspare De Vecchi, in cui aveva sede l&apos;Istituto dei Catecumeni e dei Neofiti. Il Collegio fu un seminario cattolico istituito nel 1577 a Roma da Papa Gregorio XIII, un istituto che  ospitava coloro che si erano convertiti, dall&apos;ebraismo e dall&apos;islam, al cattolicesimo (neofiti) e che ricevevano la dottrina cristiana per poi essere ammessi al battesimo (catecumeni).Fondato su una precedente istituzione creata da Ignazio di Loyola, venne chiuso nel 1886. Oggi ospita il Dipartimento di Architettura dell&apos;Università di Roma 3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Palazzo_del_Collegio_desc_Barocco</IRI>
+        <Literal>Descrizione Barocco</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="terms:description"/>
+        <IRI>#Piazza_della_Suburra</IRI>
+        <Literal xml:lang="it">Sin dall’antichità uno dei nodi del sistema viario della zona che qui si biforcava per salire sull’Esquilino evitando la prominenza del Cispio; con l’apertura di via Cavour tale funzione è passata al vicino largo Visconti Venosta e la piazza, già infossata dalla nuova viabilità, è stata deturpata da costruzioni recenti (a d., su un angolo, iscrizioni e bassorilievi di fine ’400 dalla distrutta chiesetta di S. Salvatore ad Tres Imagines).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Piazza_della_Suburra_desc_History</IRI>
+        <Literal>Descrizione Storica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Rione_Monti</IRI>
+        <Literal>Silvia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>#Torre_dei_Conti</IRI>
+        <Literal xml:lang="en">Erected in 1203 by Innocent III as part of a fortified enclosure, incorporating an exedra of the Forum of Peace into its base, and isolated in 1934-37, it originally had two upper recessed bodies, one demolished in the 1348 earthquake, the other partly demolished and partly collapsed in the 17th century; the preserved brick structures rest on a scarp plinth with alternating bands of flint and marble.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>#Torre_dei_Conti</IRI>
+        <Literal xml:lang="it">Eretta nel 1203 da Innocenzo III, come parte di un recinto fortificato, inglobando nella base un’esedra del Foro della Pace e isolata nel 1934-37, presentava in origine due corpi rientranti superiori, uno abbattuto dal terremoto del 1348, l’altro in parte demolito e in parte crollato nel ’600; le strutture in laterizio conservatesi poggiano su uno zoccolo a scarpa con fasce alternate di selce e marmo.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Torre_dei_Conti_desc._Architecture</IRI>
+        <Literal>Descrizione Architettonica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Torre_dei_Conti_desc._History</IRI>
+        <Literal>Descrizione Storica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UnitaMonumentale</IRI>
+        <Literal xml:lang="it">Singolo oggetto di natura culturale, archeologica e tangibile.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UnitaTerritoriale</IRI>
+        <Literal xml:lang="it">Un&apos;area geografica con un significativo valore culturale.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>#Via_Panisperna</IRI>
+        <Literal xml:lang="it">Venne tracciata da Sisto V per collegare S. Maria Maggiore a piazza Venezia; la strada rivela l’origine cinquecentesca nell’andamento rettilineo che, indifferente all’orografia, fa un doppio saliscendi tra Esquilino, Viminale e Quirinale e presenta oggi, nel tratto intermedio, un vivace carattere popolare. Lasciata a d. via Balbo, prevista dal piano regolatore del 1883 ma completata a inizi ’900 e delimitata a sin. dal muraglione del Viminale, si costeggia a sin. (N. 198) il palazzo Cimarra, iniziato nel 1736, con facciate articolate da cornici e paraste angolari. Sul lato opposto, in alto, è la chiesa di S. Lorenzo in Panisperna.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>#Via_della_Madonna_dei_Monti</IRI>
+        <Literal xml:lang="it">La via corrisponde in parte all&apos;antico tracciato dell&apos;Argiletu, un&apos;antica strada di Roma, che percorreva il quartiere popolare della Suburra fino al Foro romano. All&apos;altezza di piazza della Suburra si sdoppiava poi in due diverse strade: il Vicus Patricius (l&apos;attuale Via Urbana) ed il Vicus Suburbanus (l&apos;attuale Via in Selci).  
+L&apos;Argiletum era  famosa per ospitare molte botteghe di librai e si trova citato da molti autori antichi, come per esempio Orazio, Marziale e Seneca, che hanno tramandato anche i nomi dei loro fornitori di fiducia.
+Il nome potrebbe derivare dall&apos;argilla proveniente dalla confluenza delle acque che scendevano dai colli circostanti, convogliati poi nella Cloaca Massima.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Via_della_Madonna_dei_Monti_desc_History</IRI>
+        <Literal>Descrizione storica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="https://w3id.org/italia/onto/ADMS/hasContributor"/>
+        <IRI>#phone</IRI>
+        <Literal>Silvia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#visitability</IRI>
+        <Literal>Questa property descrive la visitabilita&apos; di un bene culturale. Es. Visitabile solo su prenotazione, visitabile solo esternamente etc.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#visiting_price</IRI>
+        <Literal>Questa property descrive il prezzo del biglietto di un bene culturale</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#visiting_time</IRI>
+        <Literal>Questa property descrive il tempo di visita minimo di un bene culturale.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="https://w3id.org/italia/onto/ADMS/hasContributor"/>
+        <IRI>#website</IRI>
+        <Literal>Silvia</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
