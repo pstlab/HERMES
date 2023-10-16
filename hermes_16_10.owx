@@ -320,6 +320,24 @@
         <ObjectProperty IRI="#isCorrelatedWith"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#accessibility"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#accessibility_elderly"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#accessibility_groups"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#accessibility_hearing_disability"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#accessibility_motor_disability"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#accessibility_visual_disability"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#email"/>
     </Declaration>
     <Declaration>
@@ -446,6 +464,9 @@
         <NamedIndividual IRI="#Fisici_italiani"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Fontana_dei_Catcumeni_desc_Architecture"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Fontana_dei_Catecumeni"/>
     </Declaration>
     <Declaration>
@@ -458,10 +479,10 @@
         <NamedIndividual IRI="#Novecento"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Palazzo_del_Collegio_dei_Neofiti_e_Catecumeni"/>
+        <NamedIndividual IRI="#Palazzo_del_Collegio_dei_Neofiti_desc_Architecture"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Palazzo_del_Collegio_desc_Barocco"/>
+        <NamedIndividual IRI="#Palazzo_del_Collegio_dei_Neofiti_e_Catecumeni"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Piazza_della_Suburra"/>
@@ -1174,6 +1195,10 @@
         <NamedIndividual IRI="#Fisici_italiani"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Cultural_Property_Description"/>
+        <NamedIndividual IRI="#Fontana_dei_Catcumeni_desc_Architecture"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Fontana"/>
         <NamedIndividual IRI="#Fontana_dei_Catecumeni"/>
     </ClassAssertion>
@@ -1190,12 +1215,12 @@
         <NamedIndividual IRI="#Novecento"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Palazzo"/>
-        <NamedIndividual IRI="#Palazzo_del_Collegio_dei_Neofiti_e_Catecumeni"/>
+        <Class IRI="#Cultural_Property_Description"/>
+        <NamedIndividual IRI="#Palazzo_del_Collegio_dei_Neofiti_desc_Architecture"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Cultural_Property_Description"/>
-        <NamedIndividual IRI="#Palazzo_del_Collegio_desc_Barocco"/>
+        <Class IRI="#Palazzo"/>
+        <NamedIndividual IRI="#Palazzo_del_Collegio_dei_Neofiti_e_Catecumeni"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#InfrastructuralProperty"/>
@@ -1549,9 +1574,24 @@
         <NamedIndividual IRI="#rito_bizantino"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#Fontana_dei_Catcumeni_desc_Architecture"/>
+        <NamedIndividual IRI="#Barocco"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://w3id.org/arco/ontology/core/hasLocation"/>
         <NamedIndividual IRI="#Fontana_dei_Catecumeni"/>
         <NamedIndividual IRI="#Metro_Cavour"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#Fontana_dei_Catecumeni"/>
+        <NamedIndividual IRI="#Fontana_dei_Catcumeni_desc_Architecture"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#Palazzo_del_Collegio_dei_Neofiti_desc_Architecture"/>
+        <NamedIndividual IRI="#Barocco"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://w3id.org/arco/ontology/core/isPartOf"/>
@@ -1561,12 +1601,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
         <NamedIndividual IRI="#Palazzo_del_Collegio_dei_Neofiti_e_Catecumeni"/>
-        <NamedIndividual IRI="#Barocco"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
-        <NamedIndividual IRI="#Palazzo_del_Collegio_desc_Barocco"/>
-        <NamedIndividual IRI="#Barocco"/>
+        <NamedIndividual IRI="#Palazzo_del_Collegio_dei_Neofiti_desc_Architecture"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://w3id.org/arco/ontology/core/isPartOf"/>
@@ -1654,6 +1689,31 @@
         <NamedIndividual IRI="#Eta_antica"/>
     </ObjectPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_elderly"/>
+        <NamedIndividual IRI="#Basilica_di_S._Martino_ai_Monti"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_groups"/>
+        <NamedIndividual IRI="#Basilica_di_S._Martino_ai_Monti"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_hearing_disability"/>
+        <NamedIndividual IRI="#Basilica_di_S._Martino_ai_Monti"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_motor_disability"/>
+        <NamedIndividual IRI="#Basilica_di_S._Martino_ai_Monti"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_visual_disability"/>
+        <NamedIndividual IRI="#Basilica_di_S._Martino_ai_Monti"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#email"/>
         <NamedIndividual IRI="#Basilica_di_S._Martino_ai_Monti"/>
         <Literal>SantiSilvestroeMartino@VicariatusUrbis.org</Literal>
@@ -1666,7 +1726,17 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#visitability"/>
         <NamedIndividual IRI="#Basilica_di_S._Martino_ai_Monti"/>
+        <Literal>Free</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visitability"/>
+        <NamedIndividual IRI="#Basilica_di_S._Martino_ai_Monti"/>
         <Literal>Prenotazione obbligatoria</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_price"/>
+        <NamedIndividual IRI="#Basilica_di_S._Martino_ai_Monti"/>
+        <Literal>Free</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#visiting_time"/>
@@ -1689,6 +1759,46 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">12.4968349</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_elderly"/>
+        <NamedIndividual IRI="#Chiesa_di_Gesù_Bambino"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_groups"/>
+        <NamedIndividual IRI="#Chiesa_di_Gesù_Bambino"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_hearing_disability"/>
+        <NamedIndividual IRI="#Chiesa_di_Gesù_Bambino"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_motor_disability"/>
+        <NamedIndividual IRI="#Chiesa_di_Gesù_Bambino"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_visual_disability"/>
+        <NamedIndividual IRI="#Chiesa_di_Gesù_Bambino"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visitability"/>
+        <NamedIndividual IRI="#Chiesa_di_Gesù_Bambino"/>
+        <Literal>Free</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_price"/>
+        <NamedIndividual IRI="#Chiesa_di_Gesù_Bambino"/>
+        <Literal>Free</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_time"/>
+        <NamedIndividual IRI="#Chiesa_di_Gesù_Bambino"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="https://w3id.org/arco/ontology/context-description/address"/>
         <NamedIndividual IRI="#Chiesa_di_Gesù_Bambino"/>
         <Literal>Via Urbana</Literal>
@@ -1702,6 +1812,46 @@
         <DataProperty IRI="https://w3id.org/arco/ontology/location/long"/>
         <NamedIndividual IRI="#Chiesa_di_Gesù_Bambino"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">12.494053</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_elderly"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Lorenzo_in_Fonte"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_groups"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Lorenzo_in_Fonte"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_hearing_disability"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Lorenzo_in_Fonte"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_motor_disability"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Lorenzo_in_Fonte"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_visual_disability"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Lorenzo_in_Fonte"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visitability"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Lorenzo_in_Fonte"/>
+        <Literal>Free</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_price"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Lorenzo_in_Fonte"/>
+        <Literal>Free</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_time"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Lorenzo_in_Fonte"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.30</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="https://w3id.org/arco/ontology/context-description/address"/>
@@ -1719,9 +1869,49 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">12.49373</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_elderly"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Lorenzo_in_Panisperna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_groups"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Lorenzo_in_Panisperna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_hearing_disability"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Lorenzo_in_Panisperna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_motor_disability"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Lorenzo_in_Panisperna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_visual_disability"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Lorenzo_in_Panisperna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#phone"/>
         <NamedIndividual IRI="#Chiesa_di_S._Lorenzo_in_Panisperna"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">06483667</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visitability"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Lorenzo_in_Panisperna"/>
+        <Literal>Free</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_price"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Lorenzo_in_Panisperna"/>
+        <Literal>2 euro</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_time"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Lorenzo_in_Panisperna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.30</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="https://w3id.org/arco/ontology/context-description/address"/>
@@ -1739,9 +1929,49 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">12.493443</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_elderly"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Maria_ai_Monti"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_groups"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Maria_ai_Monti"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_hearing_disability"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Maria_ai_Monti"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_motor_disability"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Maria_ai_Monti"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_visual_disability"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Maria_ai_Monti"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#phone"/>
         <NamedIndividual IRI="#Chiesa_di_S._Maria_ai_Monti"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">06485531</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visitability"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Maria_ai_Monti"/>
+        <Literal>Free</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_price"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Maria_ai_Monti"/>
+        <Literal>Free</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_time"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Maria_ai_Monti"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.30</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="https://w3id.org/arco/ontology/context-description/address"/>
@@ -1759,9 +1989,49 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">12.4906826</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_elderly"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Pudenziana"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_groups"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Pudenziana"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_hearing_disability"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Pudenziana"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_motor_disability"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Pudenziana"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_visual_disability"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Pudenziana"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#phone"/>
         <NamedIndividual IRI="#Chiesa_di_S._Pudenziana"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">064814622</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visitability"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Pudenziana"/>
+        <Literal>Free</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_price"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Pudenziana"/>
+        <Literal>Free</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_time"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Pudenziana"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.30</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="https://w3id.org/arco/ontology/context-description/address"/>
@@ -1779,9 +2049,89 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">12.4949028</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_elderly"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Salvatore_ai_Monti"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_groups"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Salvatore_ai_Monti"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_hearing_disability"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Salvatore_ai_Monti"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_motor_disability"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Salvatore_ai_Monti"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_visual_disability"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Salvatore_ai_Monti"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visitability"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Salvatore_ai_Monti"/>
+        <Literal>Free</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_price"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Salvatore_ai_Monti"/>
+        <Literal>Free</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_time"/>
+        <NamedIndividual IRI="#Chiesa_di_S._Salvatore_ai_Monti"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.45</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="https://w3id.org/arco/ontology/context-description/address"/>
         <NamedIndividual IRI="#Chiesa_di_S._Salvatore_ai_Monti"/>
         <Literal>via della Madonna dei Monti fra il civico 38 e il civico 39</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_elderly"/>
+        <NamedIndividual IRI="#Chiesa_nazionale_ucraina_dei_Ss._Sergio_e_Bacco"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_groups"/>
+        <NamedIndividual IRI="#Chiesa_nazionale_ucraina_dei_Ss._Sergio_e_Bacco"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_hearing_disability"/>
+        <NamedIndividual IRI="#Chiesa_nazionale_ucraina_dei_Ss._Sergio_e_Bacco"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_motor_disability"/>
+        <NamedIndividual IRI="#Chiesa_nazionale_ucraina_dei_Ss._Sergio_e_Bacco"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_visual_disability"/>
+        <NamedIndividual IRI="#Chiesa_nazionale_ucraina_dei_Ss._Sergio_e_Bacco"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visitability"/>
+        <NamedIndividual IRI="#Chiesa_nazionale_ucraina_dei_Ss._Sergio_e_Bacco"/>
+        <Literal>Prenotazione obbligatoria</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_price"/>
+        <NamedIndividual IRI="#Chiesa_nazionale_ucraina_dei_Ss._Sergio_e_Bacco"/>
+        <Literal>Free</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_time"/>
+        <NamedIndividual IRI="#Chiesa_nazionale_ucraina_dei_Ss._Sergio_e_Bacco"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#website"/>
@@ -1804,6 +2154,46 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">12.4886643</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_elderly"/>
+        <NamedIndividual IRI="#Fontana_dei_Catecumeni"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_groups"/>
+        <NamedIndividual IRI="#Fontana_dei_Catecumeni"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_hearing_disability"/>
+        <NamedIndividual IRI="#Fontana_dei_Catecumeni"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_motor_disability"/>
+        <NamedIndividual IRI="#Fontana_dei_Catecumeni"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_visual_disability"/>
+        <NamedIndividual IRI="#Fontana_dei_Catecumeni"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visitability"/>
+        <NamedIndividual IRI="#Fontana_dei_Catecumeni"/>
+        <Literal>Free</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_price"/>
+        <NamedIndividual IRI="#Fontana_dei_Catecumeni"/>
+        <Literal>Free</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_time"/>
+        <NamedIndividual IRI="#Fontana_dei_Catecumeni"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#website"/>
         <NamedIndividual IRI="#Fontana_dei_Catecumeni"/>
         <Literal>www.turismoroma.it</Literal>
@@ -1814,9 +2204,89 @@
         <Literal>piazza della Madonna dei Monti</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_elderly"/>
+        <NamedIndividual IRI="#Palazzo_del_Collegio_dei_Neofiti_e_Catecumeni"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_groups"/>
+        <NamedIndividual IRI="#Palazzo_del_Collegio_dei_Neofiti_e_Catecumeni"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_hearing_disability"/>
+        <NamedIndividual IRI="#Palazzo_del_Collegio_dei_Neofiti_e_Catecumeni"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_motor_disability"/>
+        <NamedIndividual IRI="#Palazzo_del_Collegio_dei_Neofiti_e_Catecumeni"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_visual_disability"/>
+        <NamedIndividual IRI="#Palazzo_del_Collegio_dei_Neofiti_e_Catecumeni"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visitability"/>
+        <NamedIndividual IRI="#Palazzo_del_Collegio_dei_Neofiti_e_Catecumeni"/>
+        <Literal>Prenotazione obbligatoria</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_price"/>
+        <NamedIndividual IRI="#Palazzo_del_Collegio_dei_Neofiti_e_Catecumeni"/>
+        <Literal>10 euro</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_time"/>
+        <NamedIndividual IRI="#Palazzo_del_Collegio_dei_Neofiti_e_Catecumeni"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="https://w3id.org/arco/ontology/context-description/address"/>
         <NamedIndividual IRI="#Palazzo_del_Collegio_dei_Neofiti_e_Catecumeni"/>
         <Literal>via della Madonna dei Monti 40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_elderly"/>
+        <NamedIndividual IRI="#Piazza_della_Suburra"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_groups"/>
+        <NamedIndividual IRI="#Piazza_della_Suburra"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_hearing_disability"/>
+        <NamedIndividual IRI="#Piazza_della_Suburra"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_motor_disability"/>
+        <NamedIndividual IRI="#Piazza_della_Suburra"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_visual_disability"/>
+        <NamedIndividual IRI="#Piazza_della_Suburra"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visitability"/>
+        <NamedIndividual IRI="#Piazza_della_Suburra"/>
+        <Literal>Free</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_price"/>
+        <NamedIndividual IRI="#Piazza_della_Suburra"/>
+        <Literal>Free</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_time"/>
+        <NamedIndividual IRI="#Piazza_della_Suburra"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.30</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="https://w3id.org/arco/ontology/context-description/address"/>
@@ -1832,6 +2302,46 @@
         <DataProperty IRI="https://w3id.org/arco/ontology/location/long"/>
         <NamedIndividual IRI="#Piazza_della_Suburra"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">12.491439</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_elderly"/>
+        <NamedIndividual IRI="#Torre_dei_Conti"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_groups"/>
+        <NamedIndividual IRI="#Torre_dei_Conti"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_hearing_disability"/>
+        <NamedIndividual IRI="#Torre_dei_Conti"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_motor_disability"/>
+        <NamedIndividual IRI="#Torre_dei_Conti"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_visual_disability"/>
+        <NamedIndividual IRI="#Torre_dei_Conti"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visitability"/>
+        <NamedIndividual IRI="#Torre_dei_Conti"/>
+        <Literal>Free</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_price"/>
+        <NamedIndividual IRI="#Torre_dei_Conti"/>
+        <Literal>5 euro</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_time"/>
+        <NamedIndividual IRI="#Torre_dei_Conti"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.45</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="https://w3id.org/arco/ontology/context-description/address"/>
@@ -1857,6 +2367,46 @@
         <DataProperty IRI="https://w3id.org/arco/ontology/core/description"/>
         <NamedIndividual IRI="#Torre_dei_Conti_desc._History"/>
         <Literal>Descr. Storica Torre dei conti</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_elderly"/>
+        <NamedIndividual IRI="#Via_Panisperna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_groups"/>
+        <NamedIndividual IRI="#Via_Panisperna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_hearing_disability"/>
+        <NamedIndividual IRI="#Via_Panisperna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_motor_disability"/>
+        <NamedIndividual IRI="#Via_Panisperna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_visual_disability"/>
+        <NamedIndividual IRI="#Via_Panisperna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visitability"/>
+        <NamedIndividual IRI="#Via_Panisperna"/>
+        <Literal>Free</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_price"/>
+        <NamedIndividual IRI="#Via_Panisperna"/>
+        <Literal>Free</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_time"/>
+        <NamedIndividual IRI="#Via_Panisperna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.30</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="https://w3id.org/arco/ontology/context-description/address"/>
@@ -1886,6 +2436,46 @@ Ragazzi di via Panisperna è l&apos;appellativo del gruppo di scienziati italian
         <Literal>Ragazzi di via Panisperna è l&apos;appellativo del gruppo di scienziati italiani, con a capo Enrico Fermi, che negli anni trenta del Novecento operò presso il Regio istituto di fisica dell&apos;Università di Roma allora ubicato in via Panisperna n. 90, producendo studi di importanza storica nell&apos;ambito della fisica nucleare.
 
 La principale scoperta del gruppo fu, nel 1934, la proprietà dei neutroni lenti, che portò al premio Nobel per Fermi e diede avvio alla realizzazione del primo reattore nucleare e successivamente della bomba atomica.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_elderly"/>
+        <NamedIndividual IRI="#Via_della_Madonna_dei_Monti"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_groups"/>
+        <NamedIndividual IRI="#Via_della_Madonna_dei_Monti"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_hearing_disability"/>
+        <NamedIndividual IRI="#Via_della_Madonna_dei_Monti"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_motor_disability"/>
+        <NamedIndividual IRI="#Via_della_Madonna_dei_Monti"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_visual_disability"/>
+        <NamedIndividual IRI="#Via_della_Madonna_dei_Monti"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visitability"/>
+        <NamedIndividual IRI="#Via_della_Madonna_dei_Monti"/>
+        <Literal>Free</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_price"/>
+        <NamedIndividual IRI="#Via_della_Madonna_dei_Monti"/>
+        <Literal>Free</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_time"/>
+        <NamedIndividual IRI="#Via_della_Madonna_dei_Monti"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.30</Literal>
     </DataPropertyAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="https://w3id.org/arco/ontology/cataloguing-campaign/hasApplication"/>
@@ -1917,6 +2507,30 @@ La principale scoperta del gruppo fu, nel 1934, la proprietà dei neutroni lenti
         <ObjectProperty IRI="#isCorrelatedWith"/>
         <Class IRI="https://w3id.org/arco/ontology/arco/TangibleCulturalProperty"/>
     </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#accessibility"/>
+        <DataProperty IRI="#visiting_information"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#accessibility_elderly"/>
+        <DataProperty IRI="#accessibility"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#accessibility_groups"/>
+        <DataProperty IRI="#accessibility"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#accessibility_hearing_disability"/>
+        <DataProperty IRI="#accessibility"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#accessibility_motor_disability"/>
+        <DataProperty IRI="#accessibility"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#accessibility_visual_disability"/>
+        <DataProperty IRI="#accessibility"/>
+    </SubDataPropertyOf>
     <SubDataPropertyOf>
         <DataProperty IRI="#email"/>
         <DataProperty IRI="https://w3id.org/arco/ontology/context-description/contacts"/>
@@ -2110,6 +2724,13 @@ Rinnovata dalle fondamenta e ricondotta ad una forma più elegante nell’anno 1
         <Literal>L&apos;Età antica iniziò verso il 3500 a.C., con la scrittura, e si concluse nel 476 d.C, con la caduta dell&apos;Impero romano d&apos;Occidente.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Fontana_dei_Catcumeni_desc_Architecture</IRI>
+        <Literal>Architectural Description
+
+[text to be added]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="terms:description"/>
         <IRI>#Fontana_dei_Catecumeni</IRI>
         <Literal xml:lang="it">Così chiamata per la vicinanza con il seicentesco Collegio dei Neofiti o Catecumeni, la fontana che abbellisce piazza della Madonna dei Monti e che è oggi uno dei principali punti di ritrovo del rione fu disegnata da Giacomo Della Porta su commissione di papa Sisto V, nell’ambito del programma di riqualificazione della città da lui promosso. A occuparsi della sua costruzione fu, tra il 1588 e il 1589, lo scalpellino Battista Rusconi mentre la sistemazione della scalinata, che ha anche la funzione di compensare il dislivello della piazza, si deve all’intervento di Girolamo de Rossi, di poco successivo.
@@ -2135,11 +2756,6 @@ Si racconta che il maestro Ottorino Respighi cercasse ispirazione sostando propr
         <AnnotationProperty abbreviatedIRI="terms:description"/>
         <IRI>#Palazzo_del_Collegio_dei_Neofiti_e_Catecumeni</IRI>
         <Literal xml:lang="it">Palazzo barocco del 1637, opera di C. Gaspare De Vecchi, in cui aveva sede l&apos;Istituto dei Catecumeni e dei Neofiti. Il Collegio fu un seminario cattolico istituito nel 1577 a Roma da Papa Gregorio XIII, un istituto che  ospitava coloro che si erano convertiti, dall&apos;ebraismo e dall&apos;islam, al cattolicesimo (neofiti) e che ricevevano la dottrina cristiana per poi essere ammessi al battesimo (catecumeni).Fondato su una precedente istituzione creata da Ignazio di Loyola, venne chiuso nel 1886. Oggi ospita il Dipartimento di Architettura dell&apos;Università di Roma 3</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Palazzo_del_Collegio_desc_Barocco</IRI>
-        <Literal>Descrizione Barocco</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="terms:description"/>
