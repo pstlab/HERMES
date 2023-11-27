@@ -1,0 +1,1910 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes"
+     xml:base="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:l0="https://w3id.org/italia/onto/l0/"
+     xmlns:ns="http://www.w3.org/2006/vcard/ns#"
+     xmlns:CLV="https://w3id.org/italia/onto/CLV/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:ADMS="https://w3id.org/italia/onto/ADMS/"
+     xmlns:core="https://w3id.org/arco/ontology/core/"
+     xmlns:dcat="http://www.w3.org/ns/dcat#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:opla="http://ontologydesignpatterns.org/opla/"
+     xmlns:prov="http://www.w3.org/ns/prov#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:opla1="http://www.ontologydesignpatterns.org/opla/"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:hermes="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#"
+     xmlns:location="https://w3id.org/arco/ontology/location/"
+     xmlns:catalogue="https://w3id.org/arco/ontology/catalogue/"
+     xmlns:context-description="https://w3id.org/arco/ontology/context-description/">
+    <owl:Ontology rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes">
+        <owl:versionIRI rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes/1.0.0"/>
+        <owl:imports rdf:resource="https://w3id.org/arco/ontology/arco/1.2"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- https://w3id.org/italia/onto/ADMS/hasContributor -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/italia/onto/ADMS/hasContributor"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#connect -->
+
+    <owl:ObjectProperty rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#connect">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#InfrastructuralProperty"/>
+        <rdfs:range rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#UnitaMonumentale"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#isCorrelatedWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#isCorrelatedWith">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/arco/ontology/arco/IntangibleCulturalProperty"/>
+        <rdfs:range rdf:resource="https://w3id.org/arco/ontology/arco/TangibleCulturalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/arco/ontology/cataloguing-campaign/hasApplication -->
+
+    <rdf:Description rdf:about="https://w3id.org/arco/ontology/cataloguing-campaign/hasApplication">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/arco/ontology/context-description/hasAssociatedObject"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://w3id.org/arco/ontology/cultural-event/hasPreviousSituation -->
+
+    <rdf:Description rdf:about="https://w3id.org/arco/ontology/cultural-event/hasPreviousSituation">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/arco/ontology/catalogue/hasPreviousVersion"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#accessibility -->
+
+    <owl:DatatypeProperty rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#accessibility">
+        <rdfs:subPropertyOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#visiting_information"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#accessibility_elderly -->
+
+    <owl:DatatypeProperty rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#accessibility_elderly">
+        <rdfs:subPropertyOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#accessibility"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#accessibility_groups -->
+
+    <owl:DatatypeProperty rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#accessibility_groups">
+        <rdfs:subPropertyOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#accessibility"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#accessibility_hearing_disability -->
+
+    <owl:DatatypeProperty rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#accessibility_hearing_disability">
+        <rdfs:subPropertyOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#accessibility"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#accessibility_motor_disability -->
+
+    <owl:DatatypeProperty rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#accessibility_motor_disability">
+        <rdfs:subPropertyOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#accessibility"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#accessibility_visual_disability -->
+
+    <owl:DatatypeProperty rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#accessibility_visual_disability">
+        <rdfs:subPropertyOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#accessibility"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#email -->
+
+    <owl:DatatypeProperty rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#email">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/arco/ontology/context-description/contacts"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#phone -->
+
+    <owl:DatatypeProperty rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#phone">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/arco/ontology/context-description/contacts"/>
+        <ADMS:hasContributor>Silvia</ADMS:hasContributor>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#visitability -->
+
+    <owl:DatatypeProperty rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#visitability">
+        <rdfs:subPropertyOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#visiting_information"/>
+        <rdfs:comment>Questa property descrive la visitabilita&apos; di un bene culturale. Es. Visitabile solo su prenotazione, visitabile solo esternamente etc.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#visiting_information -->
+
+    <owl:DatatypeProperty rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#visiting_information"/>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#visiting_price -->
+
+    <owl:DatatypeProperty rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#visiting_price">
+        <rdfs:subPropertyOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#visiting_information"/>
+        <rdfs:comment>Questa property descrive il prezzo del biglietto di un bene culturale</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#visiting_time -->
+
+    <owl:DatatypeProperty rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#visiting_time">
+        <rdfs:subPropertyOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#visiting_information"/>
+        <rdfs:comment>Questa property descrive il tempo di visita minimo di un bene culturale.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#website -->
+
+    <owl:DatatypeProperty rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#website">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/arco/ontology/context-description/contacts"/>
+        <ADMS:hasContributor>Silvia</ADMS:hasContributor>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#AbstractActor -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#AbstractActor">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#SocialActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Allegoric -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Allegoric">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#AbstractActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Archeology -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Archeology">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/arco/ontology/context-description/CulturalScope"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Architecture -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Architecture">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Art"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#ArchitectureStyle -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#ArchitectureStyle">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Architecture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#ArchitectureType -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#ArchitectureType">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Architecture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Art -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Art">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/arco/ontology/context-description/CulturalScope"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Artist -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Artist">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#HistoricalActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#ArtisticMovement -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#ArtisticMovement">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#CulturalMovement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Astronomy -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Astronomy">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#BusLine -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#BusLine">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Location_Infrastructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chemistry -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chemistry">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Edificio_religioso"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Cinema -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Cinema">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Art"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#CinemaActor -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#CinemaActor">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Cinema"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#CinemaDirector -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#CinemaDirector">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Cinema"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#CinemaPlace -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#CinemaPlace">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Cinema"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#ComplessoMonumentale -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#ComplessoMonumentale">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/arco/ontology/arco/ArchaeologicalProperty"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/arco/ontology/core/hasPart"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/arco/ontology/arco/MovableCulturalProperty"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/arco/ontology/core/hasLocation"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/italia/onto/l0/Location"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/arco/ontology/core/hasPart"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#UnitaMonumentale"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#ComplessoTopografico -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#ComplessoTopografico">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#UnitaTerritoriale"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/arco/ontology/core/hasPart"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#InfrastructuralProperty"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#CulturalEvent -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#CulturalEvent">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/arco/ontology/arco/IntangibleCulturalProperty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#CulturalMovement -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#CulturalMovement">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#CulturalTradition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#CulturalTradition -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#CulturalTradition">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#SocialProperty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Cultural_Property_Description -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Cultural_Property_Description">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/italia/onto/l0/Description"/>
+        <terms:description xml:lang="it">Descrizione tematica/topic based di un certo oggetto culturale.</terms:description>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Divinity -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Divinity">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#AbstractActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Edificio_monumentale -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Edificio_monumentale">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#UnitaMonumentale"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Edificio_religioso -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Edificio_religioso">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#UnitaMonumentale"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Enogastronomy -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Enogastronomy">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/arco/ontology/context-description/CulturalScope"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Farm -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Farm">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#NaturalPlace"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Festivity -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Festivity">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#RecurrentEvent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Fontana -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Fontana">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Monumento"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Food -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Food">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#CulturalTradition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Fortificazione -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Fortificazione">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Edificio_monumentale"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Garden -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Garden">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Nature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Gods -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Gods">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#ReligiousActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#HistoricalActor -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#HistoricalActor">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#SocialActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#HistoricalEvent -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#HistoricalEvent">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#CulturalEvent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#History -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#History">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/arco/ontology/context-description/CulturalScope"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#InfrastructuralProperty -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#InfrastructuralProperty">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#UnitaTerritoriale"/>
+        <rdfs:comment xml:lang="it">Tipo di unità territoriale caratterizzata da un&apos;infrastruttura urbana che è di per sé considerata un patrimonio culturale. Es. Vie o piazze</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Lake -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Lake">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#NaturalPlace"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Legend -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Legend">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#CulturalTradition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Literature -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Literature">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Art"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Location_Infrastructure -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Location_Infrastructure">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/italia/onto/l0/Location"/>
+        <rdfs:comment xml:lang="it">Infrastrutture di mobilita’ associabili a una determinata Unita’ territoriale</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Mathematics -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Mathematics">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Medicine -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Medicine">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#MetroA -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#MetroA">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#MetroLine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#MetroB -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#MetroB">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#MetroLine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#MetroC -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#MetroC">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#MetroLine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#MetroLine -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#MetroLine">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Location_Infrastructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Monumento -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Monumento">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#UnitaMonumentale"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Mountain -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Mountain">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#NaturalPlace"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Musicist -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Musicist">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#HistoricalActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#NaturalPlace -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#NaturalPlace">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Nature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Nature -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Nature">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/arco/ontology/context-description/CulturalScope"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Pagan -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Pagan">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Rituals"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Painting -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Painting">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Art"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#PaintingArtist -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#PaintingArtist">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Painting"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#PaintingStyle -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#PaintingStyle">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Painting"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Palazzo -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Palazzo">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Edificio_monumentale"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Park -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Park">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Nature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Photography -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Photography">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Art"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Physics -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Physics">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Politic -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Politic">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/arco/ontology/context-description/CulturalScope"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#PoliticalAct -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#PoliticalAct">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Politic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#PoliticalActor -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#PoliticalActor">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Politic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#PoliticalEvent -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#PoliticalEvent">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#HistoricalEvent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#PoliticalMovement -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#PoliticalMovement">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#CulturalMovement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Politician -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Politician">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#HistoricalActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Popular -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Popular">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#AbstractActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Proverbs -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Proverbs">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#CulturalTradition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Psychology -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Psychology">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#RecurrentEvent -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#RecurrentEvent">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#CulturalEvent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Religion -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Religion">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/arco/ontology/context-description/CulturalScope"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Religious -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Religious">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Rituals"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#ReligiousActor -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#ReligiousActor">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#SocialActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#ReligiousPlace -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#ReligiousPlace">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Religion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#ReligiousRitual -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#ReligiousRitual">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Religion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#ReligiusEvent -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#ReligiusEvent">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#HistoricalEvent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Rituals -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Rituals">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#CulturalTradition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Saints -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Saints">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#ReligiousActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Science -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Science">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/arco/ontology/context-description/CulturalScope"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Scientist -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Scientist">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#HistoricalActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Social -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Social">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/arco/ontology/context-description/CulturalScope"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#SocialActor -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#SocialActor">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#SocialProperty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#SocialEvent -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#SocialEvent">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#HistoricalEvent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#SocialExperience -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#SocialExperience">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Social"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#SocialMovement -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#SocialMovement">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#CulturalMovement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#SocialProperty -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#SocialProperty">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/arco/ontology/arco/IntangibleCulturalProperty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#SocialTradition -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#SocialTradition">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Social"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Square -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Square">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Location_Infrastructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Street -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Street">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Location_Infrastructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Technology -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Technology">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Train -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Train">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Location_Infrastructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Tram -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Tram">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Location_Infrastructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#UnitaMonumentale -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#UnitaMonumentale">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/arco/ontology/arco/ArchaeologicalProperty"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/arco/ontology/core/hasPart"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/arco/ontology/arco/MovableCulturalProperty"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/arco/ontology/core/hasLocation"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/italia/onto/l0/Location"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="it">Singolo oggetto di natura culturale, archeologica e tangibile.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#UnitaTerritoriale -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#UnitaTerritoriale">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/arco/ontology/arco/ImmovableCulturalProperty"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/arco/ontology/core/hasLocation"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/italia/onto/l0/Location"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="it">Un&apos;area geografica con un significativo valore culturale.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#UnitaTopografica -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#UnitaTopografica">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#ComplessoTopografico"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/arco/ontology/core/hasPart"/>
+                <owl:someValuesFrom rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#ComplessoMonumentale"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/arco/ontology/core/hasPart"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/arco/ontology/arco/MovableCulturalProperty"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/arco/ontology/core/hasLocation"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/italia/onto/l0/Location"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Waterfall -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Waterfall">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#NaturalPlace"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Zoo -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Zoo">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#NaturalPlace"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/arco/ontology/arco/CulturalProperty -->
+
+    <rdf:Description rdf:about="https://w3id.org/arco/ontology/arco/CulturalProperty">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/arco/ontology/context-description/hasDocumentation"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/arco/ontology/context-description/Documentation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/italia/onto/l0/hasTopic"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/arco/ontology/context-description/CulturalScope"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/italia/onto/l0/hasDescription"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/italia/onto/l0/Description"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- https://w3id.org/arco/ontology/arco/IntangibleCulturalProperty -->
+
+    <rdf:Description rdf:about="https://w3id.org/arco/ontology/arco/IntangibleCulturalProperty">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#isCorrelatedWith"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/arco/ontology/arco/TangibleCulturalProperty"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Architettura_Medievale -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Architettura_Medievale">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#ArchitectureStyle"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Architettura_Neoclassica -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Architettura_Neoclassica">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#ArchitectureStyle"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Architettura_Paleocristiana -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Architettura_Paleocristiana">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#ArchitectureStyle"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Barocco -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Barocco">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#ArchitectureStyle"/>
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#PaintingStyle"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Basilica_di_S.Martino_ai_Monti_desc_History -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Basilica_di_S.Martino_ai_Monti_desc_History">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Cultural_Property_Description"/>
+        <l0:hasTopic rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Medioevo"/>
+        <rdfs:comment>Descrizione Storica 
+[text to be added]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Basilica_di_S.Martino_ai_Monti_desc_Rituals -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Basilica_di_S.Martino_ai_Monti_desc_Rituals">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Cultural_Property_Description"/>
+        <l0:hasTopic rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Rituali"/>
+        <rdfs:comment>Descrizione dei Rituali
+[text to be added]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Basilica_di_S._Martino_ai_Monti -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Basilica_di_S._Martino_ai_Monti">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa"/>
+        <core:isPartOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Rione_Monti"/>
+        <l0:hasDescription rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Basilica_di_S.Martino_ai_Monti_desc_History"/>
+        <l0:hasDescription rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Basilica_di_S.Martino_ai_Monti_desc_Rituals"/>
+        <hermes:accessibility_elderly rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_elderly>
+        <hermes:accessibility_groups rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_groups>
+        <hermes:accessibility_hearing_disability rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</hermes:accessibility_hearing_disability>
+        <hermes:accessibility_motor_disability rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_motor_disability>
+        <hermes:accessibility_visual_disability rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</hermes:accessibility_visual_disability>
+        <hermes:email>SantiSilvestroeMartino@VicariatusUrbis.org</hermes:email>
+        <hermes:phone rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">064784701</hermes:phone>
+        <hermes:visitability>Free</hermes:visitability>
+        <hermes:visitability>Prenotazione obbligatoria</hermes:visitability>
+        <hermes:visiting_price>Free</hermes:visiting_price>
+        <hermes:visiting_time rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.30</hermes:visiting_time>
+        <context-description:address xml:lang="it">viale del Monte Oppio</context-description:address>
+        <location:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.8931526</location:lat>
+        <location:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.4968349</location:long>
+        <rdfs:comment xml:lang="it">La Basilicachiude il lato sud-est di Piazza S. Martino ai Monti con l’abside e il cinquecentesco portale posteriore, mentre la facciata principale, prospettante su viale del Monte Oppio, è articolata da due ordini di lesene a fascio (ai lati del portale, S. Martino e S. Silvestro, stucchi di Stefano Castelli). Sull’antico «titulus Equitii» venne eretta da papa Simmaco una prima chiesa, dedicata ai Ss. Silvestro e Martino, poi riedificata da Sergio II; la veste attuale risale ai restauri iniziati nel 1636.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_di_Gesù_Bambino -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_di_Gesù_Bambino">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa"/>
+        <core:isPartOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Rione_Monti"/>
+        <l0:hasDescription rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_di_Gesù_Bambino_desc_Barocco"/>
+        <l0:hasDescription rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_di_Gesù_Bambino_desc_Rituals"/>
+        <hermes:accessibility_elderly rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_elderly>
+        <hermes:accessibility_groups rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_groups>
+        <hermes:accessibility_hearing_disability rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</hermes:accessibility_hearing_disability>
+        <hermes:accessibility_motor_disability rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_motor_disability>
+        <hermes:accessibility_visual_disability rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</hermes:accessibility_visual_disability>
+        <hermes:visitability>Free</hermes:visitability>
+        <hermes:visiting_price>Free</hermes:visiting_price>
+        <hermes:visiting_time rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.30</hermes:visiting_time>
+        <context-description:address>Via Urbana</context-description:address>
+        <location:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.8985179</location:lat>
+        <location:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.494053</location:long>
+        <dc:description xml:lang="it">Iniziata da Carlo Buratti nel 1731, fu poi completata da Ferdinando Fuga nel 1736. La facciata, a ordine gigante di lesene, contrasta nell’andamento verticale con l’orizzontalità del convento che la ingloba e appare sproporzionata in seguito all’eliminazione, per l’innalzamento della quota stradale (c. 1872), della doppia scala d’accesso; nell’interno, a croce greca allungata dal profondo coro e dal vestibolo in cui si apre a d. la cappella della Passione (Virginio Vespignani, 1856; le decorazioni sono di Francesco Grandi), all’altare d. S. Agostino trionfa sull’eresia di Domenico Maria Muratori (1736). Nel convento, due sale accolgono un piccolo museo di arte sacra (dipinti del XVII-XIX secolo, oreficerie liturgiche, paramenti sacri) e una raccolta di statue del Bambino Gesù del Sette e Ottocento.</dc:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_di_Gesù_Bambino_desc_Barocco -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_di_Gesù_Bambino_desc_Barocco">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Cultural_Property_Description"/>
+        <l0:hasTopic rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Barocco"/>
+        <rdfs:comment>Descrizione Barocco 
+[text to be added]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_di_Gesù_Bambino_desc_Rituals -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_di_Gesù_Bambino_desc_Rituals">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Cultural_Property_Description"/>
+        <l0:hasTopic rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Cristianesimo_cattolico"/>
+        <l0:hasTopic rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#rito_romano"/>
+        <rdfs:comment>Descr rituali 
+[text to be added]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_di_S._Lorenzo_in_Fonte -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_di_S._Lorenzo_in_Fonte">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa"/>
+        <core:isPartOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Rione_Monti"/>
+        <l0:hasDescription rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_di_S._Lorenzo_in_Fonte_desc_Architecture"/>
+        <l0:hasDescription rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_di_S._Lorenzo_in_Fonte_desc_History"/>
+        <l0:hasDescription rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_di_S._Lorenzo_in_Fonte_desc_Rituals"/>
+        <hermes:accessibility_elderly rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_elderly>
+        <hermes:accessibility_groups rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_groups>
+        <hermes:accessibility_hearing_disability rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_hearing_disability>
+        <hermes:accessibility_motor_disability rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_motor_disability>
+        <hermes:accessibility_visual_disability rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_visual_disability>
+        <hermes:visitability>Free</hermes:visitability>
+        <hermes:visiting_price>Free</hermes:visiting_price>
+        <hermes:visiting_time rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.30</hermes:visiting_time>
+        <context-description:address>Via Urbana</context-description:address>
+        <location:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.89588</location:lat>
+        <location:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.49373</location:long>
+        <terms:description xml:lang="it">In via Urbana si scorge la facciatina neoclassica della chiesa di S. Lorenzo in Fonte o Ss. Lorenzo e Ippolito, cosi detta dalla presenza, in sotterranei di età romana, di un pozzo con la cui acqua Lorenzo avrebbe battezzato il suo carceriere Ippolito (la tela di Andrea Camassei sull’altare maggiore raffigura tale leggenda).</terms:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_di_S._Lorenzo_in_Fonte_desc_Architecture -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_di_S._Lorenzo_in_Fonte_desc_Architecture">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Cultural_Property_Description"/>
+        <l0:hasTopic rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Architettura_Neoclassica"/>
+        <rdfs:comment>Desc Arch. Neoclassica
+[text to be added]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_di_S._Lorenzo_in_Fonte_desc_History -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_di_S._Lorenzo_in_Fonte_desc_History">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Cultural_Property_Description"/>
+        <l0:hasTopic rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Eta_antica"/>
+        <rdfs:comment>Descrizione Storica
+[text to be added]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_di_S._Lorenzo_in_Fonte_desc_Rituals -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_di_S._Lorenzo_in_Fonte_desc_Rituals">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Cultural_Property_Description"/>
+        <l0:hasTopic rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Cristianesimo_cattolico"/>
+        <l0:hasTopic rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#rito_romano"/>
+        <rdfs:comment>Desc Rituali
+[text to be added]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_di_S._Lorenzo_in_Panisperna -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_di_S._Lorenzo_in_Panisperna">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa"/>
+        <core:isPartOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Rione_Monti"/>
+        <l0:hasDescription rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_di_S._Lorenzo_in_Panisperna_desc_Barocco"/>
+        <l0:hasDescription rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_di_S._Lorenzo_in_Panisperna_desc_Rituals"/>
+        <hermes:accessibility_elderly rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_elderly>
+        <hermes:accessibility_groups rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_groups>
+        <hermes:accessibility_hearing_disability rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_hearing_disability>
+        <hermes:accessibility_motor_disability rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_motor_disability>
+        <hermes:accessibility_visual_disability rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_visual_disability>
+        <hermes:phone rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">06483667</hermes:phone>
+        <hermes:visitability>Free</hermes:visitability>
+        <hermes:visiting_price>2 euro</hermes:visiting_price>
+        <hermes:visiting_time rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.30</hermes:visiting_time>
+        <context-description:address>Via Panisperna 90</context-description:address>
+        <location:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.8969282</location:lat>
+        <location:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.493443</location:long>
+        <dc:description xml:lang="it">Fu eretta secondo la tradizione al tempo di Costantino sul luogo del martirio del santo e riedificata nel 1300 e nel 1574. Il portale esterno, restaurato da Leone XIII che fece costruire la doppia scala (1893), si apre su un cortile che conserva a d. una rara casa d&apos;impianto medievale con scale esterne; la facciata cinquecentesca della chiesa accoglie una porta lignea scolpita nel 1664.
+L&apos;interno, a navata unica con tre cappelle per lato, fu decorato nel 1756-57; nella tribuna Martirio di S. Lorenzo di Pasquale Cati, a sin. *Crocifisso del sec. XV.
+Sulla vigna del monastero di S. Lorenzo, espropriata dopo il 1873, sorsero il palazzo del Viminale e l&apos;edificio dove ebbe sede l&apos;Istituto di Fisica dell&apos;Università di Roma, legato agli esperimenti di Enrico Fermi ed Ettore Majorana. Vi è stato istituito il Museo della Fisica e Centro Studi «Enrico Fermi», al fine di promuovere la ricerca e diffondere le conoscenze scientifiche.</dc:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_di_S._Lorenzo_in_Panisperna_desc_Barocco -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_di_S._Lorenzo_in_Panisperna_desc_Barocco">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Cultural_Property_Description"/>
+        <l0:hasTopic rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Barocco"/>
+        <rdfs:comment>Descrizione Barocco
+[text to be added]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_di_S._Lorenzo_in_Panisperna_desc_Rituals -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_di_S._Lorenzo_in_Panisperna_desc_Rituals">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Cultural_Property_Description"/>
+        <l0:hasTopic rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Cristianesimo_cattolico"/>
+        <l0:hasTopic rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#rito_romano"/>
+        <rdfs:comment>Descrizione Rituali 
+[Text to be added]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_di_S._Maria_ai_Monti -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_di_S._Maria_ai_Monti">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa"/>
+        <core:isPartOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Rione_Monti"/>
+        <l0:hasDescription rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_di_S._Maria_ai_Monti_desc_Art"/>
+        <l0:hasDescription rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_di_S._Maria_ai_Monti_desc_Rituals"/>
+        <hermes:accessibility_elderly rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_elderly>
+        <hermes:accessibility_groups rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_groups>
+        <hermes:accessibility_hearing_disability rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_hearing_disability>
+        <hermes:accessibility_motor_disability rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</hermes:accessibility_motor_disability>
+        <hermes:accessibility_visual_disability rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</hermes:accessibility_visual_disability>
+        <hermes:phone rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">06485531</hermes:phone>
+        <hermes:visitability>Free</hermes:visitability>
+        <hermes:visiting_price>Free</hermes:visiting_price>
+        <hermes:visiting_time rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.30</hermes:visiting_time>
+        <context-description:address>Via della Madonna dei Monti</context-description:address>
+        <location:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.8945471</location:lat>
+        <location:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.4906826</location:long>
+        <terms:description xml:lang="it">Una delle chiese romane più interessanti della transizione tra Rinascimento e barocco, eretta su disegno di Giacomo Della Porta (1580) per celebrare il rinvenimento di una miracolosa immagine della Vergine. La facciata, derivata da quella del Gesù, è a due ordini di lesene (l&apos;inferiore, corinzio, è raccordato da volute al superiore, composito e più stretto); le tre campate centrali, lievemente avanzate, ospitano tra nicchie il portale e il finestrone a edicola.
+Anche l&apos;interno s&apos;ispira a quello del Gesù, sebbene in scala minore: nella volta, Ascensione, angeli e dottori della Chiesa di Cristoforo Casolani (1602-1609); nella volta e negli arconi delle cappelle, angeli in stucco di Ambrogio Buonvicino (1588). 1ª cappella d.: Madonna con Bambino e S. Carlo Borromeo (1624); gli affreschi (storie di S. Carlo Borromeo) sono di Giovanni da S. Giovanni (1624). 3ª: Pietà, copia (c. 1588) da Lorenzo Sabbatini; alla parete d., Andata al Calvario di Paris Nogari. Altare maggiore: Madonna con Bambino e i Ss. Stefano e Lorenzo (inizi sec. XV). Nell&apos;abside, dipinti di Giacinto Gimignani (S. Michele, Crocifissione, S. Pietro battezza i Ss. Processo e Martiniano, Apparizione di Cristo alla Vergine e Battesimo di Cristo) e del Casolani (storie di Maria ed evangelisti); al di sopra, angeli di Orazio Gentileschi (1599). 3ª cappella sin.: Natività di Girolamo Muziano; ai lati, Adorazione dei Magi e Sogno di S. Giuseppe di Cesare Nebbia. 1ª: Annunciazione di Durante Alberti (1588).</terms:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_di_S._Maria_ai_Monti_desc_Art -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_di_S._Maria_ai_Monti_desc_Art">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Cultural_Property_Description"/>
+        <l0:hasTopic rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Barocco"/>
+        <l0:hasTopic rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Rinascimento"/>
+        <rdfs:comment>Descrizione artistica
+[text to be added]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_di_S._Maria_ai_Monti_desc_Rituals -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_di_S._Maria_ai_Monti_desc_Rituals">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Cultural_Property_Description"/>
+        <l0:hasTopic rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Cristianesimo_cattolico"/>
+        <l0:hasTopic rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#rito_romano"/>
+        <rdfs:comment>Descrizione Rituali
+[text to be added]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_di_S._Prudenziana_desc_Architecture -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_di_S._Prudenziana_desc_Architecture">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Cultural_Property_Description"/>
+        <l0:hasTopic rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Architettura_Paleocristiana"/>
+        <rdfs:comment>Descrizione archietettura</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_di_S._Prudenziana_desc_Art -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_di_S._Prudenziana_desc_Art">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Cultural_Property_Description"/>
+        <l0:hasTopic rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Barocco"/>
+        <l0:hasTopic rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Rinascimento"/>
+        <rdfs:comment>Descrizione artistica
+
+[text to be added]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_di_S._Prudenziana_desc_Rituals -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_di_S._Prudenziana_desc_Rituals">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Cultural_Property_Description"/>
+        <l0:hasTopic rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Cristianesimo_cattolico"/>
+        <l0:hasTopic rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#rito_romano"/>
+        <rdfs:comment>Descrizione rituali 
+[text to be added]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_di_S._Pudenziana -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_di_S._Pudenziana">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa"/>
+        <core:isPartOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Rione_Monti"/>
+        <l0:hasDescription rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_di_S._Prudenziana_desc_Architecture"/>
+        <l0:hasDescription rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_di_S._Prudenziana_desc_Art"/>
+        <l0:hasDescription rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_di_S._Prudenziana_desc_Rituals"/>
+        <hermes:accessibility_elderly rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_elderly>
+        <hermes:accessibility_groups rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_groups>
+        <hermes:accessibility_hearing_disability rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</hermes:accessibility_hearing_disability>
+        <hermes:accessibility_motor_disability rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</hermes:accessibility_motor_disability>
+        <hermes:accessibility_visual_disability rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</hermes:accessibility_visual_disability>
+        <hermes:phone rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">064814622</hermes:phone>
+        <hermes:visitability>Free</hermes:visitability>
+        <hermes:visiting_price>Free</hermes:visiting_price>
+        <hermes:visiting_time rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.30</hermes:visiting_time>
+        <context-description:address>via Urbana 160</context-description:address>
+        <location:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.8971752</location:lat>
+        <location:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.4949028</location:long>
+        <dc:description xml:lang="it">Fondata secondo la tradizione da Pudenziana, sorella di Prassede, nella casa del padre, il senatore Pudente, che aveva ospitato S. Pietro. In realtà l&apos;edificio sorse, come «titulus Pudentis» (da cui per corruzione Pudenziana), all&apos;interno di una casa romana dove nel sec. II fu eretto un impianto termale; un&apos;aula di questo fu trasformata a fine IV in basilica a tre navate, restaurata da Adriano I e Gregorio VII, e rimaneggiata a fine &apos;500. A sinistra si leva l&apos;alto campanile romanico a cinque ordini (gli ultimi tre a trifore su colonne), che si fa risalire ai primi del sec. XIII; la facciata venne rifatta da Antonio Manno nel 1870. Precede il portale, con motivo a intreccio rilavorato nell&apos;800, un protiro, rimaneggiamento cinquecentesco di elementi medievali: due colonne a scanalatura elicoidale reggono la trabeazione con *fregio a motivi vegetali (sec. XI; restauro sec. XIX), in origine cornice del portale; nei medaglioni, partendo da sin., Pastore, Pudenziana, Agnello mistico, Prassede e Pudente.
+L&apos;interno, originariamente a tre navate divise da sei colonne antiche per lato, è stato trasformato nel 1588, per volere del cardinale Enrico Caetani, da Francesco da Volterra in navata unica murando le prime tre arcate di d. e di sin. e rimettendo in luce le colonne di marmo bigio inglobate in pilastri di rinforzo forse nel sec. VIII; il restauro del 1927 ha lasciato in vista sopra le arcate la muratura antica. 1ª cappella d.: sulla controfacciata, S. Agostino di Giacinto Gimignani. 2ª: Madonna della Clemenza (fine sec. XVI); ai lati, Natività di Maria e Presepe, tele di Lazzaro Baldi. Nel corridoio di accesso alla sagrestia (nella volta, Conversione di S. Guglielmo d&apos;Aquitania attribuita al Domenichino, 1625), Assunzione di Ludovico Gimignani. Presbiterio. La cupola, opera del da Volterra, fu affrescata (Paradiso) da Nicolò Circignani. Sull&apos;altare maggiore, di forme neoclassiche, Gloria di S. Pudenziana di Bernardino Nocchi (1803; suoi i Ss. Novato e Timoteo ai lati). Nell&apos;abside, *mosaico (Cristo in trono, con un libro aperto in mano, circondato dagli apostoli e dalle Ss. Pudenziana e Prassede offerenti corone; sullo sfondo, la Croce, la Rappresentazione simbolica di Gerusalemme e, in cielo, i simboli degli evangelisti) di inizi sec. V, malamente ritagliato nelle zone periferiche in seguito al rimodernamento cinquecentesco. A sinistra del presbiterio, nella cappella in fondo (di S. Pietro), Consegna delle chiavi, gruppo marmoreo di G.B. Della Porta (1596). Presso l&apos;ultima arcata sin. si sale all&apos;Oratorio mariano (lungo la scala, stemma Caetani), che ospita i bolli doliari recuperati negli scavi e affreschi (sull&apos;altare, Madonna con Bambino in trono tra le Ss. Pudenziana e Prassede; a sin., Predicazione di S. Paolo, Battesimo di Novato e Timoteo; sul lato opposto, frammentari, i Ss. Valeriano, Tiburzio e papa Urbano; nella volta, Agnello e i simboli degli evangelisti) databili al 1073-85; a d. dell&apos;altare, Crocifisso, affresco del sec. XVI; il pavimento riutilizza materiali antichi. Sul fianco sin. della navata si apre la cappella Caetani, iniziata dal da Volterra e terminata da Carlo Maderno, trasformazione della cappella di S. Pastore ritenuta il primo luogo di culto della domus di Pudente: i marmi policromi sono del Della Porta, gli stucchi del Valsoldo; nella volta, negli sguinci delle finestre e sulla parete di controfacciata, mosaici di Paolo Rossetti su disegno di Federico Zuccari; all&apos;altare, Adorazione dei Magi, rilievo di Pietro Paolo Olivieri (c. 1599) terminato da Camillo Mariani; ai lati, monumenti funebri del cardinale Enrico (m. 1599) e del duca Filippo Caetani (m. 1614) del Maderno, con angeli reggistemma del Mariani; nelle nicchie, statue delle Virtù cardinali di Giovanni Antonio Mari e altri berniniani (c. 1650).</dc:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_di_S._Salvatore_ai_Monti -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_di_S._Salvatore_ai_Monti">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa"/>
+        <core:isPartOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Rione_Monti"/>
+        <l0:hasDescription rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_di_S._Salvatore_ai_Monti_desc_Barocco"/>
+        <l0:hasDescription rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_di_S._Salvatore_ai_Monti_desc_Rituals"/>
+        <hermes:accessibility_elderly rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_elderly>
+        <hermes:accessibility_groups rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_groups>
+        <hermes:accessibility_hearing_disability rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_hearing_disability>
+        <hermes:accessibility_motor_disability rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</hermes:accessibility_motor_disability>
+        <hermes:accessibility_visual_disability rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_visual_disability>
+        <hermes:visitability>Free</hermes:visitability>
+        <hermes:visiting_price>Free</hermes:visiting_price>
+        <hermes:visiting_time rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.45</hermes:visiting_time>
+        <context-description:address>via della Madonna dei Monti fra il civico 38 e il civico 39</context-description:address>
+        <terms:description xml:lang="it">La Chiesa risale all’XI secolo, come riportato su un’antica epigrafe nella quale si ricordava la dedica di papa Clemente II alla chiesa allora denominata “S.Andrea”. La chiesa, distrutta completamente dai lanzichenecchi durante il Sacco di Roma del 1527, fu ricostruita durante il pontificato di Urbano VIII tra il 1630 ed il 1635 su progetto di Gaspare de Vecchi e collegata con l’adiacente Collegio dei Neofiti. 
+Rinnovata dalle fondamenta e ricondotta ad una forma più elegante nell’anno 1762,  fu poi restaurata nel 1904. Dal 2013, la chiesa è stata affidata alla comunità georgiana di Roma, ed è sede della parrocchia di Sant&apos;Andrea Apostolo della diocesi dell&apos;Europa Occidentale del Patriarcato Ortodosso Autocefale Georgiano.</terms:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_di_S._Salvatore_ai_Monti_desc_Barocco -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_di_S._Salvatore_ai_Monti_desc_Barocco">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Cultural_Property_Description"/>
+        <l0:hasTopic rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Barocco"/>
+        <rdfs:comment>Descrizione Barocco</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_di_S._Salvatore_ai_Monti_desc_Rituals -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_di_S._Salvatore_ai_Monti_desc_Rituals">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Cultural_Property_Description"/>
+        <l0:hasTopic rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Cristianesimo_ortodosso"/>
+        <l0:hasTopic rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#rito_bizantino"/>
+        <rdfs:comment>Descrizione Rituali
+
+[text to be added]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_nazionale_ucraina_dei_Ss._Sergio_e_Bacco -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_nazionale_ucraina_dei_Ss._Sergio_e_Bacco">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa"/>
+        <core:isPartOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Rione_Monti"/>
+        <l0:hasDescription rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_nazionale_ucraina_desc_Architecture"/>
+        <l0:hasDescription rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_nazionale_ucraina_desc_Barocco"/>
+        <l0:hasDescription rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_nazionale_ucraina_desc_Rituals"/>
+        <hermes:accessibility_elderly rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_elderly>
+        <hermes:accessibility_groups rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_groups>
+        <hermes:accessibility_hearing_disability rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_hearing_disability>
+        <hermes:accessibility_motor_disability rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_motor_disability>
+        <hermes:accessibility_visual_disability rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</hermes:accessibility_visual_disability>
+        <hermes:visitability>Prenotazione obbligatoria</hermes:visitability>
+        <hermes:visiting_price>Free</hermes:visiting_price>
+        <hermes:visiting_time rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.00</hermes:visiting_time>
+        <hermes:website>www.turismoroma.it</hermes:website>
+        <context-description:address>piazza della Madonna dei Monti</context-description:address>
+        <location:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.8950838</location:lat>
+        <location:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.4886643</location:long>
+        <terms:description xml:lang="it">Sergio e Bacco erano due ufficiali dell’esercito romano che subirono il martirio sotto l’imperatore Massimiano nel IV secolo: il loro culto si diffuse rapidamente in tutto l’Impero. Proprio del IX secolo è la prima menzione della chiesa, poi nuovamente ricordata due secoli dopo nelle bolle di Gregorio VI e Gregorio VII come monastero di San Sergio in Suburra. Ricostruita dopo il Sacco di Roma nel 1527, la chiesa fu restaurata di nuovo nella prima metà del Seicento a spese del cardinale Antonio Barberini, il cui nome è inciso in un’iscrizione commemorativa sopra il portico della chiesa. Il cardinale era fratello del pontefice Urbano VIII, che assegnò il complesso ai Monaci Ruteni di San Basilio (di rito orientale e della provincia ecclesiastica di Kiev) che tuttora la amministrano. Nel 1718, sotto l’intonaco della sacrestia fu ritrovato un affresco della Madonna: ritenuta miracolosa, l’immagine fu posta sull’altare maggiore, dove è ancora oggi, e la chiesa fu chiamata dal popolo “Madonna del Pascolo”. Fu proprio in seguito a questa scoperta che nel 1741 alcuni fedeli finanziarono la ricostruzione della chiesa su progetto di Francesco Ferrari. La chiesa subì altre modifiche alla fine del Settecento e poi nel 1896. Dal 1961, è una delle tre chiese nazionali degli Ucraini di Roma</terms:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_nazionale_ucraina_desc_Architecture -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_nazionale_ucraina_desc_Architecture">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Cultural_Property_Description"/>
+        <l0:hasTopic rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Architettura_Neoclassica"/>
+        <rdfs:comment>Descrizione architettura</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_nazionale_ucraina_desc_Barocco -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_nazionale_ucraina_desc_Barocco">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Cultural_Property_Description"/>
+        <l0:hasTopic rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Barocco"/>
+        <rdfs:comment>Descrizione Barocco</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_nazionale_ucraina_desc_Rituals -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa_nazionale_ucraina_desc_Rituals">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Cultural_Property_Description"/>
+        <l0:hasTopic rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Cristianesimo_cattolico"/>
+        <l0:hasTopic rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#rito_bizantino"/>
+        <rdfs:comment>Descrizione Rituali 
+
+[ text to be added ]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Cristianesimo_cattolico -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Cristianesimo_cattolico">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#ReligiousRitual"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Cristianesimo_ortodosso -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Cristianesimo_ortodosso">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#ReligiousRitual"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Eta_antica -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Eta_antica">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Archeology"/>
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#History"/>
+        <terms:description>L&apos;Età antica iniziò verso il 3500 a.C., con la scrittura, e si concluse nel 476 d.C, con la caduta dell&apos;Impero romano d&apos;Occidente.</terms:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Fisici_italiani -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Fisici_italiani">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Physics"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Fontana_dei_Catcumeni_desc_Architecture -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Fontana_dei_Catcumeni_desc_Architecture">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Cultural_Property_Description"/>
+        <l0:hasTopic rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Barocco"/>
+        <rdfs:comment>Architectural Description
+
+[text to be added]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Fontana_dei_Catecumeni -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Fontana_dei_Catecumeni">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Fontana"/>
+        <core:hasLocation rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Metro_Cavour"/>
+        <l0:hasDescription rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Fontana_dei_Catcumeni_desc_Architecture"/>
+        <hermes:accessibility_elderly rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_elderly>
+        <hermes:accessibility_groups rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_groups>
+        <hermes:accessibility_hearing_disability rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_hearing_disability>
+        <hermes:accessibility_motor_disability rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_motor_disability>
+        <hermes:accessibility_visual_disability rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</hermes:accessibility_visual_disability>
+        <hermes:visitability>Free</hermes:visitability>
+        <hermes:visiting_price>Free</hermes:visiting_price>
+        <hermes:visiting_time rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.20</hermes:visiting_time>
+        <hermes:website>www.turismoroma.it</hermes:website>
+        <context-description:address>piazza della Madonna dei Monti</context-description:address>
+        <terms:description xml:lang="it">Così chiamata per la vicinanza con il seicentesco Collegio dei Neofiti o Catecumeni, la fontana che abbellisce piazza della Madonna dei Monti e che è oggi uno dei principali punti di ritrovo del rione fu disegnata da Giacomo Della Porta su commissione di papa Sisto V, nell’ambito del programma di riqualificazione della città da lui promosso. A occuparsi della sua costruzione fu, tra il 1588 e il 1589, lo scalpellino Battista Rusconi mentre la sistemazione della scalinata, che ha anche la funzione di compensare il dislivello della piazza, si deve all’intervento di Girolamo de Rossi, di poco successivo.
+Ispirata al modello della fontana di Santa Maria in Trastevere, anche se con un numero minore di motivi ornamentali, la fontana è costituita da una vasca in travertino di forma ottagonale, poggiata su una base a quattro gradini e decorata con lo stemma di Sisto V e del Comune, a testimonianza del contributo dell’amministrazione civica. Al centro, due balaustri sostengono due catini; da quello superiore, decorato con maschere e festoni e sovrastato dai monti sistini, zampilla l’acqua che si riversa in quello inferiore e da questo, attraverso quattro protomi leonine, ricade nella vasca ottagonale.
+Si racconta che il maestro Ottorino Respighi cercasse ispirazione sostando proprio davanti a questa fontana per la composizione del suo poema sinfonico Le Fontane di Roma</terms:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Medioevo -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Medioevo">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#History"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Metro_Cavour -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Metro_Cavour">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#MetroB"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Novecento -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Novecento">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#History"/>
+        <dc:description>Periodo storico : 1900 - 1999</dc:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Palazzo_del_Collegio_dei_Neofiti_desc_Architecture -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Palazzo_del_Collegio_dei_Neofiti_desc_Architecture">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Cultural_Property_Description"/>
+        <l0:hasTopic rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Barocco"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Palazzo_del_Collegio_dei_Neofiti_e_Catecumeni -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Palazzo_del_Collegio_dei_Neofiti_e_Catecumeni">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Palazzo"/>
+        <core:isPartOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Rione_Monti"/>
+        <l0:hasDescription rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Palazzo_del_Collegio_dei_Neofiti_desc_Architecture"/>
+        <hermes:accessibility_elderly rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_elderly>
+        <hermes:accessibility_groups rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_groups>
+        <hermes:accessibility_hearing_disability rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_hearing_disability>
+        <hermes:accessibility_motor_disability rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</hermes:accessibility_motor_disability>
+        <hermes:accessibility_visual_disability rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_visual_disability>
+        <hermes:visitability>Prenotazione obbligatoria</hermes:visitability>
+        <hermes:visiting_price>10 euro</hermes:visiting_price>
+        <hermes:visiting_time rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.00</hermes:visiting_time>
+        <context-description:address>via della Madonna dei Monti 40</context-description:address>
+        <terms:description xml:lang="it">Palazzo barocco del 1637, opera di C. Gaspare De Vecchi, in cui aveva sede l&apos;Istituto dei Catecumeni e dei Neofiti. Il Collegio fu un seminario cattolico istituito nel 1577 a Roma da Papa Gregorio XIII, un istituto che  ospitava coloro che si erano convertiti, dall&apos;ebraismo e dall&apos;islam, al cattolicesimo (neofiti) e che ricevevano la dottrina cristiana per poi essere ammessi al battesimo (catecumeni).Fondato su una precedente istituzione creata da Ignazio di Loyola, venne chiuso nel 1886. Oggi ospita il Dipartimento di Architettura dell&apos;Università di Roma 3</terms:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Piazza_della_Suburra -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Piazza_della_Suburra">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#InfrastructuralProperty"/>
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Square"/>
+        <core:isPartOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Rione_Monti"/>
+        <l0:hasDescription rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Piazza_della_Suburra_desc_History"/>
+        <hermes:accessibility_elderly rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_elderly>
+        <hermes:accessibility_groups rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_groups>
+        <hermes:accessibility_hearing_disability rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_hearing_disability>
+        <hermes:accessibility_motor_disability rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_motor_disability>
+        <hermes:accessibility_visual_disability rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_visual_disability>
+        <hermes:visitability>Free</hermes:visitability>
+        <hermes:visiting_price>Free</hermes:visiting_price>
+        <hermes:visiting_time rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.30</hermes:visiting_time>
+        <context-description:address>piazza della Suburra</context-description:address>
+        <location:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.8948795</location:lat>
+        <location:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.491439</location:long>
+        <terms:description xml:lang="it">Sin dall’antichità uno dei nodi del sistema viario della zona che qui si biforcava per salire sull’Esquilino evitando la prominenza del Cispio; con l’apertura di via Cavour tale funzione è passata al vicino largo Visconti Venosta e la piazza, già infossata dalla nuova viabilità, è stata deturpata da costruzioni recenti (a d., su un angolo, iscrizioni e bassorilievi di fine ’400 dalla distrutta chiesetta di S. Salvatore ad Tres Imagines).</terms:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Piazza_della_Suburra_desc_History -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Piazza_della_Suburra_desc_History">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Cultural_Property_Description"/>
+        <l0:hasTopic rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Eta_antica"/>
+        <rdfs:comment>Descrizione Storica</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Rinascimento -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Rinascimento">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#ArchitectureStyle"/>
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#PaintingStyle"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Rione_Monti -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Rione_Monti">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#UnitaTerritoriale"/>
+        <core:hasLocation rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Metro_Cavour"/>
+        <rdfs:isDefinedBy>Silvia</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Rituali -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Rituali">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#ReligiousRitual"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Torre_dei_Conti -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Torre_dei_Conti">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Fortificazione"/>
+        <core:isPartOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Rione_Monti"/>
+        <l0:hasDescription rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Torre_dei_Conti_desc._Architecture"/>
+        <l0:hasDescription rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Torre_dei_Conti_desc._History"/>
+        <hermes:accessibility_elderly rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_elderly>
+        <hermes:accessibility_groups rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_groups>
+        <hermes:accessibility_hearing_disability rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_hearing_disability>
+        <hermes:accessibility_motor_disability rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</hermes:accessibility_motor_disability>
+        <hermes:accessibility_visual_disability rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</hermes:accessibility_visual_disability>
+        <hermes:visitability>Free</hermes:visitability>
+        <hermes:visiting_price>5 euro</hermes:visiting_price>
+        <hermes:visiting_time rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.45</hermes:visiting_time>
+        <context-description:address>via Cavour</context-description:address>
+        <location:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.89368427</location:lat>
+        <location:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.48794675</location:long>
+        <dc:description xml:lang="en">Erected in 1203 by Innocent III as part of a fortified enclosure, incorporating an exedra of the Forum of Peace into its base, and isolated in 1934-37, it originally had two upper recessed bodies, one demolished in the 1348 earthquake, the other partly demolished and partly collapsed in the 17th century; the preserved brick structures rest on a scarp plinth with alternating bands of flint and marble.</dc:description>
+        <dc:description xml:lang="it">Eretta nel 1203 da Innocenzo III, come parte di un recinto fortificato, inglobando nella base un’esedra del Foro della Pace e isolata nel 1934-37, presentava in origine due corpi rientranti superiori, uno abbattuto dal terremoto del 1348, l’altro in parte demolito e in parte crollato nel ’600; le strutture in laterizio conservatesi poggiano su uno zoccolo a scarpa con fasce alternate di selce e marmo.</dc:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Torre_dei_Conti_desc._Architecture -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Torre_dei_Conti_desc._Architecture">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Cultural_Property_Description"/>
+        <l0:hasTopic rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Architettura_Medievale"/>
+        <core:description>Desc Architettonica Torre Dei conti</core:description>
+        <rdfs:comment>Descrizione Architettonica</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Torre_dei_Conti_desc._History -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Torre_dei_Conti_desc._History">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Cultural_Property_Description"/>
+        <l0:hasTopic rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Medioevo"/>
+        <core:description>Descr. Storica Torre dei conti</core:description>
+        <rdfs:comment>Descrizione Storica</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Via_Panisperna -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Via_Panisperna">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#InfrastructuralProperty"/>
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Street"/>
+        <core:isPartOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Rione_Monti"/>
+        <l0:hasDescription rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Via_Panisperna_Desc._History"/>
+        <l0:hasDescription rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Via_Panisperna_Descr._Science"/>
+        <hermes:accessibility_elderly rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_elderly>
+        <hermes:accessibility_groups rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_groups>
+        <hermes:accessibility_hearing_disability rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</hermes:accessibility_hearing_disability>
+        <hermes:accessibility_motor_disability rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_motor_disability>
+        <hermes:accessibility_visual_disability rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_visual_disability>
+        <hermes:visitability>Free</hermes:visitability>
+        <hermes:visiting_price>Free</hermes:visiting_price>
+        <hermes:visiting_time rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.30</hermes:visiting_time>
+        <context-description:address>Via Panisperna</context-description:address>
+        <location:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.8963815</location:lat>
+        <location:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.488452</location:long>
+        <dc:description xml:lang="it">Venne tracciata da Sisto V per collegare S. Maria Maggiore a piazza Venezia; la strada rivela l’origine cinquecentesca nell’andamento rettilineo che, indifferente all’orografia, fa un doppio saliscendi tra Esquilino, Viminale e Quirinale e presenta oggi, nel tratto intermedio, un vivace carattere popolare. Lasciata a d. via Balbo, prevista dal piano regolatore del 1883 ma completata a inizi ’900 e delimitata a sin. dal muraglione del Viminale, si costeggia a sin. (N. 198) il palazzo Cimarra, iniziato nel 1736, con facciate articolate da cornici e paraste angolari. Sul lato opposto, in alto, è la chiesa di S. Lorenzo in Panisperna.</dc:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Via_Panisperna_Desc._History -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Via_Panisperna_Desc._History">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Cultural_Property_Description"/>
+        <l0:hasTopic rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Novecento"/>
+        <core:description>Ci sono varie interpretazioni sulle origini del nome di via Panisperna. Era abitudine dei frati della Basilica di S. Lorenzo distribuire pane et perna, cioè panini al prosciutto, ai poveri della zona. Un altra versione vuole che sia la fusione tra i nomi di due famiglie della zona, i Pane ed i Perna.
+
+Ragazzi di via Panisperna è l&apos;appellativo del gruppo di scienziati italiani quasi tutti molto giovani, con a capo Enrico Fermi, che negli anni trenta del Novecento operò presso il Regio istituto di fisica dell&apos;Università di Roma allora ubicato in via Panisperna n. 90,[1] producendo studi di importanza storica nell&apos;ambito della fisica nucleare.</core:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Via_Panisperna_Descr._Science -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Via_Panisperna_Descr._Science">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Cultural_Property_Description"/>
+        <l0:hasTopic rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Fisici_italiani"/>
+        <core:description>Ragazzi di via Panisperna è l&apos;appellativo del gruppo di scienziati italiani, con a capo Enrico Fermi, che negli anni trenta del Novecento operò presso il Regio istituto di fisica dell&apos;Università di Roma allora ubicato in via Panisperna n. 90, producendo studi di importanza storica nell&apos;ambito della fisica nucleare.
+
+La principale scoperta del gruppo fu, nel 1934, la proprietà dei neutroni lenti, che portò al premio Nobel per Fermi e diede avvio alla realizzazione del primo reattore nucleare e successivamente della bomba atomica.</core:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Via_della_Madonna_dei_Monti -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Via_della_Madonna_dei_Monti">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#InfrastructuralProperty"/>
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Street"/>
+        <core:isPartOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Rione_Monti"/>
+        <l0:hasDescription rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Via_della_Madonna_dei_Monti_desc_History"/>
+        <hermes:accessibility_elderly rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_elderly>
+        <hermes:accessibility_groups rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_groups>
+        <hermes:accessibility_hearing_disability rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_hearing_disability>
+        <hermes:accessibility_motor_disability rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_motor_disability>
+        <hermes:accessibility_visual_disability rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</hermes:accessibility_visual_disability>
+        <hermes:visitability>Free</hermes:visitability>
+        <hermes:visiting_price>Free</hermes:visiting_price>
+        <hermes:visiting_time rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.30</hermes:visiting_time>
+        <dc:description xml:lang="it">La via corrisponde in parte all&apos;antico tracciato dell&apos;Argiletu, un&apos;antica strada di Roma, che percorreva il quartiere popolare della Suburra fino al Foro romano. All&apos;altezza di piazza della Suburra si sdoppiava poi in due diverse strade: il Vicus Patricius (l&apos;attuale Via Urbana) ed il Vicus Suburbanus (l&apos;attuale Via in Selci).  
+L&apos;Argiletum era  famosa per ospitare molte botteghe di librai e si trova citato da molti autori antichi, come per esempio Orazio, Marziale e Seneca, che hanno tramandato anche i nomi dei loro fornitori di fiducia.
+Il nome potrebbe derivare dall&apos;argilla proveniente dalla confluenza delle acque che scendevano dai colli circostanti, convogliati poi nella Cloaca Massima.</dc:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Via_della_Madonna_dei_Monti_desc_History -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Via_della_Madonna_dei_Monti_desc_History">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Cultural_Property_Description"/>
+        <l0:hasTopic rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Eta_antica"/>
+        <rdfs:comment>Descrizione storica</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#rito_bizantino -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#rito_bizantino">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#ReligiousRitual"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#rito_romano -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#rito_romano">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#ReligiousRitual"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
