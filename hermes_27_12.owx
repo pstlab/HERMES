@@ -1,0 +1,1254 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes"
+     versionIRI="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes/1.0.0">
+    <Prefix name="" IRI="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes/"/>
+    <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="opla" IRI="http://ontologydesignpatterns.org/opla/"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="opla1" IRI="http://www.ontologydesignpatterns.org/opla/"/>
+    <Prefix name="terms" IRI="http://purl.org/dc/terms/"/>
+    <Prefix name="catalogue" IRI="https://w3id.org/arco/ontology/catalogue/"/>
+    <Import>https://w3id.org/arco/ontology/arco/1.2</Import>
+    <Declaration>
+        <Class IRI="#AbstractActor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Allegoric"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Archeology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Architecture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ArchitectureStyle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ArchitectureType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Art"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Artist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ArtisticMovement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Astronomy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BusLine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chemistry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cinema"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CinemaActor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CinemaDirector"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CinemaPlace"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ComplessoMonumentale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ComplessoTopografico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CulturalEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CulturalMovement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CulturalPropertyDescription"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CulturalTradition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Divinity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Enogastronomy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Farm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Festivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Food"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Garden"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gods"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HistoricalActor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HistoricalEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#History"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InfrastructuralProperty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Legend"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Literature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Location_Infrastructure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mathematics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Medicine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MetroA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MetroB"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MetroC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MetroLine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mountain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Musicist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NaturalPlace"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ninfeo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pagan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Painting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PaintingArtist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PaintingStyle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Park"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Photography"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Physics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Politic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PoliticalAct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PoliticalActor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PoliticalEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PoliticalMovement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Politician"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Popular"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Proverbs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Psychology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RecurrentEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Religion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Religious"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ReligiousActor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ReligiousPlace"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ReligiousRitual"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ReligiusEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Residenza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rituals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Saints"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Science"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Scientist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Social"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SocialActor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SocialEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SocialExperience"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SocialMovement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SocialProperty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SocialTradition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Square"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Street"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Technology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Train"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tram"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnitaMonumentale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnitaTerritoriale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnitaTopografica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Waterfall"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zoo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#connect"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCorrelatedWith"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#accessibility"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#accessibility_elderly"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#accessibility_groups"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#accessibility_hearing_disability"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#accessibility_motor_disability"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#accessibility_visual_disability"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#email"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#opening_hours"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#phone"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#visitability"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#visiting_information"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#visiting_price"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#visiting_time"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#website"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AuditoriumDiMecenate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AuditoriumDiMecenateDescription"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HortiLamiani"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HortiLamianiDescription"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MetroVittorioEmanuele"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NinfeoFontanaMonumentale"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RioneMonti"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="terms:description"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="https://w3id.org/italia/onto/ADMS/hasContributor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RioneEsquilino"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MetroCavour"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#AbstractActor"/>
+        <Class IRI="#SocialActor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Allegoric"/>
+        <Class IRI="#AbstractActor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Archeology"/>
+        <Class IRI="https://w3id.org/arco/ontology/context-description/CulturalScope"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Architecture"/>
+        <Class IRI="https://w3id.org/arco/ontology/context-description/CulturalScope"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArchitectureStyle"/>
+        <Class IRI="#Architecture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArchitectureType"/>
+        <Class IRI="#Architecture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Art"/>
+        <Class IRI="https://w3id.org/arco/ontology/context-description/CulturalScope"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Artist"/>
+        <Class IRI="#HistoricalActor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArtisticMovement"/>
+        <Class IRI="#CulturalMovement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Astronomy"/>
+        <Class IRI="#Science"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BusLine"/>
+        <Class IRI="#Location_Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chemistry"/>
+        <Class IRI="#Science"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cinema"/>
+        <Class IRI="#Art"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CinemaActor"/>
+        <Class IRI="#Cinema"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CinemaDirector"/>
+        <Class IRI="#Cinema"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CinemaPlace"/>
+        <Class IRI="#Cinema"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ComplessoMonumentale"/>
+        <Class IRI="https://w3id.org/arco/ontology/arco/ArchaeologicalProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ComplessoMonumentale"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="https://w3id.org/arco/ontology/core/hasPart"/>
+            <Class IRI="https://w3id.org/arco/ontology/arco/MovableCulturalProperty"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ComplessoMonumentale"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="https://w3id.org/arco/ontology/core/hasPart"/>
+            <Class IRI="#UnitaTerritoriale"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ComplessoMonumentale"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="https://w3id.org/arco/ontology/core/hasLocation"/>
+            <Class IRI="https://w3id.org/italia/onto/l0/Location"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ComplessoTopografico"/>
+        <Class IRI="#UnitaTerritoriale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ComplessoTopografico"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="https://w3id.org/arco/ontology/core/hasLocation"/>
+            <Class IRI="https://w3id.org/italia/onto/l0/Location"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ComplessoTopografico"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="https://w3id.org/arco/ontology/core/hasPart"/>
+            <Class IRI="#InfrastructuralProperty"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ComplessoTopografico"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="https://w3id.org/arco/ontology/core/hasPart"/>
+            <Class IRI="#UnitaTopografica"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CulturalEvent"/>
+        <Class IRI="https://w3id.org/arco/ontology/arco/IntangibleCulturalProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CulturalMovement"/>
+        <Class IRI="#CulturalTradition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CulturalPropertyDescription"/>
+        <Class IRI="https://w3id.org/italia/onto/l0/Description"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CulturalTradition"/>
+        <Class IRI="#SocialProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Divinity"/>
+        <Class IRI="#AbstractActor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Enogastronomy"/>
+        <Class IRI="https://w3id.org/arco/ontology/context-description/CulturalScope"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Farm"/>
+        <Class IRI="#NaturalPlace"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Festivity"/>
+        <Class IRI="#RecurrentEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Food"/>
+        <Class IRI="#CulturalTradition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Garden"/>
+        <Class IRI="#Nature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gods"/>
+        <Class IRI="#ReligiousActor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HistoricalActor"/>
+        <Class IRI="#SocialActor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HistoricalEvent"/>
+        <Class IRI="#CulturalEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#History"/>
+        <Class IRI="https://w3id.org/arco/ontology/context-description/CulturalScope"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InfrastructuralProperty"/>
+        <Class IRI="#UnitaTerritoriale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lake"/>
+        <Class IRI="#NaturalPlace"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Legend"/>
+        <Class IRI="#CulturalTradition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Literature"/>
+        <Class IRI="#Art"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Location_Infrastructure"/>
+        <Class IRI="https://w3id.org/italia/onto/l0/Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mathematics"/>
+        <Class IRI="#Science"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medicine"/>
+        <Class IRI="#Science"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MetroA"/>
+        <Class IRI="#MetroLine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MetroB"/>
+        <Class IRI="#MetroLine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MetroC"/>
+        <Class IRI="#MetroLine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MetroLine"/>
+        <Class IRI="#Location_Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mountain"/>
+        <Class IRI="#NaturalPlace"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Musicist"/>
+        <Class IRI="#HistoricalActor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NaturalPlace"/>
+        <Class IRI="#Nature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nature"/>
+        <Class IRI="https://w3id.org/arco/ontology/context-description/CulturalScope"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ninfeo"/>
+        <Class IRI="#UnitaMonumentale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pagan"/>
+        <Class IRI="#Rituals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Painting"/>
+        <Class IRI="#Art"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PaintingArtist"/>
+        <Class IRI="#Painting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PaintingStyle"/>
+        <Class IRI="#Painting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Park"/>
+        <Class IRI="#Nature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Photography"/>
+        <Class IRI="#Art"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Physics"/>
+        <Class IRI="#Science"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Politic"/>
+        <Class IRI="https://w3id.org/arco/ontology/context-description/CulturalScope"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PoliticalAct"/>
+        <Class IRI="#Politic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PoliticalActor"/>
+        <Class IRI="#Politic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PoliticalEvent"/>
+        <Class IRI="#HistoricalEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PoliticalMovement"/>
+        <Class IRI="#CulturalMovement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Politician"/>
+        <Class IRI="#HistoricalActor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Popular"/>
+        <Class IRI="#AbstractActor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Proverbs"/>
+        <Class IRI="#CulturalTradition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Psychology"/>
+        <Class IRI="#Science"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RecurrentEvent"/>
+        <Class IRI="#CulturalEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Religion"/>
+        <Class IRI="https://w3id.org/arco/ontology/context-description/CulturalScope"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Religious"/>
+        <Class IRI="#Rituals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ReligiousActor"/>
+        <Class IRI="#SocialActor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ReligiousPlace"/>
+        <Class IRI="#Religion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ReligiousRitual"/>
+        <Class IRI="#Religion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ReligiusEvent"/>
+        <Class IRI="#HistoricalEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Residenza"/>
+        <Class IRI="#UnitaMonumentale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rituals"/>
+        <Class IRI="#CulturalTradition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Saints"/>
+        <Class IRI="#ReligiousActor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Science"/>
+        <Class IRI="https://w3id.org/arco/ontology/context-description/CulturalScope"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Scientist"/>
+        <Class IRI="#HistoricalActor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Social"/>
+        <Class IRI="https://w3id.org/arco/ontology/context-description/CulturalScope"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SocialActor"/>
+        <Class IRI="#SocialProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SocialEvent"/>
+        <Class IRI="#HistoricalEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SocialExperience"/>
+        <Class IRI="#Social"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SocialMovement"/>
+        <Class IRI="#CulturalMovement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SocialProperty"/>
+        <Class IRI="https://w3id.org/arco/ontology/arco/IntangibleCulturalProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SocialTradition"/>
+        <Class IRI="#Social"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Square"/>
+        <Class IRI="#Location_Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Street"/>
+        <Class IRI="#Location_Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Technology"/>
+        <Class IRI="#Science"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Train"/>
+        <Class IRI="#Location_Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tram"/>
+        <Class IRI="#Location_Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnitaMonumentale"/>
+        <Class IRI="https://w3id.org/arco/ontology/arco/ArchaeologicalProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnitaMonumentale"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="https://w3id.org/arco/ontology/core/hasPart"/>
+            <Class IRI="https://w3id.org/arco/ontology/arco/MovableCulturalProperty"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnitaMonumentale"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="https://w3id.org/arco/ontology/core/hasLocation"/>
+            <Class IRI="https://w3id.org/italia/onto/l0/Location"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnitaTerritoriale"/>
+        <Class IRI="https://w3id.org/arco/ontology/arco/ImmovableCulturalProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnitaTerritoriale"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="https://w3id.org/arco/ontology/core/hasLocation"/>
+            <Class IRI="https://w3id.org/italia/onto/l0/Location"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnitaTerritoriale"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="https://w3id.org/arco/ontology/core/hasPart"/>
+            <Class IRI="#ComplessoTopografico"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnitaTopografica"/>
+        <Class IRI="#ComplessoTopografico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnitaTopografica"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="https://w3id.org/arco/ontology/core/hasPart"/>
+            <Class IRI="#ComplessoMonumentale"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnitaTopografica"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="https://w3id.org/arco/ontology/core/hasPart"/>
+            <Class IRI="https://w3id.org/arco/ontology/arco/MovableCulturalProperty"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnitaTopografica"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="https://w3id.org/arco/ontology/core/hasLocation"/>
+            <Class IRI="https://w3id.org/italia/onto/l0/Location"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Waterfall"/>
+        <Class IRI="#NaturalPlace"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zoo"/>
+        <Class IRI="#NaturalPlace"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://w3id.org/arco/ontology/arco/CulturalProperty"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="https://w3id.org/arco/ontology/context-description/hasDocumentation"/>
+            <Class IRI="https://w3id.org/arco/ontology/context-description/Documentation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://w3id.org/arco/ontology/arco/CulturalProperty"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+            <Class IRI="https://w3id.org/arco/ontology/context-description/CulturalScope"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://w3id.org/arco/ontology/arco/CulturalProperty"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+            <Class IRI="https://w3id.org/italia/onto/l0/Description"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://w3id.org/arco/ontology/arco/IntangibleCulturalProperty"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCorrelatedWith"/>
+            <Class IRI="https://w3id.org/arco/ontology/arco/TangibleCulturalProperty"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Ninfeo"/>
+        <NamedIndividual IRI="#AuditoriumDiMecenate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CulturalPropertyDescription"/>
+        <NamedIndividual IRI="#AuditoriumDiMecenateDescription"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Residenza"/>
+        <NamedIndividual IRI="#HortiLamiani"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CulturalPropertyDescription"/>
+        <NamedIndividual IRI="#HortiLamianiDescription"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MetroB"/>
+        <NamedIndividual IRI="#MetroCavour"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MetroA"/>
+        <NamedIndividual IRI="#MetroVittorioEmanuele"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Archeology"/>
+        <NamedIndividual IRI="#NinfeoFontanaMonumentale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UnitaTerritoriale"/>
+        <NamedIndividual IRI="#RioneEsquilino"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UnitaTerritoriale"/>
+        <NamedIndividual IRI="#RioneMonti"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/arco/ontology/core/isPartOf"/>
+        <NamedIndividual IRI="#AuditoriumDiMecenate"/>
+        <NamedIndividual IRI="#RioneEsquilino"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#AuditoriumDiMecenate"/>
+        <NamedIndividual IRI="#AuditoriumDiMecenateDescription"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#AuditoriumDiMecenateDescription"/>
+        <NamedIndividual IRI="#NinfeoFontanaMonumentale"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/arco/ontology/core/isPartOf"/>
+        <NamedIndividual IRI="#HortiLamiani"/>
+        <NamedIndividual IRI="#RioneEsquilino"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#HortiLamiani"/>
+        <NamedIndividual IRI="#HortiLamianiDescription"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#HortiLamianiDescription"/>
+        <NamedIndividual IRI="#NinfeoFontanaMonumentale"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/arco/ontology/core/hasLocation"/>
+        <NamedIndividual IRI="#RioneEsquilino"/>
+        <NamedIndividual IRI="#MetroVittorioEmanuele"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/arco/ontology/core/hasLocation"/>
+        <NamedIndividual IRI="#RioneMonti"/>
+        <NamedIndividual IRI="#MetroCavour"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_elderly"/>
+        <NamedIndividual IRI="#AuditoriumDiMecenate"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_groups"/>
+        <NamedIndividual IRI="#AuditoriumDiMecenate"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#opening_hours"/>
+        <NamedIndividual IRI="#AuditoriumDiMecenate"/>
+        <Literal>da concordare</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visitability"/>
+        <NamedIndividual IRI="#AuditoriumDiMecenate"/>
+        <Literal>Solo gruppi con guida propria /per individuali v. calendario in: https://www.sovraintendenzaroma.it/content/modalit%C3%A0-di-accesso-e-prenotazione-ai-monumenti-del-territorio</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_price"/>
+        <NamedIndividual IRI="#AuditoriumDiMecenate"/>
+        <Literal>Intero: 6 Euro, Ridotto: 5 Euro</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_time"/>
+        <NamedIndividual IRI="#AuditoriumDiMecenate"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.45</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/context-description/address"/>
+        <NamedIndividual IRI="#AuditoriumDiMecenate"/>
+        <Literal>Largo Leopardi /via Merulana</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_elderly"/>
+        <NamedIndividual IRI="#HortiLamiani"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_groups"/>
+        <NamedIndividual IRI="#HortiLamiani"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#opening_hours"/>
+        <NamedIndividual IRI="#HortiLamiani"/>
+        <Literal>8.00 - 18.00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visitability"/>
+        <NamedIndividual IRI="#HortiLamiani"/>
+        <Literal>Su prenotazione</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_price"/>
+        <NamedIndividual IRI="#HortiLamiani"/>
+        <Literal>Intero: 10 Euro, Ridotto: 6 Euro</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_time"/>
+        <NamedIndividual IRI="#HortiLamiani"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2.00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/context-description/address"/>
+        <NamedIndividual IRI="#HortiLamiani"/>
+        <Literal>Piazza Vittorio Emanuele II, 78</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/context-description/synonym"/>
+        <NamedIndividual IRI="#HortiLamiani"/>
+        <Literal>Museo scavo Ninfeo</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="https://w3id.org/arco/ontology/cataloguing-campaign/hasApplication"/>
+        <ObjectProperty IRI="https://w3id.org/arco/ontology/context-description/hasAssociatedObject"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="https://w3id.org/arco/ontology/cultural-event/hasPreviousSituation"/>
+        <ObjectProperty abbreviatedIRI="catalogue:hasPreviousVersion"/>
+    </SubObjectPropertyOf>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#isCorrelatedWith"/>
+    </SymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#connect"/>
+    </AsymmetricObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#connect"/>
+        <Class IRI="#InfrastructuralProperty"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isCorrelatedWith"/>
+        <Class IRI="https://w3id.org/arco/ontology/arco/IntangibleCulturalProperty"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#connect"/>
+        <Class IRI="#UnitaMonumentale"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isCorrelatedWith"/>
+        <Class IRI="https://w3id.org/arco/ontology/arco/TangibleCulturalProperty"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#accessibility"/>
+        <DataProperty IRI="#visiting_information"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#accessibility_elderly"/>
+        <DataProperty IRI="#accessibility"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#accessibility_groups"/>
+        <DataProperty IRI="#accessibility"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#accessibility_hearing_disability"/>
+        <DataProperty IRI="#accessibility"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#accessibility_motor_disability"/>
+        <DataProperty IRI="#accessibility"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#accessibility_visual_disability"/>
+        <DataProperty IRI="#accessibility"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#email"/>
+        <DataProperty IRI="https://w3id.org/arco/ontology/context-description/contacts"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#opening_hours"/>
+        <DataProperty IRI="#visitability"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#phone"/>
+        <DataProperty IRI="https://w3id.org/arco/ontology/context-description/contacts"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#visitability"/>
+        <DataProperty IRI="#visiting_information"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#visiting_price"/>
+        <DataProperty IRI="#visiting_information"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#visiting_time"/>
+        <DataProperty IRI="#visiting_information"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#website"/>
+        <DataProperty IRI="https://w3id.org/arco/ontology/context-description/contacts"/>
+    </SubDataPropertyOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AuditoriumDiMecenate</IRI>
+        <Literal>Auditorium di Mecenate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AuditoriumDiMecenateDescription</IRI>
+        <Literal>Il monumento, tradizionalmente conosciuto come Auditorium di Mecenate ma in realtà antico ninfeo, è situato all&apos;interno del giardino pubblico in Largo Leopardi (lungo la via Merulana) e ancora ben conservato nel suo complesso; il suo ritrovamento è avvenuto nel 1874, nell&apos;ambito dei grandi lavori di scavo per la costruzione del nuovo quartiere Esquilino, subito dopo la proclamazione di Roma Capitale del Regno d&apos;Italia.
+L’edificio è oggi coperto da una moderna tettoia, mentre in antico aveva una copertura a volta. E&apos; costituito da un’ampia sala larga 13 e lunga 24 metri, con un’abside semicircolare sul fondo che presenta una gradinata costituita da sette stretti gradini concentrici. L’accesso, sul lato opposto alla gradinata, avveniva lateralmente mediante una doppia rampa di accesso in discesa, di cui si conserva oggi solo l’ultimo tratto. Questo ci conferma che la sala era in origine seminterrata, e questo costituiva anzi la sua principale caratteristica; l&apos;edificio doveva essere parte di un più vasto e lussuoso complesso residenziale fatto costruire da Mecenate, il celebre statista collaboratore di Augusto, eseguendo grandi lavori (come ricordano famosi versi di Orazio), in particolare la bonifica del sepolcreto che si estendeva subito fuori le Mura cd. Serviane (cui l’edificio si addossa) e il riempimento del fossato antistante le mura stesse.
+La caratteristica più evidente dell’edificio è tuttavia la decorazione pittorica, effettuata agli inizi del I secolo d.C., conservata sia nelle nicchie che sopra di esse, dove corre un lungo fregio su sfondo nero con scene dionisiache e giardini miniaturistici; raffigurazioni analoghe erano anche nelle nicchie che movimentano le pareti laterali e la parete curva di fondo, affrescate internamente come se fossero delle finestre, aperte su lussureggianti giardini ricchi di vasche e fontane, e animati da piccoli uccelli in volo.
+La gradinata che caratterizza la parete di fondo, dai gradini troppo stretti per far pensare ad una cavea teatrale (ipotesi che all’epoca della scoperta diede al monumento il suo attuale nome) è identificabile invece con una fontana monumentale. Questa sala, riccamente decorata e allietata da giochi d’acqua che accrescevano la frescura dell’ambiente già seminterrato, doveva essere destinata a “triclinio estivo”, cioè a luogo di riunioni conviviali e culturali. alcuni versi di un epigramma del poeta greco Callimaco, rinvenuti dipinti sull&apos;intonaco esterno dell&apos;abside, che alludono agli effetti del vino e dell&apos;amore, costituiscono un&apos;ulteriore prova dell&apos;utilizzo della sala come un cenacolo di intellettuali.
+Fonte: https://www.sovraintendenzaroma.it/i_luoghi/roma_antica/monumenti/auditorium_di_mecenate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AuditoriumDiMecenateDescription</IRI>
+        <Literal>Auditorium di Mecenate Description</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BusLine</IRI>
+        <Literal>Bus Line</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CulturalPropertyDescription</IRI>
+        <Literal>Descrizione tematica/topic based di un certo oggetto culturale.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CulturalPropertyDescription</IRI>
+        <Literal>Cultural Property Description</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#HortiLamiani</IRI>
+        <Literal>Horti Lamiani</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HortiLamianiDescription</IRI>
+        <Literal xml:lang="it">Lo spazio che si apre agli occhi del visitatore era occupato in età romana da un settore degli Horti Lamiani, una sontuosa residenza privata di età romana circondata da giardini lussureggianti. La residenza fu costruita dal console Lucio Elio Lamia all’inizio del I secolo d.C. e ben presto divenne di proprietà imperiale: molti imperatori, tra cui Claudio, Caligola, Severo Alessandro abitarono e modificarono questi spazi: ogni imperatore volle imprimere il proprio segno personalizzando la residenza.
+All’interno degli Horti secondo un modello ispirato ai palazzi reali dell’oriente ellenistico, si alternavano edifici decorati da marmi pregiati e statue a spazi verdi, tempietti, giardini, piazze e boschetti. Il lusso e la ricercatezza nella decorazioni conferiva a questi spazi un aspetto di magnificenza e sacralità, dove la presenza di animali selvatici e piante esotiche completava un paesaggio da sogno.
+Già alla metà del I secolo d.C. gli Horti Lamiani divennero proprietà dell’imperatore e mantennero la loro funzione di rappresentanza imperiale fino al IV secolo d.C., quando furono abbandonati.
+
+Fonte: https://www.museoninfeo.it/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#HortiLamianiDescription</IRI>
+        <Literal>Horti Lamiani Description</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#InfrastructuralProperty</IRI>
+        <Literal xml:lang="it">Tipo di unità territoriale caratterizzata da un&apos;infrastruttura urbana che è di per sé considerata un patrimonio culturale. Es. Vie o piazze</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Location_Infrastructure</IRI>
+        <Literal>Location Infrastructure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MetroA</IRI>
+        <Literal>Metro A</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MetroB</IRI>
+        <Literal>Metro B</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MetroC</IRI>
+        <Literal>Metro C</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MetroCavour</IRI>
+        <Literal>Metro Cavour</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MetroLine</IRI>
+        <Literal>Metro Line</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MetroVittorioEmanuele</IRI>
+        <Literal>Metro Vittorio Emanuele</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NinfeoFontanaMonumentale</IRI>
+        <Literal>Ninfeo / Fontana monumentale</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RioneEsquilino</IRI>
+        <Literal>Rione Esquilino</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RioneMonti</IRI>
+        <Literal>Rione Monti</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UnitaMonumentale</IRI>
+        <Literal xml:lang="it">Singolo oggetto di natura culturale, archeologica e tangibile.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UnitaTerritoriale</IRI>
+        <Literal xml:lang="it">Un&apos;area geografica con un significativo valore culturale.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="https://w3id.org/italia/onto/ADMS/hasContributor"/>
+        <IRI>#phone</IRI>
+        <Literal>Silvia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#visitability</IRI>
+        <Literal>Questa property descrive la visitabilita&apos; di un bene culturale. Es. Visitabile solo su prenotazione, visitabile solo esternamente etc.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#visiting_price</IRI>
+        <Literal>Questa property descrive il prezzo del biglietto di un bene culturale</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#visiting_time</IRI>
+        <Literal>Questa property descrive il tempo di visita minimo di un bene culturale.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="https://w3id.org/italia/onto/ADMS/hasContributor"/>
+        <IRI>#website</IRI>
+        <Literal>Silvia</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
