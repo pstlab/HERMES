@@ -56,6 +56,9 @@
         <Class IRI="#Chemistry"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Chiesa"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Cinema"/>
     </Declaration>
     <Declaration>
@@ -356,13 +359,37 @@
         <NamedIndividual IRI="#Botanica"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#ChiesaSAntonioAbate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ChiesaSAntonioAbateDescription"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ChiesaSEusebio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ChiesaSEusebioDescription"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#CimiteroSepolcreto"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#DomusRattiFontana"/>
+        <NamedIndividual IRI="#ColleEsquilino"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#DomusRattiFontanaDescrizione"/>
+        <NamedIndividual IRI="#ColleEsquilinoDescription"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ColleOppio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ColleOppioDescription"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DomusRitrattiFontana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DomusRitrattiFontanaDescription"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#DomusRomana"/>
@@ -401,6 +428,12 @@
         <NamedIndividual IRI="#Otium"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#PortaMagica"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PortaMagicaDescription"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#ResidenzaDiElena"/>
     </Declaration>
     <Declaration>
@@ -423,6 +456,12 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#SantaCroceInGerusalemme"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VillaPalombara"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VillaPalombaraDescription"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="terms:description"/>
@@ -477,6 +516,10 @@
     <SubClassOf>
         <Class IRI="#Chemistry"/>
         <Class IRI="#Science"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chiesa"/>
+        <Class IRI="#UnitaMonumentale"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Cinema"/>
@@ -934,19 +977,51 @@
         <NamedIndividual IRI="#Botanica"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Residenza"/>
-        <NamedIndividual IRI="#DomusRattiFontana"/>
+        <Class IRI="#Chiesa"/>
+        <NamedIndividual IRI="#ChiesaSAntonioAbate"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#CulturalPropertyDescription"/>
-        <NamedIndividual IRI="#DomusRattiFontanaDescrizione"/>
+        <NamedIndividual IRI="#ChiesaSAntonioAbateDescription"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chiesa"/>
+        <NamedIndividual IRI="#ChiesaSEusebio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CulturalPropertyDescription"/>
+        <NamedIndividual IRI="#ChiesaSEusebioDescription"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://w3id.org/arco/ontology/arco/ArchitecturalOrLandscapeHeritage"/>
+        <NamedIndividual IRI="#ColleEsquilino"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CulturalPropertyDescription"/>
+        <NamedIndividual IRI="#ColleEsquilinoDescription"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://w3id.org/arco/ontology/arco/ArchitecturalOrLandscapeHeritage"/>
+        <NamedIndividual IRI="#ColleOppio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CulturalPropertyDescription"/>
+        <NamedIndividual IRI="#ColleOppioDescription"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Residenza"/>
+        <NamedIndividual IRI="#DomusRitrattiFontana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CulturalPropertyDescription"/>
+        <NamedIndividual IRI="#DomusRitrattiFontanaDescription"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Archeology"/>
         <NamedIndividual IRI="#DomusRomana"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#UnitaTopografica"/>
+        <Class IRI="https://w3id.org/arco/ontology/arco/ArchitecturalOrLandscapeHeritage"/>
         <NamedIndividual IRI="#GiardinodiPiazzaVittorio"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -990,6 +1065,14 @@
         <NamedIndividual IRI="#Otium"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="https://w3id.org/arco/ontology/arco/ArchitecturalOrLandscapeHeritage"/>
+        <NamedIndividual IRI="#PortaMagica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CulturalPropertyDescription"/>
+        <NamedIndividual IRI="#PortaMagicaDescription"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Residenza"/>
         <NamedIndividual IRI="#ResidenzaDiElena"/>
     </ClassAssertion>
@@ -1009,6 +1092,14 @@
         <Class IRI="#ComplessoMonumentale"/>
         <NamedIndividual IRI="#SantaCroceInGerusalemme"/>
     </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Residenza"/>
+        <NamedIndividual IRI="#VillaPalombara"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CulturalPropertyDescription"/>
+        <NamedIndividual IRI="#VillaPalombaraDescription"/>
+    </ClassAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://w3id.org/arco/ontology/core/isPartOf"/>
         <NamedIndividual IRI="#AuditoriumDiMecenate"/>
@@ -1026,17 +1117,52 @@
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://w3id.org/arco/ontology/core/isPartOf"/>
-        <NamedIndividual IRI="#DomusRattiFontana"/>
+        <NamedIndividual IRI="#ChiesaSAntonioAbate"/>
+        <NamedIndividual IRI="#RioneEsquilino"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#ChiesaSAntonioAbate"/>
+        <NamedIndividual IRI="#ChiesaSAntonioAbateDescription"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/arco/ontology/core/isPartOf"/>
+        <NamedIndividual IRI="#ChiesaSEusebio"/>
+        <NamedIndividual IRI="#RioneEsquilino"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#ChiesaSEusebio"/>
+        <NamedIndividual IRI="#ChiesaSEusebioDescription"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/arco/ontology/core/isPartOf"/>
+        <NamedIndividual IRI="#ColleEsquilino"/>
+        <NamedIndividual IRI="#RioneEsquilino"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/arco/ontology/core/isPartOf"/>
+        <NamedIndividual IRI="#ColleOppio"/>
+        <NamedIndividual IRI="#RioneMonti"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#ColleOppio"/>
+        <NamedIndividual IRI="#ColleOppioDescription"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/arco/ontology/core/isPartOf"/>
+        <NamedIndividual IRI="#DomusRitrattiFontana"/>
         <NamedIndividual IRI="#SantaCroceInGerusalemme"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
-        <NamedIndividual IRI="#DomusRattiFontana"/>
-        <NamedIndividual IRI="#DomusRattiFontanaDescrizione"/>
+        <NamedIndividual IRI="#DomusRitrattiFontana"/>
+        <NamedIndividual IRI="#DomusRitrattiFontanaDescription"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
-        <NamedIndividual IRI="#DomusRattiFontanaDescrizione"/>
+        <NamedIndividual IRI="#DomusRitrattiFontanaDescription"/>
         <NamedIndividual IRI="#DomusRomana"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
@@ -1101,6 +1227,16 @@
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://w3id.org/arco/ontology/core/isPartOf"/>
+        <NamedIndividual IRI="#PortaMagica"/>
+        <NamedIndividual IRI="#GiardinodiPiazzaVittorio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#PortaMagica"/>
+        <NamedIndividual IRI="#PortaMagicaDescription"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/arco/ontology/core/isPartOf"/>
         <NamedIndividual IRI="#ResidenzaDiElena"/>
         <NamedIndividual IRI="#SantaCroceInGerusalemme"/>
     </ObjectPropertyAssertion>
@@ -1128,6 +1264,16 @@
         <ObjectProperty IRI="https://w3id.org/arco/ontology/core/isPartOf"/>
         <NamedIndividual IRI="#SantaCroceInGerusalemme"/>
         <NamedIndividual IRI="#RioneEsquilino"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/arco/ontology/core/isPartOf"/>
+        <NamedIndividual IRI="#VillaPalombara"/>
+        <NamedIndividual IRI="#GiardinodiPiazzaVittorio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#VillaPalombara"/>
+        <NamedIndividual IRI="#VillaPalombaraDescription"/>
     </ObjectPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#accessibility_elderly"/>
@@ -1163,6 +1309,146 @@
         <DataProperty IRI="https://w3id.org/arco/ontology/context-description/address"/>
         <NamedIndividual IRI="#AuditoriumDiMecenate"/>
         <Literal>Largo Leopardi /via Merulana</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/location/lat"/>
+        <NamedIndividual IRI="#AuditoriumDiMecenate"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">418945227967415</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/location/long"/>
+        <NamedIndividual IRI="#AuditoriumDiMecenate"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">12.500913846552791</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_elderly"/>
+        <NamedIndividual IRI="#ChiesaSAntonioAbate"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_groups"/>
+        <NamedIndividual IRI="#ChiesaSAntonioAbate"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_motor_disability"/>
+        <NamedIndividual IRI="#ChiesaSAntonioAbate"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visitability"/>
+        <NamedIndividual IRI="#ChiesaSAntonioAbate"/>
+        <Literal>Ingresso libero</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_price"/>
+        <NamedIndividual IRI="#ChiesaSAntonioAbate"/>
+        <Literal>Gratis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_time"/>
+        <NamedIndividual IRI="#ChiesaSAntonioAbate"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/context-description/address"/>
+        <NamedIndividual IRI="#ChiesaSAntonioAbate"/>
+        <Literal>via Carlo Alberto 2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/location/lat"/>
+        <NamedIndividual IRI="#ChiesaSAntonioAbate"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">41.89773273323775</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/location/long"/>
+        <NamedIndividual IRI="#ChiesaSAntonioAbate"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">12.500062592586954</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visitability"/>
+        <NamedIndividual IRI="#ChiesaSEusebio"/>
+        <Literal>Ingresso libero</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_price"/>
+        <NamedIndividual IRI="#ChiesaSEusebio"/>
+        <Literal>Gratis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_time"/>
+        <NamedIndividual IRI="#ChiesaSEusebio"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/context-description/address"/>
+        <NamedIndividual IRI="#ChiesaSEusebio"/>
+        <Literal>P.za Vittorio Emanuele II, 12/a</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/location/lat"/>
+        <NamedIndividual IRI="#ChiesaSEusebio"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">41.89700101858133</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/location/long"/>
+        <NamedIndividual IRI="#ChiesaSEusebio"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">12.503479123276394</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_elderly"/>
+        <NamedIndividual IRI="#GiardinodiPiazzaVittorio"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_groups"/>
+        <NamedIndividual IRI="#GiardinodiPiazzaVittorio"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_hearing_disability"/>
+        <NamedIndividual IRI="#GiardinodiPiazzaVittorio"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_motor_disability"/>
+        <NamedIndividual IRI="#GiardinodiPiazzaVittorio"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_visual_disability"/>
+        <NamedIndividual IRI="#GiardinodiPiazzaVittorio"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visitability"/>
+        <NamedIndividual IRI="#GiardinodiPiazzaVittorio"/>
+        <Literal>Ingresso libero</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_price"/>
+        <NamedIndividual IRI="#GiardinodiPiazzaVittorio"/>
+        <Literal>Gratis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_time"/>
+        <NamedIndividual IRI="#GiardinodiPiazzaVittorio"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/context-description/address"/>
+        <NamedIndividual IRI="#GiardinodiPiazzaVittorio"/>
+        <Literal>Piazza Vittorio Emanuele II</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/location/lat"/>
+        <NamedIndividual IRI="#GiardinodiPiazzaVittorio"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">41.89466381783158</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/location/long"/>
+        <NamedIndividual IRI="#GiardinodiPiazzaVittorio"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">12.504401842096193</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#accessibility_elderly"/>
@@ -1205,6 +1491,16 @@
         <Literal>Piazza Vittorio Emanuele ingresso lato Via Carlo Alberto del giardino Nicola Calipari</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/location/lat"/>
+        <NamedIndividual IRI="#HortiDiAlessandro"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">41.896076141328884</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/location/long"/>
+        <NamedIndividual IRI="#HortiDiAlessandro"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">12.503601769310556</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#accessibility_elderly"/>
         <NamedIndividual IRI="#HortiLamiani"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
@@ -1245,6 +1541,16 @@
         <Literal>Museo scavo Ninfeo</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/location/lat"/>
+        <NamedIndividual IRI="#HortiLamiani"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">41.893799219837625</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/location/long"/>
+        <NamedIndividual IRI="#HortiLamiani"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">12.505411423276396</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#accessibility_groups"/>
         <NamedIndividual IRI="#SantaCroceInGerusalemme"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
@@ -1255,14 +1561,37 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#opening_hours"/>
+        <NamedIndividual IRI="#SantaCroceInGerusalemme"/>
+        <Literal>Dal mese di giugno 2022 aperture con visita guidata all&apos;area archeologica con Coopculture
+II e IV domenica del mese
+Ingressi per singoli alle ore 10,00
+Ingressi per gruppi alle ore 11,30 per un massimo di 20 persone a visita oltre la guida.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#visitability"/>
         <NamedIndividual IRI="#SantaCroceInGerusalemme"/>
         <Literal>Visita guidata con prenotazione obbligatoria www.coopculture.it</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_time"/>
+        <NamedIndividual IRI="#SantaCroceInGerusalemme"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="https://w3id.org/arco/ontology/context-description/address"/>
         <NamedIndividual IRI="#SantaCroceInGerusalemme"/>
         <Literal>Piazza Santa Croce in Gerusalemme, 1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/location/lat"/>
+        <NamedIndividual IRI="#SantaCroceInGerusalemme"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">41.889610397194005</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/location/long"/>
+        <NamedIndividual IRI="#SantaCroceInGerusalemme"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">12.518189545865932</Literal>
     </DataPropertyAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="https://w3id.org/arco/ontology/cataloguing-campaign/hasApplication"/>
@@ -1378,6 +1707,50 @@ Fonte: https://it.wikipedia.org/wiki/Horti</Literal>
         <Literal>Bus Line</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ChiesaSAntonioAbate</IRI>
+        <Literal>Chiesa di S. Antonio Abate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ChiesaSAntonioAbateDescription</IRI>
+        <Literal>La sua facciata novecentesca può trarre in inganno ma la chiesa dell’Esquilino intitolata al fondatore del monachesimo cristiano ha in realtà origini molto antiche. Sorge infatti sull’area della basilica romana di Giunio Basso, poi trasformata nella chiesa di Sant’Andrea cata Barbara. Qui, alla metà del XIII secolo il cardinale Pietro Capocci fondò un ospedale per accogliere i malati affetti da malattie della pelle, compreso il cosiddetto “Fuoco di Sant’Antonio”, e la leggenda vuole che vi fosse ricoverato anche San Francesco d’Assisi. Qualche anno più tardi, Papa Niccolò IV affidò l’amministrazione dell’ospedale ai monaci Antonini, che nel 1308 intrapresero la costruzione di una nuova chiesa, dedicando a Sant’Antonio tanto la chiesa che l’ospedale. La chiesa fu poi ricostruita nel 1481 e rimaneggiata più volte fino al XVIII secolo.
+Nel 1928 il complesso fu acquistato dalla Santa Sede: la chiesa, restaurata per volontà di Pio XI, fu assegnata ai cattolici russi di rito bizantino mentre l’antico ospedale fu trasformato nel Pontificio Collegio Russicum, centro dedicato agli studi sulla cultura e la spiritualità russa e orientale. La facciata, rifatta da Antonio Muñoz nel 1932, conserva il magnifico portale romanico dell’antico luogo di cura, mentre la scala a due rampe fu aggiunta dopo il 1870. L’elegante interno, frutto del rifacimento settecentesco, è stato adattato alle esigenze del culto orientale con l’inserimento di una iconostasi a tre porte: la maggior parte delle icone è opera di Grigorij Pavlovic Maltzeff. Di particolare interesse è la Cappella di Santa Teresa, opera di Domenico Fontana del 1583, con stucchi settecenteschi: nel tamburo della cupola di questa cappella sono tutt’ora visibili quattro affreschi del Pomarancio. Alle pareti della navata sinistra possiamo invece ammirare frammenti di bassorilievi, trovati durante i restauri novecenteschi e databili tra il IX ed il X secolo.
+Originariamente la chiesa era preceduta da un piazzale dove era situata la cosiddetta “Colonna dell’Abiura”, innalzata nel 1596 da Charles Anisson, Priore della chiesa, in memoria del Re di Francia Enrico IV, che aveva abiurato il protestantesimo a favore del Cattolicesimo. Nel 1880 la colonna fu smontata e trasferita nel cortile che fiancheggia la navata destra della Basilica di Santa Maria Maggiore, dove si trova tuttora.
+Fonte: https://www.turismoroma.it/it/luoghi/chiesa-di-santantonio-abate-allesquilino-chiesa-nazionale-russa
+
+L’interno presenta tre navate, con due cappelle al termine di quelle laterali, e l’arredamento corrisponde ai canoni del rito bizantino: l’iconostasi dorata a tre porte, che fu commissionata al pittore russo Grigorij Pavlovic Maltzeff, divide la navata centrale dal coro, e il presbiterio si configura come palcoscenico delle celebrazioni e dei canti liturgici della ritualità bizantina. Una dimensione centrale, quella cantata, poiché veicolante il senso delle Scritture nella sua funzione estetica e contemplativa del divino.
+Oggi, accanto alla chiesa, nell’edificio dell’antico ospedale si trova il Pontificio Collegio Russicum, un centro dedicato agli studi sulla cultura e la spiritualità russa e orientale affidato alla Compagnia di Gesù, in cui hanno la possibilità di alloggiare e studiare studenti di confessione cattolica e ortodossa. Qui, nella sala del refettorio, sono da ammirare le opere d’arte di un iconografo di fama mondiale, il sacerdote tedesco, gesuita, studioso e critico d’arte padre Egon Sendler, allievo del Russicum.
+
+Fonte: Centro Astalli: https://www.centroastalli.it/18256-2/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ChiesaSAntonioAbateDescription</IRI>
+        <Literal>Chiesa di S. Antonio Abate Description</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ChiesaSEusebio</IRI>
+        <Literal>Chiesa di S. Eusebio</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ChiesaSEusebioDescription</IRI>
+        <Literal>Si ritiene tradizionalmente che la costruzione insista sulla domus del prete romano Eusebio (circa 319-357?), strenuo oppositore dell&apos;arianesimo, condannato dall&apos;imperatore Costanzo II a morire di fame rinchiuso in una stanza della propria abitazione.
+L&apos;epitaffio di un clericus trovato nelle catacombe dei Santi Marcellino e Pietro ad duas Lauros dell&apos;anno 474 è il documento più antico menzionante il titulus di Eusebio, ma il graffito funerario del lettore Olympus ne indizia la costruzione già nel IV secolo[4], probabilmente per volontà del pontefice Liberio (352-366) che, secondo la tradizione, lo consacrò nel 357; il titulus Eusebii è anche ricordato nel 494 nel &quot;Catalogo gelasiano&quot; e i suoi presbyteri risultano fra i sottoscrittori dei sinodi romani del 499[7] e del 595[8].
+Il titolo divenne chiesa intorno al 745, ampiamente restaurato per opera di papa Zaccaria (741-752) a seguito del crollo del tetto.
+È tradizione che il 17 gennaio di ogni anno, in occasione della ricorrenza di sant&apos;Antonio abate, presso la chiesa di sant&apos;Eusebio si celebri il rito della benedizione degli animali, qui spostato dalla chiesa di Sant&apos;Antonio Abate all&apos;Esquilino nel XX secolo per motivi di ordine pubblico.
+
+
+Fonte: https://it.wikipedia.org/wiki/Chiesa_di_Sant%27Eusebio_(Roma)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ChiesaSEusebioDescription</IRI>
+        <Literal>Chiesa di S. Eusebio Description</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#CimiteroSepolcreto</IRI>
         <Literal>Il termine cimitero deriva dal greco koimao, “addormentarsi” e indica l’area destinata a contenere gli spazi per l’inumazione dei morti, i cinerari e gli ossari. In origine il termine indicò semplicemente un luogo di riposo, e solo col cristianesimo passò ad individuare il luogo di sepoltura per i morti, precedentemente definito necropoli; la parola coemeterium difatti esprime con efficacia il concetto cristiano di tomba intesa quale luogo di riposo in attesa della resurrezione dal sonno della morte. In età tardoantica i luoghi di sepoltura, in osservanza delle leggi romane (Codex Thedosianus, IX, 17, 6; Codex Iustinianeus, I, 2,2), furono ubicati al di fuori dell’abitato urbano, i cui confini erano giuridicamente stabiliti dalla linea del pomerio. Solo all’epoca di Leone IV (886-912) venne consentita la presenza di cimiteri entro l’area urbana. (http://www.iccd.beniculturali.it/getFile.php?id=7392)</Literal>
@@ -1386,6 +1759,49 @@ Fonte: https://it.wikipedia.org/wiki/Horti</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#CimiteroSepolcreto</IRI>
         <Literal>Cimitero / Sepolcreto</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ColleEsquilino</IRI>
+        <Literal>Colle Esquilino</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ColleEsquilinoDescription</IRI>
+        <Literal>Per molti secoli dopo la fondazione di Roma, il colle Esquilino è stato esterno alla città. Fu attraversato dalle prima mura difensive costruite nel VI secolo a.C. dal re Servio Tullio e, in quanto area esterna alla città, era occupato da una vasta necropoli, oltre che da campi coltivati e da cave di materiale da costruzione.
+Solo alla fine del I secolo a.C. parte del sepolcreto venne bonificata da Mecenate, il potente consigliere di Augusto, per costruire la sua lussuosa residenza. Seguendo questo esempio, Lucio Elio Lamia, potente uomo politico, console nel 3 d.C., edificò qui la sua dimora principesca corredata di vasti giardini, gli Horti Lamiani.
+Fonte: https://www.museoninfeo.it/il-museo/
+
+La morfologia originaria del colle Esquilino è stata stravolta nei secoli dallo sviluppo ininterrotto della città di Roma che con i tanti e continui interventi di natura antropica, hanno profondamente modificato e modificano ancora l’originario aspetto.
+
+Il paesaggio tra VIII sec. a.C. e I sec. a.C.  è caratterizzato dalla presenza della Necropoli Esquilina che è la principale area di sepoltura degli abitanti di Roma dalle origini alla fine dell’età repubblicana.  Moltissime sono le attestazioni archeologiche ed i ritrovamenti che hanno interessato l’area adiacente alla chiesa di Sant’Eusebio. Accanto alle povere sepolture, i puticoli, sono state rinvenute alcune tombe con ricchi corredi maschili e femminili: spirali in oro, scarabei con geroglifici egizi, vasi e balsamari etruschi ed un’olpe (brocca) con decorazione policroma con un’iscrizione paleo-greca, tutti oggetti che dimostrano i contatti precoci di Roma con il mondo mediterraneo.
+Fonte: https://seusebio.weebly.com/home2-860811-148402-939407-806222.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ColleEsquilinoDescription</IRI>
+        <Literal>Colle Esquilino Description</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ColleOppio</IRI>
+        <Literal>Colle Oppio</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ColleOppioDescription</IRI>
+        <Literal>Il Parco del Colle Oppio si estende sull&apos;area dell&apos;omonimo colle, uno dei sette del primitivo Septimontium di Roma, ed alterna ampie zone di verde a resti monumentali di grande importanza e interesse, come il padiglione della Domus Aurea neroniana, le Terme di Tito e quelle di Traiano. Durante il Medioevo venne progressivamente abbandonato e per larga parte occupato da giardini ed orti.
+Nel 1871, nell&apos;ambito delle programmazioni urbanistiche rese necessarie dalle nuove esigenze di Roma capitale, l&apos;area venne destinata a giardini pubblici e fu più tardi inserita nel grandioso progetto di tutela e valorizzazione della cosiddetta &quot;zona monumentale riservata&quot;. Ma fu solo nell&apos;ambito dei programmi urbanistici della Roma mussoliniana, caratterizzati dall&apos;esaltazione del passato imperiale e dal forte interesse per il verde pubblico, che le pendici del Colle Oppio assunsero, in due differenti fasi, il loro assetto attuale.
+Il primo nucleo del parco, comprendente la zona presso le sostruzioni della grande esedra meridionale delle Terme di Traiano, la scarpata prospiciente via Labicana ed il lato verso via Mecenate, fu infatti realizzato, tra il 1928 ed il 1932, dall&apos;architetto Raffaele de Vico. Il giardino si impernia sull&apos;incrocio di due assi viari principali (Viale Mizzi e Viale della Domus Aurea) dotati di ingressi monumentali ed arricchiti da una serie di fontane realizzate sfruttando la naturale pendenza dei luoghi. Tra queste, vanno ricordate la fontana delle anfore, il grande ninfeo con decorazioni in tufo realizzate da A. Giorgiutti e le due fontane gemelle affacciate su Via Labicana. Lungo il Viale della Domus Aurea si trova la statua in bronzo raffigurante Alfredo Oriani, eseguita da Ercole Drei nel 1935.
+La vegetazione presenta una piacevole sintesi tra piante mediterranee (pini, lecci, cipressi, oleandri), essenze esotiche tipiche del giardino paesistico (palme) e specie tipiche dei giardini antichi (rose, mirto, alloro).
+La sistemazione del settore superiore del colle, vero e proprio parco archeologico comprendente imponenti ruderi delle Terme di Traiano, venne successivamente curata (1935-1936) da Antonio Muñoz, Direttore delle Antichità e Belle Arti del Governatorato di Roma. Nella progettazione dell&apos;area, Muñoz tese comunque a privilegiare le esigenze urbanistiche e la ricerca di prospettive spettacolari a scapito della visione d&apos;insieme del complesso monumentale antico, la cui unitarietà risulta pertanto, allo stato attuale, difficilmente percepibile.
+Il parco è stato inserito nei percorsi del Giubileo della Misericordia (2015-2016) in occasione del quale sono stati condotti interventi di manutenzione straordinaria delle fontane e di alcuni settori del parco, con il ripristino dei rosai disposti secondo il tracciato della sottostante Domus Aurea.
+Fonte: https://www.sovraintendenzaroma.it/i_luoghi/ville_e_parchi_storici/passeggiate_parchi_e_giardini/parco_del_colle_oppio</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ColleOppioDescription</IRI>
+        <Literal>Colle Oppio Description</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1399,15 +1815,16 @@ Fonte: https://it.wikipedia.org/wiki/Horti</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#DomusRattiFontana</IRI>
-        <Literal>Domus dei Ratti e della Fontana</Literal>
+        <IRI>#DomusRitrattiFontana</IRI>
+        <Literal>Domus dei Ritratti e della Fontana</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#DomusRattiFontanaDescrizione</IRI>
+        <IRI>#DomusRitrattiFontanaDescription</IRI>
         <Literal>Le domus rinvenute a ridosso delle mura Aureliane “dei ritratti” e “della fontana” presentano ambienti di servizio e di rappresentanza. Questi ultimi sono pavimentati con mosaici a tessere bianche e nere, a cui si contrapponevano i colori accesi degli intonaci delle pareti, in bordeaux e rosso brillante con l’aggiunta di stucchi dorati.
 Negli ambienti di servizio, probabilmente adibiti a cucine, si conservano in situ piccole vasche di raccolta dell’acqua rivestite in malta idraulica (opus signinum).
 La domus più importante, sulla sinistra, è detta dei ritratti per la presenza dei busti, uno maschile e uno femminile (presumibilmente i proprietari) che ornano il pavimento a mosaico di due triclini, in mezzo a motivi floreali. Una nuova campagna di indagini e restauri ha portato alla luce nuovi ambienti della domus dei ritratti. In particolare sono stati rinvenuti un nuovo ingresso e alcuni cortili scoperti pavimentati con mosaici a grandi tessere di marmo.
+
 https://www.soprintendenzaspecialeroma.it/schede/l-area-archeologica-di-santa-croce-in-gerusalemme_3183/
 
  Le planimetrie delle due case sono analoghe e speculari: in entrambe, i locali di rappresentanza, pavimentati con mosaici in tessere bianche e nere prendono luce da cortili a cielo aperto pavimentati in mosaici a grandi tessere. In base ai bolli rinvenuti su alcuni mattoni, si è potuto datare il primo impianto delle domus in epoca severiana, alla quale risalgono gli ambienti con i mosaici in tessere bianche e nere. Le residenze furono riutilizzate con nuove aggiunte ancora nel IV sec. d.C. dai cortigiani di Elena.
@@ -1416,8 +1833,8 @@ https://www.soprintendenzaspecialeroma.it/schede/l-area-archeologica-di-santa-cr
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#DomusRattiFontanaDescrizione</IRI>
-        <Literal>Domus dei Ratti e della Fontana Description</Literal>
+        <IRI>#DomusRitrattiFontanaDescription</IRI>
+        <Literal>Domus dei Ritratti e della Fontana Description</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1438,13 +1855,13 @@ http://2.42.228.117/archeologia/index.php?it/224/glossario/55/domus</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#GiardinodiPiazzaVittorioDescription</IRI>
-        <Literal>Giardino di Piazza Vittorio Description</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#GiardinodiPiazzaVittorioDescription</IRI>
         <Literal>Il giardino di Piazza Vittorio e&apos; un giardino-piazza inaugurato nel 1888, cuore verde del quartiere Esquilino. Pensato come un&apos;addizione organica alla città, venne concepito all&apos;epoca come un&apos;oasi paesaggistica di gusto esotico all&apos;interno di una scacchiera di viali e piazze rigidamente ortogonali. Si pone al centro dello storico asse che collega le due basiliche di S. Maria maggiore e S. Croce in Gerusalemme, dialogando così con i monumento circostanti. Parte integrante del disegno del giardino sono gli antichi trofei di Mario e la misteriosa Porta Magica,una porta ricca di criptiche iscrizioni, un tempo ingresso secondario della non più esistente villa del marchese Palombara. Dopo un lungo periodo di abbandono, negli anni &apos;90 del secolo scorso il giardino e&apos; stato riprogettato con l&apos;aggiunta di nuove alberature, pavimentazioni in travertino e ripristino della vecchia cancellata. Oggi il giardino e diventato il cuore pulsante di un quartiere multiculturale, multireligioso, multietnico, colorato e vivo come la famosa orchestra di piazza Vittorio che qui e&apos; nata. Il grande movimento di opinione nato con il censimento ha riacceso l&apos;interesse sul recupero del bene portando il Comune stesso a impegnarsi a favore del giardino. “Cittadinanza Attiva Lazio ONLUS”, ha promosso la raccolta delle segnalazioni in occasione del censimento del 2012, ottenendo così anche un intervento da parte de I Luoghi del Cuore.
 Fonte: FAI: https://fondoambiente.it/luoghi/giardino-di-piazza-vittorio-emanuele-ii?ldc</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GiardinodiPiazzaVittorioDescription</IRI>
+        <Literal>Giardino di Piazza Vittorio Description</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1548,6 +1965,26 @@ Fonte: https://it.wikipedia.org/wiki/Horti</Literal>
         <Literal>Presso i Romani l’otium era il tempo libero dai negotia (le occupazioni della vita politica e degli affari pubblici), dedicato alle cure domestiche e della proprietà, oppure agli studi; da qui la parola passò a indicare l’attività letteraria (otium litteratum). http://2.42.228.117/archeologia/index.php?it/224/glossario/118/otium</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PortaMagica</IRI>
+        <Literal>Porta Magica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PortaMagicaDescription</IRI>
+        <Literal>La cosiddetta Porta Magica è nota anche come Porta Alchemica, Porta dei Cieli o Porta Ermetica. Fu edificata nella seconda metà del Seicento, si trova nel cuore del giardino di Piazza Vittorio, in direzione nord-est, lungo l’antico perimetro della villa Palombara, residenza del marchese Massimiliano Savelli Palombara, letterato raffinato e appassionato di alchimia ed esoterismo, interesse peraltro condiviso con Cristina di Svezia. 
+Gli stipiti, l’architrave, la soglia e il disco di coronamento presentano una serie di iscrizioni in ebraico e latino e simboli alchemici che fanno riferimento alla cultura ermetica ed in particolare ad alcuni testi rosacrociani editi nel Nord Europa intorno alla prima metà del secolo XVII. Documento epigrafico di carattere alchemico, unico nel suo genere, la porta marmorea fu concepita dal marchese Massimiliano Palombara, conoscitore di testi ermetici, biblici e cabalistici ed esponente di primo piano della società esoterica romana della sua epoca; sono note le frequentazioni della sua villa sull’Esquilino da parte di padre Kircher e della regina Cristina di Svezia della quale fu grande amico, durante il soggiorno romano della regina, a sua volta molto interessata all’alchimia. (https://simartweb.comune.roma.it/dettaglio-bene/1800460575)
+La porta fu qui collocata intorno al 1888, dopo essere stata smontata nel 1873, anno di espropriazione della villa da parte del Comune di Roma, per la demolizione della stessa a causa dei lavori di costruzione del nuovo quartiere Esquilino e la contemporanea realizzazione del giardino di piazza Vittorio.
+La porta è incassata in un blocco di terra e tufo, unico resto del sito originario, con accanto due statue raffiguranti il dio egizio Bes, di difficile datazione, rinvenute negli scavi del Quirinale di fine Ottocento.
+Tenendo conto che l’iscrizione riportata sulla porta fa parte di un complesso monumentale e ambientale più ampio di cui faceva parte anche la villa del Palombara, l’iscrizione alchemica diventa molto importante poiché rappresenta l’unico esempio di questo tipo in ambiente romano.
+Fonte: https://www.sovraintendenzaroma.it/content/porta-magica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PortaMagicaDescription</IRI>
+        <Literal>Porta Magica Description</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#ResidenzaDiElena</IRI>
         <Literal>Residenza di Elena madre di Costantino</Literal>
@@ -1621,6 +2058,27 @@ Fonte: https://it.wikipedia.org/wiki/Mitra_(divinit%C3%A0)</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UnitaTerritoriale</IRI>
         <Literal xml:lang="it">Un&apos;area geografica con un significativo valore culturale.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VillaPalombara</IRI>
+        <Literal>Villa Palombara</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#VillaPalombaraDescription</IRI>
+        <Literal>Dimora di Massimiliano II Savelli, marchese di Palombara (1614-1685), era stata edificata da suo padre, Oddone, su un terreno acquistato nel 1620 dal duca Alessandro Sforza.[1]
+
+Massimiliano, uomo di vasta cultura e dedito ad interessi ermetici, vi fece costruire nel 1653 un proprio laboratorio seminterrato per i suoi esperimenti di alchimia, al quale si accedeva per un ingresso secondario che corrisponde all&apos;attuale Porta Magica. La villa divenne così un circolo esoterico culturale, frequentato da vari personaggi tra cui la regina Cristina di Svezia, che allestì un suo gabinetto alchemico anche a palazzo Riario.[2]
+Fra gli altri esponenti della cultura dell&apos;epoca che vi presero parte, si annoverano alchimisti e scienziati come ad esempio il gesuita Athanasius Kircher, col quale il marchese condivise la conoscenza di antiche dottrine egiziane, l&apos;astronomo Giovanni Cassini, il medico milanese Giuseppe Francesco Borri, e il poeta pesarese Francesco Maria Santinelli.[2]
+A partire dal 1804 la villa fu acquisita dal principe Carlo della famiglia Massimo. Lo storico ed archeologo romano Francesco Cancellieri la descrisse ampiamente nel 1806, riportando i testi delle preziosissime epigrafi che ancora vi si potevano leggere, e che in seguito andarono irrimediabilmente perdute.[3] Dello stato della villa nel 1840, a cui era stato aggiunto un nuovo piano superiore, è rimasto un affresco situato all&apos;ultimo piano del palazzo del principe Leone Massimo.[4]
+Dopo l&apos;annessione di Roma al nuovo Regno d&apos;Italia (1870), il palazzo fu espropriato e distrutto tra il 1882 e il 1887, insieme alle vicine villa Altieri e villa Astalli, per far posto alla costruzione della nuova piazza Vittorio Emanuele II.
+Fonte: https://it.wikipedia.org/wiki/Villa_Palombara</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VillaPalombaraDescription</IRI>
+        <Literal>Villa Palombara Description</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="https://w3id.org/italia/onto/ADMS/hasContributor"/>
