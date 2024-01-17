@@ -77,10 +77,16 @@
         <Class IRI="#ComplessoTopografico"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#ContemporaryRitual"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#CulturalEvent"/>
     </Declaration>
     <Declaration>
         <Class IRI="#CulturalMovement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CulturalPlace"/>
     </Declaration>
     <Declaration>
         <Class IRI="#CulturalPropertyDescription"/>
@@ -104,10 +110,10 @@
         <Class IRI="#Food"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Garden"/>
+        <Class IRI="#Gods"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Gods"/>
+        <Class IRI="#Habit"/>
     </Declaration>
     <Declaration>
         <Class IRI="#HistoricalActor"/>
@@ -158,16 +164,10 @@
         <Class IRI="#Musicist"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#NaturalPlace"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Nature"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Ninfeo"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Pagan"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Painting"/>
@@ -177,9 +177,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#PaintingStyle"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Park"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Photography"/>
@@ -221,9 +218,6 @@
         <Class IRI="#Religion"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Religious"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#ReligiousActor"/>
     </Declaration>
     <Declaration>
@@ -240,6 +234,18 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Rituals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RomanArchitecture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RomanHabit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RomanRitual"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RomansAndNature"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Saints"/>
@@ -261,6 +267,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#SocialExperience"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SocialHabit"/>
     </Declaration>
     <Declaration>
         <Class IRI="#SocialMovement"/>
@@ -588,12 +597,20 @@
         </ObjectMinCardinality>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#ContemporaryRitual"/>
+        <Class IRI="#ReligiousRitual"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#CulturalEvent"/>
         <Class IRI="https://w3id.org/arco/ontology/arco/IntangibleCulturalProperty"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CulturalMovement"/>
         <Class IRI="#CulturalTradition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CulturalPlace"/>
+        <Class IRI="#SocialProperty"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CulturalPropertyDescription"/>
@@ -612,10 +629,6 @@
         <Class IRI="https://w3id.org/arco/ontology/context-description/CulturalScope"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Farm"/>
-        <Class IRI="#NaturalPlace"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Festivity"/>
         <Class IRI="#RecurrentEvent"/>
     </SubClassOf>
@@ -624,12 +637,12 @@
         <Class IRI="#CulturalTradition"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Garden"/>
-        <Class IRI="#Nature"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Gods"/>
         <Class IRI="#ReligiousActor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Habit"/>
+        <Class IRI="#CulturalTradition"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#HistoricalActor"/>
@@ -646,10 +659,6 @@
     <SubClassOf>
         <Class IRI="#InfrastructuralProperty"/>
         <Class IRI="#UnitaTerritoriale"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Lake"/>
-        <Class IRI="#NaturalPlace"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Legend"/>
@@ -688,16 +697,8 @@
         <Class IRI="#Location_Infrastructure"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Mountain"/>
-        <Class IRI="#NaturalPlace"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Musicist"/>
         <Class IRI="#HistoricalActor"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#NaturalPlace"/>
-        <Class IRI="#Nature"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Nature"/>
@@ -706,10 +707,6 @@
     <SubClassOf>
         <Class IRI="#Ninfeo"/>
         <Class IRI="#UnitaMonumentale"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Pagan"/>
-        <Class IRI="#Rituals"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Painting"/>
@@ -722,10 +719,6 @@
     <SubClassOf>
         <Class IRI="#PaintingStyle"/>
         <Class IRI="#Painting"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Park"/>
-        <Class IRI="#Nature"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Photography"/>
@@ -780,10 +773,6 @@
         <Class IRI="https://w3id.org/arco/ontology/context-description/CulturalScope"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Religious"/>
-        <Class IRI="#Rituals"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#ReligiousActor"/>
         <Class IRI="#SocialActor"/>
     </SubClassOf>
@@ -806,6 +795,22 @@
     <SubClassOf>
         <Class IRI="#Rituals"/>
         <Class IRI="#CulturalTradition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RomanArchitecture"/>
+        <Class IRI="#ArchitectureType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RomanHabit"/>
+        <Class IRI="#SocialHabit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RomanRitual"/>
+        <Class IRI="#ReligiousRitual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RomansAndNature"/>
+        <Class IRI="#Nature"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Saints"/>
@@ -833,6 +838,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SocialExperience"/>
+        <Class IRI="#Social"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SocialHabit"/>
         <Class IRI="#Social"/>
     </SubClassOf>
     <SubClassOf>
@@ -927,14 +936,6 @@
             <ObjectProperty IRI="https://w3id.org/arco/ontology/core/hasLocation"/>
             <Class IRI="https://w3id.org/italia/onto/l0/Location"/>
         </ObjectExactCardinality>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Waterfall"/>
-        <Class IRI="#NaturalPlace"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Zoo"/>
-        <Class IRI="#NaturalPlace"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="https://w3id.org/arco/ontology/arco/CulturalProperty"/>
@@ -1043,10 +1044,6 @@
     <ClassAssertion>
         <Class IRI="#CulturalPropertyDescription"/>
         <NamedIndividual IRI="#HortiLamianiDescription"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Garden"/>
-        <NamedIndividual IRI="#Hortus"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#MetroB"/>
@@ -1805,6 +1802,11 @@ Fonte: https://www.sovraintendenzaroma.it/i_luoghi/ville_e_parchi_storici/passeg
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CulturalPlace</IRI>
+        <Literal>La classe descrive luoghi e/o costruzioni legate agli usi e costumi di una societa&apos;/civilta&apos;. Edifici tipici di una determinata societa&apos;. Es. Il ninfeo e la domus erano edifici tipici nella cultura romana.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#CulturalPropertyDescription</IRI>
         <Literal>Descrizione tematica/topic based di un certo oggetto culturale.</Literal>
     </AnnotationAssertion>
@@ -1862,6 +1864,11 @@ Fonte: FAI: https://fondoambiente.it/luoghi/giardino-di-piazza-vittorio-emanuele
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#GiardinodiPiazzaVittorioDescription</IRI>
         <Literal>Giardino di Piazza Vittorio Description</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Habit</IRI>
+        <Literal>La classe descrive un&apos;abitudine sociale presente all&apos;interno di una comunita&apos;/civilta&apos;. Es.L&apos;abitudine dell&apos;otium presso i romani.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
