@@ -497,22 +497,6 @@
     
 
 
-    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#DomusRomana -->
-
-    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#DomusRomana">
-        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#RomanArchitecture"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#EgyptianReligiousRitual -->
-
-    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#EgyptianReligiousRitual">
-        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#OrientalReligiousRitual"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Enogastronomy -->
 
     <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Enogastronomy">
@@ -539,14 +523,6 @@
 
     <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Food">
         <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#CulturalTradition"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#FuneralRomanRitual -->
-
-    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#FuneralRomanRitual">
-        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#RomanRitual"/>
     </owl:Class>
     
 
@@ -588,14 +564,6 @@
 
     <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#History">
         <rdfs:subClassOf rdf:resource="https://w3id.org/arco/ontology/context-description/CulturalScope"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Hortus -->
-
-    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Hortus">
-        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#RomansAndNature"/>
     </owl:Class>
     
 
@@ -730,21 +698,15 @@
     
 
 
-    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#NinfeoRomano -->
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#OrientalRitualTopic -->
 
-    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#NinfeoRomano">
-        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#RomanArchitecture"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#OrientalReligiousRitual -->
-
-    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#OrientalReligiousRitual">
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#OrientalRitualTopic">
         <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#ReligiousRitual"/>
     </owl:Class>
     
 
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Painting -->
 
     <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Painting">
         <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Art"/>
@@ -764,14 +726,6 @@
 
     <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#PaintingStyle">
         <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Painting"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#PersianReligiousRitual -->
-
-    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#PersianReligiousRitual">
-        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#OrientalReligiousRitual"/>
     </owl:Class>
     
 
@@ -932,14 +886,6 @@
 
     <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#RomanArchitecture">
         <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#ArchitectureType"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#RomanBotanica -->
-
-    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#RomanBotanica">
-        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#RomansAndNature"/>
     </owl:Class>
     
 
@@ -1592,7 +1538,10 @@ https://www.soprintendenzaspecialeroma.it/schede/l-area-archeologica-di-santa-cr
     <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#DomusRomana -->
 
     <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#DomusRomana">
-        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#DomusRomana"/>
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#RomanArchitecture"/>
+        <rdfs:comment>Abitazione urbana romana unifamiliare di tipo signorile. Esito dell’evoluzione e dell’ampliamento del modello residenziale rappresentato dalla capanna italica, in epoca repubblicana la domus è tendenzialmente circondata da alte mura continue ed articolata intorno ad un atrio (atrium, v.), preceduto da un ingresso (ostium, vestibulum e fauces) e circondato da una serie di ambienti sul lato e sul fondo (cubicula, alae, tablinum, hortus). A partire dalla tarda età repubblicana la domus si dota di nuovi ambienti derivati dall’architettura ellenistica, quali il peristylium, che le conferisce maggiore estensione e che determina uno spostamento del fulcro della vita domestica, mentre il settore gravitante intorno all’atrio resta il centro delle attività di rappresentanza. Nelle sue evoluzioni successive la domus si arricchisce di numerosi ambienti sussidiari (balnea, biblioteche, oeci, triclinia, diaetae, exedrae, xysti), estendendosi in ampiezza fino ad occupare in casi eccezionali interi isolati urbani.
+http://2.42.228.117/archeologia/index.php?it/224/glossario/55/domus</rdfs:comment>
+        <rdfs:label>Domus romana</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1753,7 +1702,7 @@ Fonte: https://it.wikipedia.org/wiki/Horti</rdfs:comment>
     <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#HortusRomano -->
 
     <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#HortusRomano">
-        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Hortus"/>
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#RomansAndNature"/>
         <rdfs:label>Hortus romano</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1851,7 +1800,8 @@ Fonte: http://www.iccd.beniculturali.it/getFile.php?id=7392</rdfs:comment>
     <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#NinfeoRomano -->
 
     <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#NinfeoRomano">
-        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#NinfeoRomano"/>
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#RomanArchitecture"/>
+        <rdfs:label>Ninfeo romano</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1879,7 +1829,7 @@ Fonte: http://www.iccd.beniculturali.it/getFile.php?id=7392</rdfs:comment>
     <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#OtiumRomano -->
 
     <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#OtiumRomano">
-        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Otium"/>
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#RomanHabit"/>
         <rdfs:label>Otium Romano</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2095,7 +2045,7 @@ Fonte: https://www.sovraintendenzaroma.it/content/porta-magica</rdfs:comment>
     <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#RitualitaFunebre -->
 
     <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#RitualitaFunebre">
-        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#FuneralRomanRitual"/>
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#RomanRitual"/>
         <rdfs:label>Ritualità funebre romana</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2188,7 +2138,7 @@ Fonte: https://it.wikipedia.org/wiki/Mitra_(divinit%C3%A0)</rdfs:comment>
     <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#RomaniEBotanica -->
 
     <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#RomaniEBotanica">
-        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#RomanBotanica"/>
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#RomansAndNature"/>
         <rdfs:label>Romani e botanica</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2339,32 +2289,12 @@ Fonte: https://it.wikipedia.org/wiki/Villa_Palombara</rdfs:comment>
     
 
 
-    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#oriental_religius_const">
-        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#OrientalReligiousRitual"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Religioni orientali</rdfs:label>
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#scultura_const -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#scultura_const">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Sculpture"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scultura</rdfs:label>
     </owl:NamedIndividual>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotations
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    <rdf:Description rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#DomusRomana">
-        <rdfs:comment>Abitazione urbana romana unifamiliare di tipo signorile. Esito dell’evoluzione e dell’ampliamento del modello residenziale rappresentato dalla capanna italica, in epoca repubblicana la domus è tendenzialmente circondata da alte mura continue ed articolata intorno ad un atrio (atrium, v.), preceduto da un ingresso (ostium, vestibulum e fauces) e circondato da una serie di ambienti sul lato e sul fondo (cubicula, alae, tablinum, hortus). A partire dalla tarda età repubblicana la domus si dota di nuovi ambienti derivati dall’architettura ellenistica, quali il peristylium, che le conferisce maggiore estensione e che determina uno spostamento del fulcro della vita domestica, mentre il settore gravitante intorno all’atrio resta il centro delle attività di rappresentanza. Nelle sue evoluzioni successive la domus si arricchisce di numerosi ambienti sussidiari (balnea, biblioteche, oeci, triclinia, diaetae, exedrae, xysti), estendendosi in ampiezza fino ad occupare in casi eccezionali interi isolati urbani.
-http://2.42.228.117/archeologia/index.php?it/224/glossario/55/domus</rdfs:comment>
-        <rdfs:label>Domus romana</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#NinfeoRomano">
-        <rdfs:label>Ninfeo romano</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Sculpture">
-        <rdfs:label>Scultura</rdfs:label>
-    </rdf:Description>
 </rdf:RDF>
 
 
