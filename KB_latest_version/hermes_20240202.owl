@@ -3,13 +3,18 @@
      xml:base="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes/"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:l0="https://w3id.org/italia/onto/l0/"
+     xmlns:ns="http://www.w3.org/2006/vcard/ns#"
+     xmlns:CLV="https://w3id.org/italia/onto/CLV/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:ADMS="https://w3id.org/italia/onto/ADMS/"
      xmlns:core="https://w3id.org/arco/ontology/core/"
+     xmlns:dcat="http://www.w3.org/ns/dcat#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:opla="http://ontologydesignpatterns.org/opla/"
+     xmlns:prov="http://www.w3.org/ns/prov#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:opla1="http://www.ontologydesignpatterns.org/opla/"
      xmlns:terms="http://purl.org/dc/terms/"
@@ -72,8 +77,8 @@
 
     <owl:ObjectProperty rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#isCorrelatedWith">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/arco/ontology/arco/IntangibleCulturalProperty"/>
-        <rdfs:range rdf:resource="https://w3id.org/arco/ontology/arco/TangibleCulturalProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/arco/ontology/arco/CulturalProperty"/>
+        <rdfs:range rdf:resource="https://w3id.org/arco/ontology/arco/CulturalProperty"/>
     </owl:ObjectProperty>
     
 
@@ -689,6 +694,14 @@
 
     <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Ninfeo">
         <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#UnitaMonumentale"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#OrientalRitualTopic -->
+
+    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#OrientalRitualTopic">
+        <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#ReligiousRitual"/>
     </owl:Class>
     
 
@@ -2002,7 +2015,7 @@ Fonte: https://www.sovraintendenzaroma.it/content/porta-magica</rdfs:comment>
     <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#RitualitaEgizia -->
 
     <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#RitualitaEgizia">
-        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#RomanRitual"/>
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#OrientalRitualTopic"/>
         <rdfs:label>Culti egizi</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2063,7 +2076,7 @@ Fonte: https://www.treccani.it/enciclopedia/l-archeologia-delle-pratiche-funerar
     <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#RitualitaMitraica -->
 
     <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#RitualitaMitraica">
-        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#RomanRitual"/>
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#OrientalRitualTopic"/>
         <rdfs:label>Culto di Mitra</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2167,14 +2180,6 @@ Ingressi per gruppi alle ore 11,30 per un massimo di 20 persone a visita oltre l
     <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Science_const">
         <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Science"/>
         <rdfs:label>Scienza</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Sculpture -->
-
-    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Sculpture">
-        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Sculpture"/>
     </owl:NamedIndividual>
     
 
@@ -2284,20 +2289,15 @@ Fonte: https://it.wikipedia.org/wiki/Villa_Palombara</rdfs:comment>
     
 
 
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotations
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#scultura_const -->
 
-    <rdf:Description rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Sculpture">
-        <rdfs:label>Scultura</rdfs:label>
-    </rdf:Description>
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#scultura_const">
+        <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Sculpture"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scultura</rdfs:label>
+    </owl:NamedIndividual>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 
