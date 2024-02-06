@@ -227,6 +227,9 @@
         <Class IRI="#ReligiousActor"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#ReligiousFestivity"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#ReligiousPlace"/>
     </Declaration>
     <Declaration>
@@ -243,6 +246,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#RomanArchitecture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RomanFestivity"/>
     </Declaration>
     <Declaration>
         <Class IRI="#RomanHabit"/>
@@ -291,6 +297,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Square"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StoriesAndLegends"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Street"/>
@@ -383,6 +392,12 @@
         <NamedIndividual IRI="#Architecture_const"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#ArcoGallieno"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ArcoGallienoDescription"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Art_const"/>
     </Declaration>
     <Declaration>
@@ -428,6 +443,12 @@
         <NamedIndividual IRI="#Cinema_const"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#ClivusSuburanus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ClivusSuburanusDescription"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#ColleEsquilino"/>
     </Declaration>
     <Declaration>
@@ -441,6 +462,12 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#ContemporaryRitual_const"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CriptaSVito"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CriptaSVitoDescription"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Dance_const"/>
@@ -468,6 +495,18 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Enogastronomy_const"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FestaQuinquatriMinori"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FestaQuinquatriMinoriDescription"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FestaSAntonioAbate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FestaSAntonioAbateDescription"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#GiardinodiPiazzaVittorio"/>
@@ -500,6 +539,12 @@
         <NamedIndividual IRI="#HortusRomano_const"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#LeggendaPortaMagica"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LeggendaPortaMagicaDescription"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Literature_const"/>
     </Declaration>
     <Declaration>
@@ -513,6 +558,12 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#MetroVittorioEmanuele"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MuraServiane"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MuraServianeDescription"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Music_const"/>
@@ -575,6 +626,9 @@
         <NamedIndividual IRI="#Religion_const"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#ReligiousFestivity_const"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#ReligiousPlace_const"/>
     </Declaration>
     <Declaration>
@@ -591,6 +645,15 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#RioneMonti"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RitoCattolicoRussoBizantino"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RitoCattolicoRussoBizantinoDescription"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RitoCattolicoRussoBizantino_const"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#RitualitaEgizia"/>
@@ -621,6 +684,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#RomanArchitecture_const"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RomanFestivity_const"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#RomanHabit_const"/>
@@ -654,6 +720,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Social_const"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#StoriesAndLegends_const"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Technology_const"/>
@@ -986,6 +1055,10 @@
         <Class IRI="#SocialActor"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#ReligiousFestivity"/>
+        <Class IRI="#ContemporaryRitual"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#ReligiousPlace"/>
         <Class IRI="#Religion"/>
     </SubClassOf>
@@ -1008,6 +1081,10 @@
     <SubClassOf>
         <Class IRI="#RomanArchitecture"/>
         <Class IRI="#ArchitectureType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RomanFestivity"/>
+        <Class IRI="#SocialExperience"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#RomanHabit"/>
@@ -1072,6 +1149,10 @@
     <SubClassOf>
         <Class IRI="#Square"/>
         <Class IRI="#Location_Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StoriesAndLegends"/>
+        <Class IRI="#SocialTradition"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Street"/>
@@ -1199,6 +1280,14 @@
         <NamedIndividual IRI="#Architecture_const"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="https://w3id.org/arco/ontology/arco/ArchitecturalOrLandscapeHeritage"/>
+        <NamedIndividual IRI="#ArcoGallieno"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CulturalPropertyDescription"/>
+        <NamedIndividual IRI="#ArcoGallienoDescription"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Art"/>
         <NamedIndividual IRI="#Art_const"/>
     </ClassAssertion>
@@ -1259,6 +1348,10 @@
         <NamedIndividual IRI="#Cinema_const"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#CulturalPropertyDescription"/>
+        <NamedIndividual IRI="#ClivusSuburanusDescription"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="https://w3id.org/arco/ontology/arco/ArchitecturalOrLandscapeHeritage"/>
         <NamedIndividual IRI="#ColleEsquilino"/>
     </ClassAssertion>
@@ -1277,6 +1370,14 @@
     <ClassAssertion>
         <Class IRI="#ContemporaryRitual"/>
         <NamedIndividual IRI="#ContemporaryRitual_const"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chiesa"/>
+        <NamedIndividual IRI="#CriptaSVito"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CulturalPropertyDescription"/>
+        <NamedIndividual IRI="#CriptaSVitoDescription"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Dance"/>
@@ -1313,6 +1414,22 @@
     <ClassAssertion>
         <Class IRI="#Enogastronomy"/>
         <NamedIndividual IRI="#Enogastronomy_const"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Festivity"/>
+        <NamedIndividual IRI="#FestaQuinquatriMinori"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CulturalPropertyDescription"/>
+        <NamedIndividual IRI="#FestaQuinquatriMinoriDescription"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Festivity"/>
+        <NamedIndividual IRI="#FestaSAntonioAbate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CulturalPropertyDescription"/>
+        <NamedIndividual IRI="#FestaSAntonioAbateDescription"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="https://w3id.org/arco/ontology/arco/ArchitecturalOrLandscapeHeritage"/>
@@ -1355,6 +1472,14 @@
         <NamedIndividual IRI="#HortusRomano_const"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Legend"/>
+        <NamedIndividual IRI="#LeggendaPortaMagica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CulturalPropertyDescription"/>
+        <NamedIndividual IRI="#LeggendaPortaMagicaDescription"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Literature"/>
         <NamedIndividual IRI="#Literature_const"/>
     </ClassAssertion>
@@ -1373,6 +1498,14 @@
     <ClassAssertion>
         <Class IRI="#MetroA"/>
         <NamedIndividual IRI="#MetroVittorioEmanuele"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://w3id.org/arco/ontology/arco/ArchitecturalOrLandscapeHeritage"/>
+        <NamedIndividual IRI="#MuraServiane"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CulturalPropertyDescription"/>
+        <NamedIndividual IRI="#MuraServianeDescription"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Music"/>
@@ -1455,6 +1588,10 @@
         <NamedIndividual IRI="#Religion_const"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#ReligiousFestivity"/>
+        <NamedIndividual IRI="#ReligiousFestivity_const"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#ReligiousPlace"/>
         <NamedIndividual IRI="#ReligiousPlace_const"/>
     </ClassAssertion>
@@ -1477,6 +1614,18 @@
     <ClassAssertion>
         <Class IRI="#UnitaTerritoriale"/>
         <NamedIndividual IRI="#RioneMonti"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rituals"/>
+        <NamedIndividual IRI="#RitoCattolicoRussoBizantino"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CulturalPropertyDescription"/>
+        <NamedIndividual IRI="#RitoCattolicoRussoBizantinoDescription"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ContemporaryRitual"/>
+        <NamedIndividual IRI="#RitoCattolicoRussoBizantino_const"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#RomanRitual"/>
@@ -1517,6 +1666,10 @@
     <ClassAssertion>
         <Class IRI="#RomanArchitecture"/>
         <NamedIndividual IRI="#RomanArchitecture_const"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RomanFestivity"/>
+        <NamedIndividual IRI="#RomanFestivity_const"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#RomanHabit"/>
@@ -1563,6 +1716,10 @@
         <NamedIndividual IRI="#Social_const"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#StoriesAndLegends"/>
+        <NamedIndividual IRI="#StoriesAndLegends_const"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Technology"/>
         <NamedIndividual IRI="#Technology_const"/>
     </ClassAssertion>
@@ -1586,6 +1743,21 @@
         <Class IRI="#CulturalPropertyDescription"/>
         <NamedIndividual IRI="#VillaPalombaraDescription"/>
     </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/arco/ontology/core/isPartOf"/>
+        <NamedIndividual IRI="#ArcoGallieno"/>
+        <NamedIndividual IRI="#RioneEsquilino"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#ArcoGallieno"/>
+        <NamedIndividual IRI="#ArcoGallienoDescription"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#ArcoGallienoDescription"/>
+        <NamedIndividual IRI="#RomanArchitecture_const"/>
+    </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://w3id.org/arco/ontology/core/isPartOf"/>
         <NamedIndividual IRI="#AuditoriumDiMecenate"/>
@@ -1617,6 +1789,11 @@
         <NamedIndividual IRI="#ChiesaSAntonioAbateDescription"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#ChiesaSAntonioAbateDescription"/>
+        <NamedIndividual IRI="#RitoCattolicoRussoBizantino_const"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://w3id.org/arco/ontology/core/isPartOf"/>
         <NamedIndividual IRI="#ChiesaSEusebio"/>
         <NamedIndividual IRI="#RioneEsquilino"/>
@@ -1638,8 +1815,33 @@
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://w3id.org/arco/ontology/core/isPartOf"/>
+        <NamedIndividual IRI="#ClivusSuburanus"/>
+        <NamedIndividual IRI="#RioneEsquilino"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#ClivusSuburanus"/>
+        <NamedIndividual IRI="#ClivusSuburanusDescription"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#ClivusSuburanusDescription"/>
+        <NamedIndividual IRI="#RomanArchitecture_const"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/arco/ontology/core/isPartOf"/>
         <NamedIndividual IRI="#ColleEsquilino"/>
         <NamedIndividual IRI="#RioneEsquilino"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#ColleEsquilino"/>
+        <NamedIndividual IRI="#ColleEsquilinoDescription"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#ColleEsquilinoDescription"/>
+        <NamedIndividual IRI="#RitualitaFunebre_const"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://w3id.org/arco/ontology/core/isPartOf"/>
@@ -1650,6 +1852,26 @@
         <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
         <NamedIndividual IRI="#ColleOppio"/>
         <NamedIndividual IRI="#ColleOppioDescription"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#ColleOppioDescription"/>
+        <NamedIndividual IRI="#Nature_const"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/arco/ontology/core/isPartOf"/>
+        <NamedIndividual IRI="#CriptaSVito"/>
+        <NamedIndividual IRI="#RioneEsquilino"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#CriptaSVito"/>
+        <NamedIndividual IRI="#CriptaSVitoDescription"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#CriptaSVitoDescription"/>
+        <NamedIndividual IRI="#RomanArchitecture_const"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
@@ -1695,6 +1917,26 @@
         <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
         <NamedIndividual IRI="#DomusRitrattiFontanaDescription"/>
         <NamedIndividual IRI="#DomusRomana_const"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#FestaQuinquatriMinori"/>
+        <NamedIndividual IRI="#FestaQuinquatriMinoriDescription"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#FestaQuinquatriMinoriDescription"/>
+        <NamedIndividual IRI="#RomanFestivity_const"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#FestaSAntonioAbate"/>
+        <NamedIndividual IRI="#FestaSAntonioAbateDescription"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#FestaSAntonioAbateDescription"/>
+        <NamedIndividual IRI="#ReligiousFestivity_const"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://w3id.org/arco/ontology/core/isPartOf"/>
@@ -1777,6 +2019,26 @@
         <NamedIndividual IRI="#RomaniEBotanica_const"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#LeggendaPortaMagicaDescription"/>
+        <NamedIndividual IRI="#StoriesAndLegends_const"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/arco/ontology/core/isPartOf"/>
+        <NamedIndividual IRI="#MuraServiane"/>
+        <NamedIndividual IRI="#RioneEsquilino"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#MuraServiane"/>
+        <NamedIndividual IRI="#MuraServianeDescription"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#MuraServianeDescription"/>
+        <NamedIndividual IRI="#RomanArchitecture_const"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
         <NamedIndividual IRI="#NinfeoFontanaMonumentale"/>
         <NamedIndividual IRI="#NinfeoFontanaMonumentaleDescription"/>
@@ -1807,6 +2069,11 @@
         <NamedIndividual IRI="#PortaMagicaDescription"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#PortaMagicaDescription"/>
+        <NamedIndividual IRI="#StoriesAndLegends_const"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://w3id.org/arco/ontology/core/isPartOf"/>
         <NamedIndividual IRI="#ResidenzaDiElena"/>
         <NamedIndividual IRI="#SantaCroceInGerusalemme"/>
@@ -1830,6 +2097,11 @@
         <ObjectProperty IRI="https://w3id.org/arco/ontology/core/hasLocation"/>
         <NamedIndividual IRI="#RioneMonti"/>
         <NamedIndividual IRI="#MetroCavour"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#RitoCattolicoRussoBizantinoDescription"/>
+        <NamedIndividual IRI="#RitoCattolicoRussoBizantino_const"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
@@ -1891,6 +2163,61 @@
         <NamedIndividual IRI="#VillaPalombaraDescription"/>
         <NamedIndividual IRI="#RitualitaEgizia"/>
     </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_elderly"/>
+        <NamedIndividual IRI="#ArcoGallieno"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_groups"/>
+        <NamedIndividual IRI="#ArcoGallieno"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_hearing_disability"/>
+        <NamedIndividual IRI="#ArcoGallieno"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_motor_disability"/>
+        <NamedIndividual IRI="#ArcoGallieno"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_visual_disability"/>
+        <NamedIndividual IRI="#ArcoGallieno"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visitability"/>
+        <NamedIndividual IRI="#ArcoGallieno"/>
+        <Literal>Ingresso Libero</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_price"/>
+        <NamedIndividual IRI="#ArcoGallieno"/>
+        <Literal>Gratis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_time"/>
+        <NamedIndividual IRI="#ArcoGallieno"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/context-description/address"/>
+        <NamedIndividual IRI="#ArcoGallieno"/>
+        <Literal>Piazza Manfredo Fanti 4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/location/lat"/>
+        <NamedIndividual IRI="#ArcoGallieno"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">41.89682481077789</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/location/long"/>
+        <NamedIndividual IRI="#ArcoGallieno"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">12.501296086056385</Literal>
+    </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#accessibility_elderly"/>
         <NamedIndividual IRI="#AuditoriumDiMecenate"/>
@@ -2010,6 +2337,106 @@
         <DataProperty IRI="https://w3id.org/arco/ontology/location/long"/>
         <NamedIndividual IRI="#ChiesaSEusebio"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">12.503479123276394</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_elderly"/>
+        <NamedIndividual IRI="#ColleOppio"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_groups"/>
+        <NamedIndividual IRI="#ColleOppio"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_hearing_disability"/>
+        <NamedIndividual IRI="#ColleOppio"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_motor_disability"/>
+        <NamedIndividual IRI="#ColleOppio"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_visual_disability"/>
+        <NamedIndividual IRI="#ColleOppio"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visitability"/>
+        <NamedIndividual IRI="#ColleOppio"/>
+        <Literal>Ingresso libero</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_price"/>
+        <NamedIndividual IRI="#ColleOppio"/>
+        <Literal>Gratis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_time"/>
+        <NamedIndividual IRI="#ColleOppio"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/context-description/address"/>
+        <NamedIndividual IRI="#ColleOppio"/>
+        <Literal>Viale del Monte Oppio</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/location/lat"/>
+        <NamedIndividual IRI="#ColleOppio"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">41.89208181402528</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/location/long"/>
+        <NamedIndividual IRI="#ColleOppio"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">12.496090782419026</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_elderly"/>
+        <NamedIndividual IRI="#CriptaSVito"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_groups"/>
+        <NamedIndividual IRI="#CriptaSVito"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#opening_hours"/>
+        <NamedIndividual IRI="#CriptaSVito"/>
+        <Literal>Lunedì-Sabato: 10.00-12.45 / 14.30-18.00 / Domenica: 14.30-18.00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visitability"/>
+        <NamedIndividual IRI="#CriptaSVito"/>
+        <Literal>Ingresso Libero</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_price"/>
+        <NamedIndividual IRI="#CriptaSVito"/>
+        <Literal>2 euro</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_time"/>
+        <NamedIndividual IRI="#CriptaSVito"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/context-description/address"/>
+        <NamedIndividual IRI="#CriptaSVito"/>
+        <Literal>via Carlo Alberto 47 (Area Archeologica di San Vito)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/location/lat"/>
+        <NamedIndividual IRI="#CriptaSVito"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">41.89589758782159</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/location/long"/>
+        <NamedIndividual IRI="#CriptaSVito"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">12.501708361141558</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#accessibility_elderly"/>
@@ -2217,6 +2644,61 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">12.505411423276396</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_elderly"/>
+        <NamedIndividual IRI="#MuraServiane"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_groups"/>
+        <NamedIndividual IRI="#MuraServiane"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_hearing_disability"/>
+        <NamedIndividual IRI="#MuraServiane"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_motor_disability"/>
+        <NamedIndividual IRI="#MuraServiane"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_visual_disability"/>
+        <NamedIndividual IRI="#MuraServiane"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visitability"/>
+        <NamedIndividual IRI="#MuraServiane"/>
+        <Literal>Ingresso Libero</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_price"/>
+        <NamedIndividual IRI="#MuraServiane"/>
+        <Literal>Gratis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_time"/>
+        <NamedIndividual IRI="#MuraServiane"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/context-description/address"/>
+        <NamedIndividual IRI="#MuraServiane"/>
+        <Literal>nei pressi della stazione di Roma Termini</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/location/lat"/>
+        <NamedIndividual IRI="#MuraServiane"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">41.90186710838075</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/location/long"/>
+        <NamedIndividual IRI="#MuraServiane"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">12.50166955713403</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#accessibility_groups"/>
         <NamedIndividual IRI="#SantaCroceInGerusalemme"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
@@ -2363,6 +2845,37 @@ Ingressi per gruppi alle ore 11,30 per un massimo di 20 persone a visita oltre l
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ArcoGallieno</IRI>
+        <Literal>Arco di Gallieno / Porta Esquilina</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ArcoGallienoDescription</IRI>
+        <Literal>Edificato da Augusto in travertino, sul luogo della Porta Esquilina delle Mura Serviane, nel punto in cui terminava l&apos;Agger, fu poi dedicato, come riporta l&apos;iscrizione nella cornice, all&apos;imperatore Gallieno e a sua moglie Salonina da un semplice cittadino (M.Aurelius Victor) nel 262 d.C.
+
+Di forma tendente al quadrato, affiancato da pilastri angolari corinzi, inizialmente doveva presentare tre fornici. I due fornici laterali furono demoliti nel 1447 per fare posto alla chiesa di S. Vito. 
+ Nel Medioevo, in ricordo della sottomissione di Viterbo a Roma (XIII secolo) , vi vennero appese due chiavi della città di Viterbo che vi rimasero sino al 1825.
+
+(Fonte: https://www.sovraintendenzaroma.it/i_luoghi/roma_antica/monumenti/arco_di_gallieno)
+
+Nella cornice sotto l&apos;attico è invece tuttora visibile l&apos;iscrizione dedicata nel 262 dal prefetto Marco Aurelio Vittore all&apos;imperatore Gallieno (253 – 268) e a sua moglie Cornelia Salonina, in occasione di un restauro. L&apos;iscrizione è di sole due righe:
+«GALLIENO CLEMENTISSIMO PRINCIPI CVIVS INVICTA VIRTVS SOLA PIETATE SVPERATA EST ET SALONINAE SANCTISSIMAE AVG
+AVRELIVS VICTOR V(ir) E(gregius) DICATISSIMVS NVMINI MAIESTATIQVE EORVM»
+
+(«A Gallieno, clementissimo principe, il valore invitto del quale fu superato solo dalla sua religiosità, e a Salonina, virtuosissima Augusta
+Aurelio Vittore, uomo egregio, devotissimo agli dei e alle loro maestà.») (CIL VI, 1106)
+
+Forse si trattava solo di una forma di adulazione per un sovrano dalla personalità molto discussa e contraddittoria, nei confronti del quale anche i giudizi dei contemporanei erano tutt&apos;altro che unanimi, ma l&apos;imperatore doveva passare sotto la Porta Esquilina per raggiungere la sua villa di famiglia, gli Horti Liciniani, e la posizione e il tono dell&apos;iscrizione dovevano sembrare a Vittore quanto mai opportuni.
+
+(Fonte: https://it.wikipedia.org/wiki/Porta_Esquilina)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ArcoGallienoDescription</IRI>
+        <Literal>Arco di Gallieno Description</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Art_const</IRI>
         <Literal>Arte</Literal>
     </AnnotationAssertion>
@@ -2481,6 +2994,21 @@ Fonte: https://it.wikipedia.org/wiki/Chiesa_di_Sant%27Eusebio_(Roma)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ClivusSuburanus</IRI>
+        <Literal>Clivus Suburanus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ClivusSuburanusDescription</IRI>
+        <Literal>ll quartiere che in epoca augustea si sviluppò intorno alla Porta Esquilina era uno tra i più popolosi e movimentati della città: abbandonato il ruolo di cimitero  e interamente bonificato da Mecenate, aveva assunto il nome di Subura ed era attraversato dal popolarissimo e frequentatissimo clivus Suburanus, pieno di botteghe e taverne e luogo rinomato per essere “la via delle prostitute” (come ricorda Marziale), che proseguiva, fuori dalla porta, con la via Labicana[3] (in direzione di Labicum, probabilmente l&apos;odierna Monte Compatri) e la via Prenestina[3] verso Gabii e Praeneste, ora Palestrina). Ma il notevole sviluppo urbanistico, portò anche alla costruzione di ville e case lussuose e splendidi horti (Mecenate si fece costruire qui la sua grandiosa villa, di cui rimangono diversi resti, a cavallo dell&apos;antico aggere serviano che ormai aveva perso definitivamente la sua funzione difensiva).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ClivusSuburanusDescription</IRI>
+        <Literal>Clivus Suburanus Description</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ColleEsquilino</IRI>
         <Literal>Colle Esquilino</Literal>
     </AnnotationAssertion>
@@ -2526,6 +3054,29 @@ Fonte: https://www.sovraintendenzaroma.it/i_luoghi/ville_e_parchi_storici/passeg
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ContemporaryRitual_const</IRI>
         <Literal>Riti della società moderna</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CriptaSVito</IRI>
+        <Literal>Cripta di S.Vito</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CriptaSVitoDescription</IRI>
+        <Literal>La Chiesa dei Santi Vito, Modesto e Crescenzia, situata in Via di San Vito, presenta nella cripta sottostante alcuni importanti ed antichi resti pertinenti all&apos;antica Porta Esquilina (Arco di Gallieno ) sita a fianco della Chiesa.
+Dagli scavi, furono individuati:
+- I resti delle strutture rinascimentali di Sisto IV (1477), le fondazioni medioevali e residui di struttura laterizia con pavimenti in bipedali romano tardo antico;
+- Tombe alla cappuccina coperte da tegole con bollo della Figlina Claudiana, con monogramma costantiniano;
+- Il basolato della strada romana in asse con la chiesa, a giustificazione del terzo fornice dell&apos;arco, poi dedicato a Gallieno, ma prima porta monumentale di epoca giulio-claudia;
+- Il fondo di un pozzo rettangolare, poi interrato, costruito in lastre di peperino: ritrovamento collegato all&apos;acquedotto Anio Vetus;
+- Due tronchi dello specus Augusti, con residue parti crollate in opus reticulatum, interrato alla fine del I sec. d. C;
+- I resti del castellum aquae (possente fondazione in conglomerato cementizio), potenziato da un arco di scarico.
+(Fonte: http://www.sanvito-roma.it/wp/wp-content/uploads/2018/11/Tavola1.pdf)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CriptaSVitoDescription</IRI>
+        <Literal>Cripta di S.Vito Description</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2626,6 +3177,42 @@ https://www.soprintendenzaspecialeroma.it/schede/l-area-archeologica-di-santa-cr
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FestaQuinquatriMinori</IRI>
+        <Literal>Festa dei Quinquatri minori</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FestaQuinquatriMinoriDescription</IRI>
+        <Literal>Quinquàtrie s. f. pl. [dal lat. Quinquatrus -uum, o Quinquatria o Quinquatries]. – Antica festa romana in onore di Minerva, celebrata per 5 giorni a partire dal 19 marzo, ossia dal quinto giorno dopo le Idi (che nel calendario romano si chiamava quinquatrus); erano queste le q. maggiori, cui partecipavano spec. scrittori e musicisti, mentre il 13 giugno si celebravano le q. minori, con la partecipazione di suonatori e spec. fidicini.
+(Fonte: https://www.treccani.it/vocabolario/quinquatrie/)
+
+La tradizione antica lega alla Porta Esquilina l&apos;origine della festa dei Quinquatri minori. Si narra che nonostante l&apos;antico splendore, ad un certo punto l&apos;arte greca dei flautisti decadde e per decreto pubblico venne limitato il numero dei suonatori che potevano partecipare alle cerimonie. I flautisti si autoesiliarono a Tivoli, dove un giorno vennero riuniti tutti per una gran festa, alla fine della quale erano talmente ubriachi che il padrone di casa, non sapendo come liberarsene, li caricò su un carro e li allontanò. Il carro, senza una guida, si avviò verso Roma ed entrò per la porta Esquilina; al mattino era al Foro, dove quella colorita e chiassosa torma di ubriachi destò tanta simpatia che qualcuno provvide a mascherarli, prima che venissero cacciati. Lo scherzo fu talmente gradito che ogni 13 giugno venne consentito di ripetere per le strade della città, in onore di Minerva, quella gran chiassata di flautisti e altri personaggi mascherati.
+
+(Fonte: https://www.turismoroma.it/it/luoghi/arco-di-gallieno)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FestaQuinquatriMinoriDescription</IRI>
+        <Literal>Festa dei Quinquatri minori Description</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FestaSAntonioAbate</IRI>
+        <Literal>Festa di S. Antonio Abate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FestaSAntonioAbateDescription</IRI>
+        <Literal>Si tratta della tradizionale benedizione degli animali in occasione della festa di sant’Antonio Abate, a Sant’Eusebio all’Esquilino. Una tradizione che va avanti dal 1437 e che vede arrivare al Rione Esquilino centinaia di fedeli accompagnati dai loro amici a quattro zampe.
+Fonte: https://www.diocesidiroma.it/a-santeusebio-la-festa-di-santantonio-abate/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FestaSAntonioAbateDescription</IRI>
+        <Literal>Festa di S. Antonio Abate Description</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#GiardinodiPiazzaVittorio</IRI>
         <Literal>Giardino di Piazza Vittorio</Literal>
     </AnnotationAssertion>
@@ -2723,6 +3310,24 @@ Fonte: https://it.wikipedia.org/wiki/Horti</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LeggendaPortaMagica</IRI>
+        <Literal>Leggenda della Porta Magica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LeggendaPortaMagicaDescription</IRI>
+        <Literal>Villa Palombara / Porta magica 
+La leggenda vuole che un viaggiatore, probabilmente il medico alchimista Francesco Borri, fu ospitato per una notte nella residenza e che lo stesso si recò nel giardino alla ricerca di un’erba in grado di produrre l’oro. Il mattino seguente il medico era scomparso ma aveva lasciato tracce di purissimo oro e dei manoscritti di difficile interpretazione, con simboli e formule alchemiche. Il marchese Palombara avrebbe quindi fatto incidere sulla Porta queste formule che riguardano simboli e iscrizioni in latino ed ebraico.
+Questa leggenda è attualmente superata e l’iscrizione viene attribuita al codice vaticano detto La Bugia. Rime del Marchese Massimiliano Palombara. Luglio MDCLX (manoscritto Reginense Lat. 1521 della Biblioteca Apostolica Vaticana) del 1655, realizzato dallo stesso marchese Palombara.
+Fonte: https://www.sovraintendenzaroma.it/content/porta-magica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LeggendaPortaMagicaDescription</IRI>
+        <Literal>Leggenda della Porta Magica Description</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Literature_const</IRI>
         <Literal>Letteratura</Literal>
     </AnnotationAssertion>
@@ -2770,6 +3375,27 @@ Fonte: https://it.wikipedia.org/wiki/Horti</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#MetroVittorioEmanuele</IRI>
         <Literal>Metro Vittorio Emanuele</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MuraServiane</IRI>
+        <Literal>Mura Serviane</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MuraServianeDescription</IRI>
+        <Literal>Resti di murature in grandi blocchi di tufo giallo, in alcuni casi poco visibili, in altri imponenti, costituiscono oggi la sola testimonianza della cinta muraria nota come Mura Serviane. Del più antico recinto, databile effettivamente al VI secolo a. C. e attribuito all’iniziativa del re Servio Tullio, si conservano alcuni avanzi in blocchi più piccoli di tufo granulare grigio. La gran parte di quanto si conserva delle mura va in realtà assegnata alla ricostruzione effettuata agli inizi del IV secolo a.C., poco dopo il grande saccheggio di Roma ad opera dei Galli nel 390 a.C.  Questa datazione, oltre che dalle fonti letterarie, è confermata proprio dall’utilizzo di un particolare tipo di tufo, detto “tufo giallo di Grotta Oscura”, le cui cave si trovavano nel territorio di influenza della città etrusca di Veio; l’impiego massiccio a Roma di questo tipo di tufo si deve quindi datare successivamente alla conquista della città avvenuta nel 396 a.C.
+
+Le mura avevano una lunghezza di circa 11 km e comprendevano una superficie di 426 ettari, la più ampia fra quelle della stessa epoca conservate in Italia. Numerose porte si aprivano nel circuito in coincidenza con i tracciati stradali che congiungevano la città ai centri vicini.  Dalla Porta Collina (posta a Nord) fino alla Porta Esquilina, essendo questa zona per lo più pianeggiante, alla normale muratura si aggiungeva un’ulteriore struttura difensiva (l’agger), costituita da un fossato davanti alle mura e da un retrostante terrapieno.
+
+Già dall’età augustea le mura non ebbero più funzione difensiva e vennero progressivamente occupate e riutilizzate da altre costruzioni. I resti più monumentali sono quelli conservati a fianco della Stazione Termini, dove si apriva la Porta Viminalis, e quelli sull’Aventino, in piazza Albania e in via  S. Anselmo.
+
+(Fonte: https://www.sovraintendenzaroma.it/content/mura-serviane-1)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MuraServianeDescription</IRI>
+        <Literal>Mura Serviane Description</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2898,6 +3524,11 @@ Fonte: https://www.sovraintendenzaroma.it/content/porta-magica</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ReligiousFestivity_const</IRI>
+        <Literal>Festa Religiosa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ReligiousPlace_const</IRI>
         <Literal>Luogo di culto</Literal>
     </AnnotationAssertion>
@@ -2930,6 +3561,31 @@ Fonte: https://www.sovraintendenzaroma.it/content/porta-magica</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#RioneMonti</IRI>
         <Literal>Rione Monti</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RitoCattolicoRussoBizantino</IRI>
+        <Literal>Rito cattolico russo bizantino</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RitoCattolicoRussoBizantinoDescription</IRI>
+        <Literal>Per l&apos;Eucaristia il rito bizantino non usa pane azzimo, cioè senza lievito (le particole della tradizione latina), bensì pane lievitato. Il pane usato per la celebrazione (detto in greco pròsphora, cioè offerta) viene predisposto prima della celebrazione eucaristica vera e propria, durante il rito della Pròthesis, cioè Preparazione, secondo un complesso simbolismo.
+La maggior parte della celebrazione, chiamata Divina Liturgia è cantata, comprese le Letture bibliche ed il Vangelo, spesso con l&apos;uso di antichissime melodie.
+Fonte Cathopedia https://it.cathopedia.org/wiki/Rito_bizantino 
+Nel rito bizantino i sacramenti principali dell&apos;iniziazione alla vita cristiana (battesimo, comunione e cresima) vengono celebrati insieme, nel momento del battesimo. Il battesimo si fa per immersione o per aspersione (l&apos;acqua deve scorrere prima sulla testa e poi sul resto del corpo del bambino).
+Nel matrimonio bizantino è previsto il rituale dell&apos;&quot;incoronazione degli sposi&quot;. Il sacerdote pone davanti all&apos;altare un tavolo; il rito segue con la coppia che bacia il Vangelo e la Santa Croce e poi gira tre volte attorno al tavolo insieme al celebrante.
+Fonte: https://it.wikipedia.org/wiki/Chiesa_di_Sant%27Antonio_Abate_all%27Esquilino</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RitoCattolicoRussoBizantinoDescription</IRI>
+        <Literal>Rito cattolico russo bizantino Description</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RitoCattolicoRussoBizantino_const</IRI>
+        <Literal>Rito cattolico russo bizantino</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3011,6 +3667,11 @@ Fonte: https://it.wikipedia.org/wiki/Mitra_(divinit%C3%A0)</Literal>
         <Literal>Architettura romana</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RomanFestivity_const</IRI>
+        <Literal>Festività romane</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#RomanHabit</IRI>
         <Literal>Abitudini in uso presso gli antichi romani</Literal>
@@ -3089,6 +3750,16 @@ Fonte: https://it.wikipedia.org/wiki/Mitra_(divinit%C3%A0)</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Social_const</IRI>
         <Literal>Usi e Costumi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#StoriesAndLegends</IRI>
+        <Literal>Storie e Leggende</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#StoriesAndLegends_const</IRI>
+        <Literal>Storie e Leggende</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
