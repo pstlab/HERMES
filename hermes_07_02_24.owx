@@ -398,6 +398,9 @@
         <NamedIndividual IRI="#ArcoGallienoDescription"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Arianesimo_const"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Art_const"/>
     </Declaration>
     <Declaration>
@@ -408,6 +411,12 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#AuditoriumDiMecenateDescription"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BasilicaSMartinoSSilvestroMonti"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BasilicaSMartinoSSilvestroMontiDescription"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Chemistry_const"/>
@@ -423,6 +432,12 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#ChiesaSEusebioDescription"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ChiesaSVitoSModesto"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ChiesaSVitoSModestoDescription"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#CimiteroSepolcreto"/>
@@ -470,7 +485,25 @@
         <NamedIndividual IRI="#CriptaSVitoDescription"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#CultoAriano"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CultoArianoDescription"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CultoDeiSanti"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Dance_const"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Diaconia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DiaconiaDescription"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Diaconia_const"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Domus"/>
@@ -483,6 +516,15 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#DomusDescription"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DomusEcclesiae"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DomusEcclesiaeDescription"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DomusEcclesiae_const"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#DomusRitrattiFontana"/>
@@ -701,7 +743,31 @@
         <NamedIndividual IRI="#RomansAndNature_const"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#SAntonioAbate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SAntonioAbateDescription"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SEusebio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SEusebioDescription"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SanVito"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SanVitoDescription"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#SantaCroceInGerusalemme"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SantiAusiliatori"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SantiAusiliatoriDescription"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Science_const"/>
@@ -729,6 +795,15 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Theater_const"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Titulus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TitulusDescription"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Titulus_const"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#TradizioneBotanicaRomana"/>
@@ -1288,6 +1363,10 @@
         <NamedIndividual IRI="#ArcoGallienoDescription"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#RomanRitual"/>
+        <NamedIndividual IRI="#Arianesimo_const"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Art"/>
         <NamedIndividual IRI="#Art_const"/>
     </ClassAssertion>
@@ -1302,6 +1381,14 @@
     <ClassAssertion>
         <Class IRI="#CulturalPropertyDescription"/>
         <NamedIndividual IRI="#AuditoriumDiMecenateDescription"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chiesa"/>
+        <NamedIndividual IRI="#BasilicaSMartinoSSilvestroMonti"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CulturalPropertyDescription"/>
+        <NamedIndividual IRI="#BasilicaSMartinoSSilvestroMontiDescription"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Chemistry"/>
@@ -1322,6 +1409,14 @@
     <ClassAssertion>
         <Class IRI="#CulturalPropertyDescription"/>
         <NamedIndividual IRI="#ChiesaSEusebioDescription"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chiesa"/>
+        <NamedIndividual IRI="#ChiesaSVitoSModesto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CulturalPropertyDescription"/>
+        <NamedIndividual IRI="#ChiesaSVitoSModestoDescription"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#CulturalPlace"/>
@@ -1380,8 +1475,32 @@
         <NamedIndividual IRI="#CriptaSVitoDescription"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Rituals"/>
+        <NamedIndividual IRI="#CultoAriano"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CulturalPropertyDescription"/>
+        <NamedIndividual IRI="#CultoArianoDescription"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ContemporaryRitual"/>
+        <NamedIndividual IRI="#CultoDeiSanti"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Dance"/>
         <NamedIndividual IRI="#Dance_const"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rituals"/>
+        <NamedIndividual IRI="#Diaconia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CulturalPropertyDescription"/>
+        <NamedIndividual IRI="#DiaconiaDescription"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ContemporaryRitual"/>
+        <NamedIndividual IRI="#Diaconia_const"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#CulturalPlace"/>
@@ -1398,6 +1517,18 @@
     <ClassAssertion>
         <Class IRI="#CulturalPropertyDescription"/>
         <NamedIndividual IRI="#DomusDescription"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CulturalPlace"/>
+        <NamedIndividual IRI="#DomusEcclesiae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CulturalPropertyDescription"/>
+        <NamedIndividual IRI="#DomusEcclesiaeDescription"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RomanArchitecture"/>
+        <NamedIndividual IRI="#DomusEcclesiae_const"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Residenza"/>
@@ -1688,8 +1819,40 @@
         <NamedIndividual IRI="#RomansAndNature_const"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Saints"/>
+        <NamedIndividual IRI="#SAntonioAbate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CulturalPropertyDescription"/>
+        <NamedIndividual IRI="#SAntonioAbateDescription"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Saints"/>
+        <NamedIndividual IRI="#SEusebio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CulturalPropertyDescription"/>
+        <NamedIndividual IRI="#SEusebioDescription"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Saints"/>
+        <NamedIndividual IRI="#SanVito"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CulturalPropertyDescription"/>
+        <NamedIndividual IRI="#SanVitoDescription"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#ComplessoMonumentale"/>
         <NamedIndividual IRI="#SantaCroceInGerusalemme"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Saints"/>
+        <NamedIndividual IRI="#SantiAusiliatori"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CulturalPropertyDescription"/>
+        <NamedIndividual IRI="#SantiAusiliatoriDescription"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Science"/>
@@ -1726,6 +1889,18 @@
     <ClassAssertion>
         <Class IRI="#Theater"/>
         <NamedIndividual IRI="#Theater_const"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Habit"/>
+        <NamedIndividual IRI="#Titulus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CulturalPropertyDescription"/>
+        <NamedIndividual IRI="#TitulusDescription"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RomanHabit"/>
+        <NamedIndividual IRI="#Titulus_const"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Habit"/>
@@ -1780,6 +1955,41 @@
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://w3id.org/arco/ontology/core/isPartOf"/>
+        <NamedIndividual IRI="#BasilicaSMartinoSSilvestroMonti"/>
+        <NamedIndividual IRI="#RioneMonti"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#BasilicaSMartinoSSilvestroMonti"/>
+        <NamedIndividual IRI="#BasilicaSMartinoSSilvestroMontiDescription"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#BasilicaSMartinoSSilvestroMontiDescription"/>
+        <NamedIndividual IRI="#CultoDeiSanti"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#BasilicaSMartinoSSilvestroMontiDescription"/>
+        <NamedIndividual IRI="#DomusRomana_const"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#BasilicaSMartinoSSilvestroMontiDescription"/>
+        <NamedIndividual IRI="#RitualitaEgizia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#BasilicaSMartinoSSilvestroMontiDescription"/>
+        <NamedIndividual IRI="#RitualitaMitraica_const"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#BasilicaSMartinoSSilvestroMontiDescription"/>
+        <NamedIndividual IRI="#Titulus_const"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/arco/ontology/core/isPartOf"/>
         <NamedIndividual IRI="#ChiesaSAntonioAbate"/>
         <NamedIndividual IRI="#RioneEsquilino"/>
     </ObjectPropertyAssertion>
@@ -1802,6 +2012,46 @@
         <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
         <NamedIndividual IRI="#ChiesaSEusebio"/>
         <NamedIndividual IRI="#ChiesaSEusebioDescription"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#ChiesaSEusebioDescription"/>
+        <NamedIndividual IRI="#Arianesimo_const"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#ChiesaSEusebioDescription"/>
+        <NamedIndividual IRI="#CultoDeiSanti"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#ChiesaSEusebioDescription"/>
+        <NamedIndividual IRI="#DomusEcclesiae_const"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#ChiesaSEusebioDescription"/>
+        <NamedIndividual IRI="#Titulus_const"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/arco/ontology/core/isPartOf"/>
+        <NamedIndividual IRI="#ChiesaSVitoSModesto"/>
+        <NamedIndividual IRI="#RioneEsquilino"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#ChiesaSVitoSModesto"/>
+        <NamedIndividual IRI="#ChiesaSVitoSModestoDescription"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#ChiesaSVitoSModestoDescription"/>
+        <NamedIndividual IRI="#CultoDeiSanti"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#ChiesaSVitoSModestoDescription"/>
+        <NamedIndividual IRI="#Diaconia_const"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
@@ -1875,6 +2125,26 @@
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#CultoAriano"/>
+        <NamedIndividual IRI="#CultoArianoDescription"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#CultoArianoDescription"/>
+        <NamedIndividual IRI="#Arianesimo_const"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#Diaconia"/>
+        <NamedIndividual IRI="#DiaconiaDescription"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#DiaconiaDescription"/>
+        <NamedIndividual IRI="#Diaconia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
         <NamedIndividual IRI="#Domus"/>
         <NamedIndividual IRI="#DomusDescription"/>
     </ObjectPropertyAssertion>
@@ -1902,6 +2172,16 @@
         <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
         <NamedIndividual IRI="#DomusDescription"/>
         <NamedIndividual IRI="#DomusRomana_const"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#DomusEcclesiae"/>
+        <NamedIndividual IRI="#DomusEcclesiaeDescription"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#DomusEcclesiaeDescription"/>
+        <NamedIndividual IRI="#DomusEcclesiae_const"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://w3id.org/arco/ontology/core/isPartOf"/>
@@ -1932,6 +2212,11 @@
         <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
         <NamedIndividual IRI="#FestaSAntonioAbate"/>
         <NamedIndividual IRI="#FestaSAntonioAbateDescription"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#FestaSAntonioAbateDescription"/>
+        <NamedIndividual IRI="#CultoDeiSanti"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
@@ -2134,9 +2419,59 @@
         <NamedIndividual IRI="#RitualitaMitraica_const"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#SAntonioAbate"/>
+        <NamedIndividual IRI="#SAntonioAbateDescription"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#SAntonioAbateDescription"/>
+        <NamedIndividual IRI="#CultoDeiSanti"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#SEusebio"/>
+        <NamedIndividual IRI="#SEusebioDescription"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#SEusebioDescription"/>
+        <NamedIndividual IRI="#CultoDeiSanti"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#SanVito"/>
+        <NamedIndividual IRI="#SanVitoDescription"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#SanVitoDescription"/>
+        <NamedIndividual IRI="#CultoDeiSanti"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://w3id.org/arco/ontology/core/isPartOf"/>
         <NamedIndividual IRI="#SantaCroceInGerusalemme"/>
         <NamedIndividual IRI="#RioneEsquilino"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#SantiAusiliatori"/>
+        <NamedIndividual IRI="#SantiAusiliatoriDescription"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#SantiAusiliatoriDescription"/>
+        <NamedIndividual IRI="#CultoDeiSanti"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#Titulus"/>
+        <NamedIndividual IRI="#TitulusDescription"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#TitulusDescription"/>
+        <NamedIndividual IRI="#Titulus_const"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
@@ -2265,6 +2600,56 @@
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#accessibility_elderly"/>
+        <NamedIndividual IRI="#BasilicaSMartinoSSilvestroMonti"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_groups"/>
+        <NamedIndividual IRI="#BasilicaSMartinoSSilvestroMonti"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_motor_disability"/>
+        <NamedIndividual IRI="#BasilicaSMartinoSSilvestroMonti"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#opening_hours"/>
+        <NamedIndividual IRI="#BasilicaSMartinoSSilvestroMonti"/>
+        <Literal>09:00 – 12:30  e 16:00 – 19:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visitability"/>
+        <NamedIndividual IRI="#BasilicaSMartinoSSilvestroMonti"/>
+        <Literal>Ingresso libero la Chiesa, / Visita guidata: gruppi (15 persone)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_price"/>
+        <NamedIndividual IRI="#BasilicaSMartinoSSilvestroMonti"/>
+        <Literal>Gratis la Chiesa, Visita guidata:13 Euro soci; 12 Euro; 11 Euro disabili, 5 Euro bambini</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_time"/>
+        <NamedIndividual IRI="#BasilicaSMartinoSSilvestroMonti"/>
+        <Literal>0.30 m / visita guidata: 1.30 min</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/context-description/address"/>
+        <NamedIndividual IRI="#BasilicaSMartinoSSilvestroMonti"/>
+        <Literal>Viale del Monte Oppio 30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/location/lat"/>
+        <NamedIndividual IRI="#BasilicaSMartinoSSilvestroMonti"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">41.90072509080245</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/location/long"/>
+        <NamedIndividual IRI="#BasilicaSMartinoSSilvestroMonti"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">12.498006048666637</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_elderly"/>
         <NamedIndividual IRI="#ChiesaSAntonioAbate"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
@@ -2337,6 +2722,56 @@
         <DataProperty IRI="https://w3id.org/arco/ontology/location/long"/>
         <NamedIndividual IRI="#ChiesaSEusebio"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">12.503479123276394</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_elderly"/>
+        <NamedIndividual IRI="#ChiesaSVitoSModesto"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_groups"/>
+        <NamedIndividual IRI="#ChiesaSVitoSModesto"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_motor_disability"/>
+        <NamedIndividual IRI="#ChiesaSVitoSModesto"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#opening_hours"/>
+        <NamedIndividual IRI="#ChiesaSVitoSModesto"/>
+        <Literal>08-18.30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visitability"/>
+        <NamedIndividual IRI="#ChiesaSVitoSModesto"/>
+        <Literal>Ingresso libero</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_price"/>
+        <NamedIndividual IRI="#ChiesaSVitoSModesto"/>
+        <Literal>Gratis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_time"/>
+        <NamedIndividual IRI="#ChiesaSVitoSModesto"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/context-description/address"/>
+        <NamedIndividual IRI="#ChiesaSVitoSModesto"/>
+        <Literal>Via di S. Vito, 12D</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/location/lat"/>
+        <NamedIndividual IRI="#ChiesaSVitoSModesto"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">41.89592215724537</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/location/long"/>
+        <NamedIndividual IRI="#ChiesaSVitoSModesto"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">12.50120615641369</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#accessibility_elderly"/>
@@ -2876,6 +3311,11 @@ Forse si trattava solo di una forma di adulazione per un sovrano dalla personali
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Arianesimo_const</IRI>
+        <Literal>Culto Ariano</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Art_const</IRI>
         <Literal>Arte</Literal>
     </AnnotationAssertion>
@@ -2902,6 +3342,37 @@ Fonte: https://www.sovraintendenzaroma.it/i_luoghi/roma_antica/monumenti/auditor
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#AuditoriumDiMecenateDescription</IRI>
         <Literal>Auditorium di Mecenate Description</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BasilicaSMartinoSSilvestroMonti</IRI>
+        <Literal>Basilica di San Martino e San Silvestro ai Monti</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BasilicaSMartinoSSilvestroMontiDescription</IRI>
+        <Literal>La basilica fu fondata da Silvestro I su un terreno donato da un esponente della famiglia degli Equizi (da cui il nome di Titulus Equitii) nel IV secolo. 
+Per “TITOLO” si intende l’indirizzo di una casa (o villa) romana adibita al culto dei primi cristiani. Equizio è il presbitero che, agli inizi del IV secolo adattò questa villa romana del III secolo al culto cristiano (Domus Ecclesiae), usandola anche come abitazione personale (la tradizione vuole che in questo luogo vi fosse anche la dimora di Papa S. Silvestro, a cui poi fu dedicato il Titolo).
+La chiesa si trova nella zona che al tempo della Roma Serviana era stata chiamata Esquilina, ossia la Terza Regio, dedicata agli dei egizi Iside e Serapide, secondo la divisione dei quartieri fatta all&apos;epoca di Augusto. Quest&apos;area fu interessata dalla costruzione della Domus Aurea di Nerone, nonchè dalle strutture imponenti delle Terme di Tito e di Traiano, di cui alcuni resti, come le Sette Sale, sono tuttora visibili. Nela zona fiorivano culti orientali pagani, quali il mitraismo ed il culto di Iside e Serapide.
+Sappiamo della presenza di un piccolo specchio d&apos;acqua, il lago di Orfeo, che doveva trovarsi all&apos;inizio del &apos;Clivo Suburrano (Clivus Suburanus), che corrisponde all&apos;odierna Via dei Selci, che insieme al &apos;Vicus Sabuci&apos; (Viale del Monte Oppio) costeggia le mura della Basilica. 
+L&apos;attuale chiesa di San Martino ai Monti data dall&apos;era Carolingia, ma una struttura colonnata del III secolo è stata individuata sotto ed accanto ad una chiesa posteriore.
+Nel 500, la chiesa fu ricostruita e dedicata ai santi Martino di Tours ed a papa Silvestro I da papa Simmaco. In questa occasione, la chiesa fu sopraelevata ed il primo oratorio divenne sotterraneo.
+Fu ricostruita di nuovo da Adriano I nel 772 e da Sergio II nell&apos;845. La struttura della chiesa attuale segue la chiesa antica e molte parti sono state riusate.
+Entrando nella chiesa, le cui bellissime decorazioni risalgono alla metà del 1600, si percorre la navata centrale fino alla scalea, che scende nella cripta al di sotto dell&apos;altare. 
+Da quest&apos;ambiente, attraverso una porticina sulla sinistra si scende un&apos;ulteriore scala e ci si trova finalmente all&apos;interno del Titolo Equizio. Si tratta di un grande ambiente rettangolare in laterizio, suddiviso in tre navate da sei pilastri. L&apos;edificio, databile intorno al III sec., faceva parte delle vicine terme e fu probabilmente adibito in seguito a scopi commerciali: un mercato coperto, o più probabilmente un magazzino. Alla fine del III sec. inizi del IV iniziò ad essere utilizzato per il culto cristiano. Fu Papa Silvestro a fondare il Titolo Equizio, sistemando il locale secondo le esigenze del rito cristiano e per le riunioni della comunità di questa zona della città. 
+La scala che conduce al livello più basso della basilica di Simmaco amplierà il Titolo nel VI sec., includendo nell&apos;edificio un&apos;interessante e curiosa cavea del III secolo, scoperta fortuitamente nei lavori di restauro del 1930 e la cui utilizzazione rimane ancora un mistero. Ulteriori lavori furono eseguiti ad opera di Papa Sergio II (IX Sec.), che ordinò la costruzione della Basilica soprastante e contemporaneamente restaurò, abbellendolo, il Titolo. I pilastri, che dividono l&apos;ambiente, vennero rinforzati ed ampliati in seguito al restauro e all&apos;ingrandimento dell&apos;edificio al di sopra del Titolo, avvenuto nel XIII secolo. Nel 1637 il Priore Antonio Filippini adattò uno dei locali del titolo a cappella in onore di S.Silvestro. Alcuni frammenti di pittura (IX secolo) sono ancora leggibili sulle volte del soffitto: scene di Santi con la Madonna e Gesù, nelle tipiche movenze e nei vestiti sgargianti che ritroviamo nell&apos;arte Bizantina. Alcune zone del pavimento, però, hanno restituito frammenti di mosaico a tessere bianche e nere, che insieme a motivi ornamentali affrescati su alcune delle volte, sembrano risalire agli inizi del III secolo, quando l&apos;edificio era ancora adibito ad usi commerciali. I resti, molto rovinati di un mosaico parietale, che raffigura Simmaco ai piedi di S.Silvestro, sono tutt&apos;ora conservati al di sopra di un altare realizzato durante i lavori di restauro del XVII secolo, che con i suoi angioletti in stucco tanto stona con l&apos;atmosfera austera e rigorosa del luogo. 
+Nel 1883, nel corso dei lavori di sistemazione della viabilità del quartiere Esquilino, presso il civico 128 di via G. Lanza, alle spalle della chiesa di S. Martino ai Monti, vennero individuate alcune strutture appartenenti ad una ricca domus di età tardo antica.
+La struttura, identificata anche con un Mitreo e raggiungibile attraverso un&apos;apertura nel marciapiede, presenta le tracce di diversi e antichi rimaneggiamenti. Al suo interno è ancora visibile un capitello ionico rovesciato posto su un basamento, probabilmente adibito a piccolo altare per la venerazione di divinità misteriose.
+Nelle pareti dell&apos;ambiente furono ricavate varie nicchie per fare posto alle lucerne di illuminazione.
+Fonti: 
+https://it.wikipedia.org/wiki/Basilica_dei_Santi_Silvestro_e_Martino_ai_Monti
+https://www.sotterraneidiroma.it/sites/basilica-di-san-silvestro-e-san-martino-ai-monti-titolo-equizi
+https://www.parrocchiasanmartinoaimonti.it/titolo-equizio/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BasilicaSMartinoSSilvestroMontiDescription</IRI>
+        <Literal>Basilica di San Martino e San Silvestro ai Monti Description</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2956,6 +3427,31 @@ Fonte: https://it.wikipedia.org/wiki/Chiesa_di_Sant%27Eusebio_(Roma)</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ChiesaSEusebioDescription</IRI>
         <Literal>Chiesa di S. Eusebio Description</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ChiesaSVitoSModesto</IRI>
+        <Literal>Chiesa di San Vito e San Modesto</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ChiesaSVitoSModestoDescription</IRI>
+        <Literal>Essa è collocata in prossimità dell&apos;Arco di Gallieno, addossata alle antiche Mura serviane, e sorge sull&apos;area un tempo occupata dal Macello di Livia, che più tardi si trasformò in luogo di martirio per molti cristiani. La chiesa è menzionata per la prima volta, col titolo di diaconia, nella biografia di papa Leone III tra l&apos;VIII ed il IX secolo. La Diaconia utilizzava parte delle strutture di un edificio pubblico ormai in
+abbandono: il Macellum Liviae (grande mercato alimentare dedicato da Augusto alla moglie Livia).
+La chiesa è dedicata a Vito, martire cristiano molto venerato nel Medioevo, perché gli si attribuivano facoltà terapeutiche. Accanto si trova la cosiddetta pietra scellerata, che la leggenda voleva usata per il martirio dei cristiani. Modesto e Crescenzia invece sembra siano persone fittizie, i cui nomi sono stati inseriti nel Calendario romano nel sec. XI”.
+(Fonte: http://www.sanvito-roma.it/wp/2016/12/orari-san-vito/)
+
+
+Ritenuta miracolosa, veniva grattata e ingerita dai credenti perché alla sua polvere si attribuivano poteri curativi dal morso dei cani idrofobi. (https://www.turismoroma.it/it/luoghi/chiesa-dei-santi-vito-e-modesto).
+Il suo culto era molto diffuso nell&apos;area del Mediterraneo. La sua ricorrenza è il 15 giugno.
+La chiesa è a pianta rettangolare ad un&apos;unica navata, con abside semicircolare e soffitto a cassettoni. Gli ultimi restauri hanno eliminato tutte le aggiunte ottocentesche.
+Nella parete di destra si trovano: un cippo romano con iscrizione, che la tradizione cristiana ritiene il luogo ove molti cristiani, tra cui san Vito, subirono il martirio; ed una edicola rinascimentale con un affresco attribuito a Melozzo da Forlì, pictor papalis di Sisto IV, e ad Antoniazzo Romano: Madonna col Bambino e Santi. 
+(Fonte: https://it.wikipedia.org/wiki/Chiesa_dei_Santi_Vito_e_Modesto_(Roma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ChiesaSVitoSModestoDescription</IRI>
+        <Literal>Chiesa di San Vito e San Modesto Description</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3079,6 +3575,27 @@ Dagli scavi, furono individuati:
         <Literal>Cripta di S.Vito Description</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CultoAriano</IRI>
+        <Literal>Culto ariano</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CultoArianoDescription</IRI>
+        <Literal>L’eresia di Ario (m. Costantinopoli 336), secondo la quale nella Trinità divina soltanto il Padre può considerarsi veramente Dio, non generato e non creato, eterno e immutabile, mentre il Figlio, intermediario tra Dio e il mondo e suo strumento nell’opera della creazione, fu creato dal nulla e «non sarebbe esistito, se Dio non ci avesse voluto creare». L’a. fu condannato in Occidente dal Concilio di Nicea (325), mentre in Oriente fu appoggiato dall’imperatore Costanzo, che cercò di imporlo anche all’Occidente. Dopo il Concilio di Costantinopoli (381), l’a. sopravvisse solo presso le popolazioni germaniche, cristianizzate dal vescovo goto Ulfila.
+Fonte: https://www.treccani.it/enciclopedia/arianesimo_%28Dizionario-di-Storia%29/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CultoArianoDescription</IRI>
+        <Literal>Culto ariano Description</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CultoDeiSanti</IRI>
+        <Literal>Culto dei Santi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#CulturalPlace</IRI>
         <Literal>La classe descrive luoghi e/o costruzioni legate agli usi e costumi di una societa&apos;/civilta&apos;. Edifici tipici di una determinata societa&apos;. Es. Il ninfeo e la domus erano edifici tipici nella cultura romana.</Literal>
@@ -3097,6 +3614,31 @@ Dagli scavi, furono individuati:
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Dance_const</IRI>
         <Literal>Danza</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Diaconia</IRI>
+        <Literal>Diaconia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DiaconiaDescription</IRI>
+        <Literal>La Diaconia definisce l&apos;azione sociale in accordo ai principi dell&apos;etica cristiana. Si fonda sul precetto dell&apos;amore e del servizio verso il prossimo secondo l&apos;esempio di Gesù Cristo.
+
+Il termine deriva dal greco διὰκονια (diaconia, letteralmente &quot;servizio&quot;) e trova nei Vangeli il suo fondamento. Molte sono le pericopi evangeliche nelle quali si fa riferimento esplicito alla diaconia. Senza dubbio la più eloquente è contenuta in Gv 13,3-17 , la lavanda dei piedi, nella quale Cristo mette in pratica il farsi servo. Anche in Lc 22,24-30 ,quando a poche ore dalla cattura e dalla passione, Gesù raccomanda la fedeltà a servire.
+
+Il servizio ai fratelli costituisce un elemento essenziale della cura che Gesù rivolge ai discepoli e a tutti. É parte integrante della cura delle anime. Fin dai primi secoli del cristianesimo esistevano le funzioni di diacono e diaconessa uomini e donne che collaboravano all&apos;assistenza dei poveri, al conferimento del battesimo e ad altre cerimonie liturgiche.
+(Fonte: https://it.cathopedia.org/wiki/Diaconia)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DiaconiaDescription</IRI>
+        <Literal>Diaconia Description</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Diaconia_const</IRI>
+        <Literal>Diaconia</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3141,6 +3683,31 @@ http://2.42.228.117/archeologia/index.php?it/224/glossario/55/domus</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DomusDescription</IRI>
         <Literal>Domus Description</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DomusEcclesiae</IRI>
+        <Literal>Domus Ecclesiae</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DomusEcclesiaeDescription</IRI>
+        <Literal>La domus ecclesiae (termine latino con il significato di &quot;casa dell&apos;assemblea&quot; o &quot;casa della chiesa&quot;) era un edificio privato, adattato alla necessità del culto, nella quale si radunavano i primi cristiani in epoca precedente all&apos;editto costantiniano del 313.
+Tale uso è documentato già nelle lettere di san Paolo, come per la casa di Narcisso (v. Lettera ai Romani, 16, 11), o la casa di Aquila e Prisca sull&apos;Aventino (in corrispondenza dell&apos;attuale chiesa di Santa Prisca).
+Nel IV secolo Roma ne contava 25, probabilmente affiancati da altri luoghi di culto privati.
+I luoghi di culto cristiani non si distinguevano architettonicamente dai normali edifici di abitazione, sebbene sia possibile che già prima del 312 fossero state costruite appositamente per il culto delle semplici sale.
+Sia le domus ecclesiae che i tituli prendevano generalmente il nome dal primitivo proprietario dell&apos;edificio e lo conservarono anche con la costruzione di una vera e propria chiesa in epoca successiva:
+(Fonte: https://it.wikipedia.org/wiki/Domus_ecclesiae)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DomusEcclesiaeDescription</IRI>
+        <Literal>Domus Ecclesiae Description</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DomusEcclesiae_const</IRI>
+        <Literal>Domus Ecclesiae</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3698,8 +4265,76 @@ Fonte: https://it.wikipedia.org/wiki/Mitra_(divinit%C3%A0)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SAntonioAbate</IRI>
+        <Literal>Sant’ Antonio Abate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SAntonioAbateDescription</IRI>
+        <Literal>Antonio Abate, in greco antico: Ἀντώνιος, Antṓnios, in latino: Antonius, in copto Ⲁⲃⲃⲁ Ⲁⲛⲧⲱⲛⲓ, chiamato sant&apos;Antonio il Grande, detto anche sant&apos;Antonio d&apos;Egitto, sant&apos;Antonio del Fuoco, sant&apos;Antonio del Deserto e sant&apos;Antonio l&apos;Anacoreta (Qumans, 12 gennaio 251 – Deserto della Tebaide, 17 gennaio 356), è stato un abate ed eremita egiziano.
+
+È considerato il fondatore del monachesimo cristiano e il primo degli abati; a lui si deve la costituzione in forma permanente di famiglie di monaci che sotto la guida di un padre spirituale, abbà, si consacrarono al servizio di Dio. La sua vita è stata tramandata dal suo discepolo Atanasio di Alessandria. È uno dei quattro Padri della Chiesa d&apos;Oriente che portano il titolo di &quot;Grande&quot; insieme allo stesso Atanasio, a Basilio e a Fozio di Costantinopoli. È ricordato nel Calendario dei santi della Chiesa cattolica e da quello luterano il 17 gennaio, ma la Chiesa ortodossa copta lo festeggia il 31 gennaio che corrisponde, nel suo calendario, al 22 del mese di Tobi.
+(Fonte: https://it.wikipedia.org/wiki/Antonio_abate)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SAntonioAbateDescription</IRI>
+        <Literal>Sant’ Antonio Abate Description</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SEusebio</IRI>
+        <Literal>Sant’ Eusebio</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SEusebioDescription</IRI>
+        <Literal>Sant&apos; Eusebio (Roma, 319 circa – Roma, 14 agosto 353) è stato un presbitero romano, martire per aver sostenuto la fede cristiana; venerato come santo dalla Chiesa cattolica, è oggetto di un culto antichissimo.
+Sant&apos;Eusebio nacque a Roma attorno al 319, in quel periodo governava l&apos;imperatore Costanzo II di religione ariana che fece imprigionare Eusebio per aver rimproverato papa Liberio di essere imparziale nei confronti dell&apos;imperatore eretico. Rimase 7 mesi in prigione per poi morire il 14 agosto 353. Venne sepolto nel cimitero di Callisto da alcuni sacerdoti che posero una lapide che dice: Eusebio Homini Dei.
+(Fonte: https://it.wikipedia.org/wiki/Eusebio_di_Roma_(presbitero)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SEusebioDescription</IRI>
+        <Literal>Sant’ Eusebio Description</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SanVito</IRI>
+        <Literal>San Vito</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SanVitoDescription</IRI>
+        <Literal>Vito è stato uno dei santi più popolari del medioevo. Ne è testimonianza anche il suo inserimento nel ristretto gruppo dei Ss. Ausiliatori, i quattordici (o quindici, secondo i luoghi) santi, la cui intercessione veniva ritenuta particolarmente efficace, in occasione di malattie o necessità caratteristiche. S. Vito veniva invocato soprattutto per scongiurare la corea, o ballo di S. Vito, la letargia e il morso di bestie velenose e idrofobe.
+
+La figura di S. Vito è stata avvolta dalla leggenda, che si è concretizzata nella fantasiosa Passione redatta nel secolo VII. E’ in questo spirito che gli esperti che hanno redatto il Calendario riformato hanno stilato a proposito del 15 giugno la seguente nota: “La memoria di S. Vito, martire in Lucania, benché antica, viene riservata ai calendari particolari. Modesto e Crescenzia invece sembra siano persone fittizie, i cui nomi sono stati inseriti nel Calendario romano nel sec. XI”.
+(Fonte: http://www.sanvito-roma.it/wp/la-chiesa/san-vito/)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SanVitoDescription</IRI>
+        <Literal>San Vito Description</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#SantaCroceInGerusalemme</IRI>
         <Literal>Santa Croce in Gerusalemme</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SantiAusiliatori</IRI>
+        <Literal>Santi Ausiliatori</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SantiAusiliatoriDescription</IRI>
+        <Literal>I quattordici Ss. Ausiliatori erano, in ordine alfabetico, Acacio, Barbara, Biagio, Caterina d’Alessandria, Ciriaco, Cristoforo, Dionigi, Egidio, Erasmo, Eustachio, Giorgio, Margherita, Pantaleone e Vito.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SantiAusiliatoriDescription</IRI>
+        <Literal>Santi Ausiliatori Description</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3770,6 +4405,27 @@ Fonte: https://it.wikipedia.org/wiki/Mitra_(divinit%C3%A0)</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Theater_const</IRI>
         <Literal>Teatro</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Titulus</IRI>
+        <Literal>Titulus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TitulusDescription</IRI>
+        <Literal>I nuovi edifici per il culto vengono pertanto identificati tramite il nome del donatore o di colui che, dopo aver acquistato l&apos;immobile, ne aveva curato la riconversione in aula di culto, secondo una prassi comune nel mondo romano per le opere a destinazione pubblica (es. strade, magazzini, basiliche, acquedotti); il nome del donatore era di norma apposto su una lastra (titulus) affissa a memoria dell&apos;atto di evergetismo in favore della comunità (il privato donava alla collettività, al popolo romano, i propri beni, ristrutturava strade, edifici pubblici etc.) . Per metonimia il termine titulus passò ad identificare la struttura architettonica stessa in cui si svolgevano i riti religiosi, venendosi di fatto a configurare come il più antico sinonimo della parola &quot;chiesa&quot;, impiegata solo più tardi per definire l&apos;edificio religioso cristiano
+Fonte: https://it.wikipedia.org/wiki/Titulus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TitulusDescription</IRI>
+        <Literal>Titulus Description</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Titulus_const</IRI>
+        <Literal>Titulus const</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
