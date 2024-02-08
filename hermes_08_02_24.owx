@@ -254,6 +254,9 @@
         <Class IRI="#RomanHabit"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#RomanReligiousPlace"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#RomanRitual"/>
     </Declaration>
     <Declaration>
@@ -380,6 +383,12 @@
         <DataProperty IRI="#website"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#AraMercurio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AraMercurioDescription"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Archeology_const"/>
     </Declaration>
     <Declaration>
@@ -419,7 +428,19 @@
         <NamedIndividual IRI="#BasilicaSMartinoSSilvestroMontiDescription"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#BasilicaSantaPrassede"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BasilicaSantaPrassedeDescription"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Chemistry_const"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ChiesaAnnaGioaccMonti"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ChiesaAnnaGioaccMontiDesc"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#ChiesaSAntonioAbate"/>
@@ -440,6 +461,12 @@
         <NamedIndividual IRI="#ChiesaSVitoSModestoDescription"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#ChiesaSantiSergioBaccoUcraini"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ChiesaSantiSergioBaccoUcrainiDescription"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#CimiteroSepolcreto"/>
     </Declaration>
     <Declaration>
@@ -456,6 +483,12 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Cinema_const"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CircoloMecenate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CircoloMecenateDescription"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#ClivusSuburanus"/>
@@ -483,6 +516,12 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#CriptaSVitoDescription"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CucinaDomus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CucinaDomusDescription"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#CultoAriano"/>
@@ -551,6 +590,12 @@
         <NamedIndividual IRI="#FestaSAntonioAbateDescription"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#GastronomiaAnticaRoma"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GastronomiaAnticaRomaDescription"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#GiardinodiPiazzaVittorio"/>
     </Declaration>
     <Declaration>
@@ -581,6 +626,12 @@
         <NamedIndividual IRI="#HortusRomano_const"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#IpogeoLanza"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IpogeoLanzaDescription"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#LeggendaPortaMagica"/>
     </Declaration>
     <Declaration>
@@ -591,6 +642,18 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Mathematics_const"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mecenate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MecenateDescription"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mecenatismo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MecenatismoDescription"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Medicine_const"/>
@@ -621,6 +684,12 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#NinfeoRomano_const"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Orazio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OrazioDescription"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Otium"/>
@@ -698,6 +767,24 @@
         <NamedIndividual IRI="#RitoCattolicoRussoBizantino_const"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#RitoOrtodossoEtiope"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RitoOrtodossoEtiopeDescription"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RitoOrtodossoEtiope_const"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RitoUcrainoBizantino_const"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RitualiaCattolicaUcrainaRitoBizantino"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RitualiaCattolicaUcrainaRitoBizantinoDescription"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#RitualitaEgizia"/>
     </Declaration>
     <Declaration>
@@ -734,6 +821,9 @@
         <NamedIndividual IRI="#RomanHabit_const"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#RomanReligiousPlace_const"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#RomanRitual_const"/>
     </Declaration>
     <Declaration>
@@ -755,6 +845,18 @@
         <NamedIndividual IRI="#SEusebioDescription"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#SanBacco"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SanBaccoDescription"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SanSergio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SanSergioDescription"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#SanVito"/>
     </Declaration>
     <Declaration>
@@ -762,6 +864,12 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#SantaCroceInGerusalemme"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SantaPrassede"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SantaPrassedeDescription"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#SantiAusiliatori"/>
@@ -816,6 +924,12 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#VillaPalombaraDescription"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Virgilio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VirgilioDescription"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="terms:description"/>
@@ -1166,6 +1280,10 @@
         <Class IRI="#SocialHabit"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#RomanReligiousPlace"/>
+        <Class IRI="#ReligiousPlace"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#RomanRitual"/>
         <Class IRI="#ReligiousRitual"/>
     </SubClassOf>
@@ -1339,6 +1457,14 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <ClassAssertion>
+        <Class IRI="#UnitaMonumentale"/>
+        <NamedIndividual IRI="#AraMercurio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CulturalPropertyDescription"/>
+        <NamedIndividual IRI="#AraMercurioDescription"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Archeology"/>
         <NamedIndividual IRI="#Archeology_const"/>
     </ClassAssertion>
@@ -1391,8 +1517,24 @@
         <NamedIndividual IRI="#BasilicaSMartinoSSilvestroMontiDescription"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Chiesa"/>
+        <NamedIndividual IRI="#BasilicaSantaPrassede"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CulturalPropertyDescription"/>
+        <NamedIndividual IRI="#BasilicaSantaPrassedeDescription"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Chemistry"/>
         <NamedIndividual IRI="#Chemistry_const"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chiesa"/>
+        <NamedIndividual IRI="#ChiesaAnnaGioaccMonti"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CulturalPropertyDescription"/>
+        <NamedIndividual IRI="#ChiesaAnnaGioaccMontiDesc"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Chiesa"/>
@@ -1419,6 +1561,14 @@
         <NamedIndividual IRI="#ChiesaSVitoSModestoDescription"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Chiesa"/>
+        <NamedIndividual IRI="#ChiesaSantiSergioBaccoUcraini"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CulturalPropertyDescription"/>
+        <NamedIndividual IRI="#ChiesaSantiSergioBaccoUcrainiDescription"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#CulturalPlace"/>
         <NamedIndividual IRI="#CimiteroSepolcreto"/>
     </ClassAssertion>
@@ -1441,6 +1591,14 @@
     <ClassAssertion>
         <Class IRI="#Cinema"/>
         <NamedIndividual IRI="#Cinema_const"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SocialEvent"/>
+        <NamedIndividual IRI="#CircoloMecenate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CulturalPropertyDescription"/>
+        <NamedIndividual IRI="#CircoloMecenateDescription"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#CulturalPropertyDescription"/>
@@ -1473,6 +1631,14 @@
     <ClassAssertion>
         <Class IRI="#CulturalPropertyDescription"/>
         <NamedIndividual IRI="#CriptaSVitoDescription"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CulturalPlace"/>
+        <NamedIndividual IRI="#CucinaDomus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CulturalPropertyDescription"/>
+        <NamedIndividual IRI="#CucinaDomusDescription"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Rituals"/>
@@ -1563,6 +1729,14 @@
         <NamedIndividual IRI="#FestaSAntonioAbateDescription"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#GastronomiaAnticaRoma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CulturalPropertyDescription"/>
+        <NamedIndividual IRI="#GastronomiaAnticaRomaDescription"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="https://w3id.org/arco/ontology/arco/ArchitecturalOrLandscapeHeritage"/>
         <NamedIndividual IRI="#GiardinodiPiazzaVittorio"/>
     </ClassAssertion>
@@ -1603,6 +1777,14 @@
         <NamedIndividual IRI="#HortusRomano_const"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#UnitaMonumentale"/>
+        <NamedIndividual IRI="#IpogeoLanza"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CulturalPropertyDescription"/>
+        <NamedIndividual IRI="#IpogeoLanzaDescription"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Legend"/>
         <NamedIndividual IRI="#LeggendaPortaMagica"/>
     </ClassAssertion>
@@ -1617,6 +1799,22 @@
     <ClassAssertion>
         <Class IRI="#Mathematics"/>
         <NamedIndividual IRI="#Mathematics_const"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Politician"/>
+        <NamedIndividual IRI="#Mecenate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CulturalPropertyDescription"/>
+        <NamedIndividual IRI="#MecenateDescription"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Proverbs"/>
+        <NamedIndividual IRI="#Mecenatismo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CulturalPropertyDescription"/>
+        <NamedIndividual IRI="#MecenatismoDescription"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Medicine"/>
@@ -1657,6 +1855,14 @@
     <ClassAssertion>
         <Class IRI="#RomanArchitecture"/>
         <NamedIndividual IRI="#NinfeoRomano_const"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Artist"/>
+        <NamedIndividual IRI="#Orazio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CulturalPropertyDescription"/>
+        <NamedIndividual IRI="#OrazioDescription"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Habit"/>
@@ -1759,6 +1965,30 @@
         <NamedIndividual IRI="#RitoCattolicoRussoBizantino_const"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Rituals"/>
+        <NamedIndividual IRI="#RitoOrtodossoEtiope"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CulturalPropertyDescription"/>
+        <NamedIndividual IRI="#RitoOrtodossoEtiopeDescription"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ContemporaryRitual"/>
+        <NamedIndividual IRI="#RitoOrtodossoEtiope_const"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ContemporaryRitual"/>
+        <NamedIndividual IRI="#RitoUcrainoBizantino_const"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rituals"/>
+        <NamedIndividual IRI="#RitualiaCattolicaUcrainaRitoBizantino"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CulturalPropertyDescription"/>
+        <NamedIndividual IRI="#RitualiaCattolicaUcrainaRitoBizantinoDescription"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#RomanRitual"/>
         <NamedIndividual IRI="#RitualitaEgizia"/>
     </ClassAssertion>
@@ -1807,6 +2037,10 @@
         <NamedIndividual IRI="#RomanHabit_const"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#RomanReligiousPlace"/>
+        <NamedIndividual IRI="#RomanReligiousPlace_const"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#RomanRitual"/>
         <NamedIndividual IRI="#RomanRitual_const"/>
     </ClassAssertion>
@@ -1836,6 +2070,22 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Saints"/>
+        <NamedIndividual IRI="#SanBacco"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CulturalPropertyDescription"/>
+        <NamedIndividual IRI="#SanBaccoDescription"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Saints"/>
+        <NamedIndividual IRI="#SanSergio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CulturalPropertyDescription"/>
+        <NamedIndividual IRI="#SanSergioDescription"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Saints"/>
         <NamedIndividual IRI="#SanVito"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1845,6 +2095,14 @@
     <ClassAssertion>
         <Class IRI="#ComplessoMonumentale"/>
         <NamedIndividual IRI="#SantaCroceInGerusalemme"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Saints"/>
+        <NamedIndividual IRI="#SantaPrassede"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CulturalPropertyDescription"/>
+        <NamedIndividual IRI="#SantaPrassedeDescription"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Saints"/>
@@ -1918,6 +2176,34 @@
         <Class IRI="#CulturalPropertyDescription"/>
         <NamedIndividual IRI="#VillaPalombaraDescription"/>
     </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Artist"/>
+        <NamedIndividual IRI="#Virgilio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CulturalPropertyDescription"/>
+        <NamedIndividual IRI="#VirgilioDescription"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/arco/ontology/core/isPartOf"/>
+        <NamedIndividual IRI="#AraMercurio"/>
+        <NamedIndividual IRI="#RioneMonti"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#AraMercurio"/>
+        <NamedIndividual IRI="#AraMercurioDescription"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#AraMercurioDescription"/>
+        <NamedIndividual IRI="#RomanReligiousPlace_const"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#AraMercurioDescription"/>
+        <NamedIndividual IRI="#RomanRitual_const"/>
+    </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://w3id.org/arco/ontology/core/isPartOf"/>
         <NamedIndividual IRI="#ArcoGallieno"/>
@@ -1990,6 +2276,41 @@
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://w3id.org/arco/ontology/core/isPartOf"/>
+        <NamedIndividual IRI="#BasilicaSantaPrassede"/>
+        <NamedIndividual IRI="#RioneMonti"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#BasilicaSantaPrassede"/>
+        <NamedIndividual IRI="#BasilicaSantaPrassedeDescription"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#BasilicaSantaPrassedeDescription"/>
+        <NamedIndividual IRI="#CultoDeiSanti"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#BasilicaSantaPrassedeDescription"/>
+        <NamedIndividual IRI="#Titulus_const"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/arco/ontology/core/isPartOf"/>
+        <NamedIndividual IRI="#ChiesaAnnaGioaccMonti"/>
+        <NamedIndividual IRI="#RioneMonti"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#ChiesaAnnaGioaccMonti"/>
+        <NamedIndividual IRI="#ChiesaAnnaGioaccMontiDesc"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#ChiesaAnnaGioaccMontiDesc"/>
+        <NamedIndividual IRI="#RitoOrtodossoEtiope_const"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/arco/ontology/core/isPartOf"/>
         <NamedIndividual IRI="#ChiesaSAntonioAbate"/>
         <NamedIndividual IRI="#RioneEsquilino"/>
     </ObjectPropertyAssertion>
@@ -2054,6 +2375,26 @@
         <NamedIndividual IRI="#Diaconia_const"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/arco/ontology/core/isPartOf"/>
+        <NamedIndividual IRI="#ChiesaSantiSergioBaccoUcraini"/>
+        <NamedIndividual IRI="#RioneMonti"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#ChiesaSantiSergioBaccoUcraini"/>
+        <NamedIndividual IRI="#ChiesaSantiSergioBaccoUcrainiDescription"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#ChiesaSantiSergioBaccoUcrainiDescription"/>
+        <NamedIndividual IRI="#CultoDeiSanti"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#ChiesaSantiSergioBaccoUcrainiDescription"/>
+        <NamedIndividual IRI="#RitoUcrainoBizantino_const"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
         <NamedIndividual IRI="#CimiteroSepolcreto"/>
         <NamedIndividual IRI="#CimiteroSepolcretoDescription"/>
@@ -2062,6 +2403,16 @@
         <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
         <NamedIndividual IRI="#CimiteroSepolcretoDescription"/>
         <NamedIndividual IRI="#RitualitaFunebre_const"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#CircoloMecenate"/>
+        <NamedIndividual IRI="#CircoloMecenateDescription"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#CircoloMecenateDescription"/>
+        <NamedIndividual IRI="#OtiumRomano_const"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://w3id.org/arco/ontology/core/isPartOf"/>
@@ -2122,6 +2473,16 @@
         <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
         <NamedIndividual IRI="#CriptaSVitoDescription"/>
         <NamedIndividual IRI="#RomanArchitecture_const"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#CucinaDomus"/>
+        <NamedIndividual IRI="#CucinaDomusDescription"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#CucinaDomusDescription"/>
+        <NamedIndividual IRI="#DomusRomana_const"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
@@ -2224,6 +2585,16 @@
         <NamedIndividual IRI="#ReligiousFestivity_const"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#GastronomiaAnticaRoma"/>
+        <NamedIndividual IRI="#GastronomiaAnticaRomaDescription"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#GastronomiaAnticaRomaDescription"/>
+        <NamedIndividual IRI="#Enogastronomy_const"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://w3id.org/arco/ontology/core/isPartOf"/>
         <NamedIndividual IRI="#GiardinodiPiazzaVittorio"/>
         <NamedIndividual IRI="#RioneEsquilino"/>
@@ -2304,9 +2675,49 @@
         <NamedIndividual IRI="#RomaniEBotanica_const"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/arco/ontology/core/isPartOf"/>
+        <NamedIndividual IRI="#IpogeoLanza"/>
+        <NamedIndividual IRI="#RioneMonti"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#IpogeoLanza"/>
+        <NamedIndividual IRI="#IpogeoLanzaDescription"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#IpogeoLanzaDescription"/>
+        <NamedIndividual IRI="#DomusRomana_const"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#IpogeoLanzaDescription"/>
+        <NamedIndividual IRI="#RitualitaMitraica_const"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
         <NamedIndividual IRI="#LeggendaPortaMagicaDescription"/>
         <NamedIndividual IRI="#StoriesAndLegends_const"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#Mecenate"/>
+        <NamedIndividual IRI="#MecenateDescription"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#MecenateDescription"/>
+        <NamedIndividual IRI="#PoliticalActor_const"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#Mecenatismo"/>
+        <NamedIndividual IRI="#MecenatismoDescription"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#MecenatismoDescription"/>
+        <NamedIndividual IRI="#SocialHabit_const"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://w3id.org/arco/ontology/core/isPartOf"/>
@@ -2332,6 +2743,16 @@
         <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
         <NamedIndividual IRI="#NinfeoFontanaMonumentaleDescription"/>
         <NamedIndividual IRI="#NinfeoRomano_const"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#Orazio"/>
+        <NamedIndividual IRI="#OrazioDescription"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#OrazioDescription"/>
+        <NamedIndividual IRI="#Literature_const"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
@@ -2390,6 +2811,21 @@
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#RitoOrtodossoEtiopeDescription"/>
+        <NamedIndividual IRI="#RitoOrtodossoEtiope_const"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#RitualiaCattolicaUcrainaRitoBizantino"/>
+        <NamedIndividual IRI="#RitualiaCattolicaUcrainaRitoBizantinoDescription"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#RitualiaCattolicaUcrainaRitoBizantinoDescription"/>
+        <NamedIndividual IRI="#RitoUcrainoBizantino_const"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
         <NamedIndividual IRI="#RitualitaEgiziaROmaniDescription"/>
         <NamedIndividual IRI="#RitualitaEgizia"/>
     </ObjectPropertyAssertion>
@@ -2440,6 +2876,26 @@
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#SanBacco"/>
+        <NamedIndividual IRI="#SanBaccoDescription"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#SanBaccoDescription"/>
+        <NamedIndividual IRI="#CultoDeiSanti"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#SanSergio"/>
+        <NamedIndividual IRI="#SanSergioDescription"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#SanSergioDescription"/>
+        <NamedIndividual IRI="#CultoDeiSanti"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
         <NamedIndividual IRI="#SanVito"/>
         <NamedIndividual IRI="#SanVitoDescription"/>
     </ObjectPropertyAssertion>
@@ -2452,6 +2908,16 @@
         <ObjectProperty IRI="https://w3id.org/arco/ontology/core/isPartOf"/>
         <NamedIndividual IRI="#SantaCroceInGerusalemme"/>
         <NamedIndividual IRI="#RioneEsquilino"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#SantaPrassede"/>
+        <NamedIndividual IRI="#SantaPrassedeDescription"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#SantaPrassedeDescription"/>
+        <NamedIndividual IRI="#CultoDeiSanti"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
@@ -2498,6 +2964,46 @@
         <NamedIndividual IRI="#VillaPalombaraDescription"/>
         <NamedIndividual IRI="#RitualitaEgizia"/>
     </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasDescription"/>
+        <NamedIndividual IRI="#Virgilio"/>
+        <NamedIndividual IRI="#VirgilioDescription"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://w3id.org/italia/onto/l0/hasTopic"/>
+        <NamedIndividual IRI="#VirgilioDescription"/>
+        <NamedIndividual IRI="#Literature_const"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visitability"/>
+        <NamedIndividual IRI="#AraMercurio"/>
+        <Literal>Ingresso Libero, suonare al civico 8, visita guidata: condominio</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_price"/>
+        <NamedIndividual IRI="#AraMercurio"/>
+        <Literal>Gratis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_time"/>
+        <NamedIndividual IRI="#AraMercurio"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/context-description/address"/>
+        <NamedIndividual IRI="#AraMercurio"/>
+        <Literal>Via di S. Martino ai Monti 8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/location/lat"/>
+        <NamedIndividual IRI="#AraMercurio"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">41.89529799641094</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/location/long"/>
+        <NamedIndividual IRI="#AraMercurio"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">12.497934861378887</Literal>
+    </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#accessibility_elderly"/>
         <NamedIndividual IRI="#ArcoGallieno"/>
@@ -2650,6 +3156,103 @@
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#accessibility_elderly"/>
+        <NamedIndividual IRI="#BasilicaSantaPrassede"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_groups"/>
+        <NamedIndividual IRI="#BasilicaSantaPrassede"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_motor_disability"/>
+        <NamedIndividual IRI="#BasilicaSantaPrassede"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#opening_hours"/>
+        <NamedIndividual IRI="#BasilicaSantaPrassede"/>
+        <Literal>Lunedì – Sabato: dalle 10.00 alle 12.00 / dalle 16.00 alle 18.00
+
+Domenica: dalle 10.00 alle 11.00 / dalle 16.00 alle 18.00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visitability"/>
+        <NamedIndividual IRI="#BasilicaSantaPrassede"/>
+        <Literal>Ingresso libero</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_price"/>
+        <NamedIndividual IRI="#BasilicaSantaPrassede"/>
+        <Literal>Gratis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_time"/>
+        <NamedIndividual IRI="#BasilicaSantaPrassede"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/context-description/address"/>
+        <NamedIndividual IRI="#BasilicaSantaPrassede"/>
+        <Literal>via di Santa Prassede, 9/A</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/location/lat"/>
+        <NamedIndividual IRI="#BasilicaSantaPrassede"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">41.896458206980476</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/location/long"/>
+        <NamedIndividual IRI="#BasilicaSantaPrassede"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">12.49869321349146</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_elderly"/>
+        <NamedIndividual IRI="#ChiesaAnnaGioaccMonti"/>
+        <Literal>true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_groups"/>
+        <NamedIndividual IRI="#ChiesaAnnaGioaccMonti"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#opening_hours"/>
+        <NamedIndividual IRI="#ChiesaAnnaGioaccMonti"/>
+        <Literal>dalle 6 alle 8,45 .feriali e dalle 6 alla 10 la domenica</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visitability"/>
+        <NamedIndividual IRI="#ChiesaAnnaGioaccMonti"/>
+        <Literal>Ingresso libero</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_price"/>
+        <NamedIndividual IRI="#ChiesaAnnaGioaccMonti"/>
+        <Literal>Gratis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_time"/>
+        <NamedIndividual IRI="#ChiesaAnnaGioaccMonti"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/context-description/address"/>
+        <NamedIndividual IRI="#ChiesaAnnaGioaccMonti"/>
+        <Literal>Via Monte Polacco 3 /Largo Venosta</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/location/lat"/>
+        <NamedIndividual IRI="#ChiesaAnnaGioaccMonti"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">41.89797092784546</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/location/long"/>
+        <NamedIndividual IRI="#ChiesaAnnaGioaccMonti"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">12.495351362458532</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_elderly"/>
         <NamedIndividual IRI="#ChiesaSAntonioAbate"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
@@ -2772,6 +3375,56 @@
         <DataProperty IRI="https://w3id.org/arco/ontology/location/long"/>
         <NamedIndividual IRI="#ChiesaSVitoSModesto"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">12.50120615641369</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_elderly"/>
+        <NamedIndividual IRI="#ChiesaSantiSergioBaccoUcraini"/>
+        <Literal>true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_groups"/>
+        <NamedIndividual IRI="#ChiesaSantiSergioBaccoUcraini"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibility_motor_disability"/>
+        <NamedIndividual IRI="#ChiesaSantiSergioBaccoUcraini"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#opening_hours"/>
+        <NamedIndividual IRI="#ChiesaSantiSergioBaccoUcraini"/>
+        <Literal>Tutti i giorni 6:30 - 19 // Lunedì, martedì, mercoledi, venerdì e sabato dalle ore 07:00 alle ore 08:00, domenica dalle ore 08 - 12 alle ore 15 - 18, giovedì dalle ore 17:00 alle ore 19:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visitability"/>
+        <NamedIndividual IRI="#ChiesaSantiSergioBaccoUcraini"/>
+        <Literal>Ingresso libero</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_price"/>
+        <NamedIndividual IRI="#ChiesaSantiSergioBaccoUcraini"/>
+        <Literal>Gratis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#visiting_time"/>
+        <NamedIndividual IRI="#ChiesaSantiSergioBaccoUcraini"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/context-description/address"/>
+        <NamedIndividual IRI="#ChiesaSantiSergioBaccoUcraini"/>
+        <Literal>piazza della Madonna dei Monti ( 3 la Chiesa non ha numero civico; al civico 3 c&apos;è la Casa per Ferie Santa Sofia e la Casa di Procura delle Suore Catechiste di Sant&apos;Anna)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/location/lat"/>
+        <NamedIndividual IRI="#ChiesaSantiSergioBaccoUcraini"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">41.894997338009</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/location/long"/>
+        <NamedIndividual IRI="#ChiesaSantiSergioBaccoUcraini"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">12.490791494737593</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#accessibility_elderly"/>
@@ -3079,6 +3732,26 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">12.505411423276396</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#visitability"/>
+        <NamedIndividual IRI="#IpogeoLanza"/>
+        <Literal>Sospesa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/context-description/address"/>
+        <NamedIndividual IRI="#IpogeoLanza"/>
+        <Literal>Via Giovanni Lanza 130</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/location/lat"/>
+        <NamedIndividual IRI="#IpogeoLanza"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">41.89493067304179</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://w3id.org/arco/ontology/location/long"/>
+        <NamedIndividual IRI="#IpogeoLanza"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">12.498371258707033</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#accessibility_elderly"/>
         <NamedIndividual IRI="#MuraServiane"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
@@ -3260,6 +3933,28 @@ Ingressi per gruppi alle ore 11,30 per un massimo di 20 persone a visita oltre l
     </SubDataPropertyOf>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AraMercurio</IRI>
+        <Literal>Ara di Mercurio</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AraMercurioDescription</IRI>
+        <Literal>Lungo la via di S. Martino ai Monti, al  civico 8, in uno scantinato è stata rinvenuta nel 1888, e lì si conserva, un’ara dedicata al Dio Mercurio, divinità protettrice delle attività commerciali. Si suppone che l’ara in marmo fosse il basamento per una statua del Dio, ed era sistemata in una piattaforma in blocchi di tufo con due scalette laterali. 
+
+Un’iscrizione rende possibile datare l’ara con precisione. Si legge, infatti, che Cesare Augusto (Ottaviano), “figlio del divino Cesare”, Pontefice Massimo, Console per l’undicesima volta, tribuno per la quattordicesima, dedicò questo monumento costruito “con il denaro del popolo romano”, quando Ottaviano era assente da Roma, il 1° gennaio. 
+
+La via corrisponde all’antico tracciato del Clivus Summus Suburbanus, che era il proseguimento di quel Clivus Suburbanus, che univa la Suburra con la Porta Esquilina.
+
+
+Fonte: https://www.romanoimpero.com/2022/08/sotto-s-silvestro-e-martino-ai-monti.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AraMercurioDescription</IRI>
+        <Literal>Ara di Mercurio Description</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Archeology_const</IRI>
         <Literal>Archeologia</Literal>
     </AnnotationAssertion>
@@ -3376,6 +4071,35 @@ https://www.parrocchiasanmartinoaimonti.it/titolo-equizio/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BasilicaSantaPrassede</IRI>
+        <Literal>Basilica di Santa Prassede</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BasilicaSantaPrassedeDescription</IRI>
+        <Literal>Il titulus Praexidis, che da lei prende il nome, è attestato nel  491 in un epitaffio nel cimitero di sant’Ippolito sulla via Tiburtina. La chiesa ebbe miglioramenti nell’VIII secolo con papa Adriano I e nel IX, con Pasquale I, una completa riedificazione e la costruzione di un monastero che all’inizio fu retto da monaci greci e dal 1198 passò  ai monaci della congregazione vallombrosana che tuttora la reggono. 
+L&apos;accesso principale alla chiesa è da via San Martino ai Monti, il tratto superiore dell&apos;antico  Clivus Suburanus,  attraverso un protiro romanico che immette a due rampe di scale che salgono fino  al cortile quadrangolare, dominato dalla facciata a mattoni della basilica, restaurata tra  il 1937 e il 1938 con lavori che hanno cercato di ripristinare le forme più antiche risalenti all’epoca di Pasquale I, che erano state  modificate in epoca barocca.
+
+Superati il protiro di accesso, su via di San Martino ai Monti, e l&apos;androne a gradinate, si arriva in un atrio scoperto che precede la facciata e che conserva resti del colonnato della basilica paleocristiana. La facciata presenta, invece, tre finestre centinate in alto e, ai lati, le colonne dell&apos;antico nartece.
+
+L&apos;interno era originariamente diviso in tre navate da sedici colonne di granito, reggenti direttamente la trabeazione. Quattro di queste furono successivamente incorporate in pilastri di rinforzo, su cui sono impostate tre grandi arcate trasversali, decorati da affreschi con &quot;Storie della Passione&quot;, figure di &quot;Apostoli” dei primi del XVII secolo.
+
+Al centro del pavimento, un disco di porfido copre un pozzo, ove, secondo la leggenda, Santa Prassede raccoglieva i resti ed il sangue dei martiri.
+Da non perdere la Cappella di San Zenone, il più importante monumento bizantino conservato a Roma, voluto da Pasquale I come tomba monumentale della madre Teodora, ispirato ai mausolei classici. All’interno sono custoditi splendidi mosaici con figure di santi, sulle pareti che culminano nella volta con la figura del Salvatore entro un medaglione.
+
+In fondo alla navata maggiore, sull’arco trionfale e nell’abside si possono ammirare altri mosaici del tempo di Pasquale I.
+Nella chiesa si trova il busto del vescovo Santoni, prima opera scultorea di Bernini.
+
+Fonte: https://www.turismoroma.it/it/luoghi/basilica-di-santa-prassede
+https://www.vaticannews.va/it/chiesa/news/2021-03/la-basilica-di-santa-prassede-dove-incontenibile-e-la-fede.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BasilicaSantaPrassedeDescription</IRI>
+        <Literal>Basilica di Santa Prassede Description</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#BusLine</IRI>
         <Literal>Bus Line</Literal>
     </AnnotationAssertion>
@@ -3383,6 +4107,27 @@ https://www.parrocchiasanmartinoaimonti.it/titolo-equizio/</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Chemistry_const</IRI>
         <Literal>Chimica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ChiesaAnnaGioaccMonti</IRI>
+        <Literal>Chiesa di S. Anna e Gioacchino ai Monti</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ChiesaAnnaGioaccMontiDesc</IRI>
+        <Literal>La chiesa dei Santi Gioacchino e Anna ai Monti è una chiesa di Roma, nel rione Monti, che affaccia su largo Venosta, all&apos;inizio di via in Selci.
+L&apos;edificio sacro ha una pianta a croce greca e la sua costruzione iniziò nel 1589 per terminare nel Settecento con la costruzione del convento annesso per le suore di san Francesco di Paola.
+La costruzione attuale risale al 1760 secondo il progetto di Francesco Fiori. La chiesa fu consacrata nel 1781 dal pontefice Pio VI Braschi. La facciata presenta un ordine di paraste con capitelli corinzi tra le quali aprono quattro finestre. Al centro apre un portale sovrastato da una finestra incorniciata. A coronamento un doppio timpano triangolare. L’interno presenta una pianta a croce greca riccamente decorato con stucchi e volti di cherubini. Sull’altare maggiore è posta una tela con le immagini della Madonna, di S. Anna e di S.Gioacchino.
+In occasione di successivi ampliamenti, nella vicina via in Selci, in quello che oggi è l&apos;ex monastero delle Paolotte, fu trovato un tesoro. La tradizione popolare attribuiva questo tesoro ad un re polacco che abitava nella zona: da qui il nome della rampa di scale che costeggia la chiesa, ossia Monte Polacco.
+Nella chiesa con l&apos;accordo di san Giovanni Paolo II, officia il culto, a certi orari, la Chiesa ortodossa etiope Tewahedo, alla quale, con Convenzione della Diocesi di Roma, sono peraltro affidati i locali al piano interrato della chiesa.
+Fonte: https://it.wikipedia.org/wiki/Chiesa_dei_Santi_Gioacchino_e_Anna_ai_Monti
+https://turismoroma.it/it/luoghi/ss-gioacchino-e-anna-ai-monti</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ChiesaAnnaGioaccMontiDesc</IRI>
+        <Literal>Chiesa di S. Anna e Gioacchino ai Monti Description</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3455,6 +4200,27 @@ Nella parete di destra si trovano: un cippo romano con iscrizione, che la tradiz
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ChiesaSantiSergioBaccoUcraini</IRI>
+        <Literal>Chiesa dei Santi Sergio e Bacco degli Ucraini</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ChiesaSantiSergioBaccoUcrainiDescription</IRI>
+        <Literal>La cattedrale dei Santi Sergio e Bacco degli Ucraini è un luogo di culto cattolico di rito orientale bizantino-ucraino del centro storico di Roma, nel rione Monti, in piazza della Madonna dei Monti. Dal 2019 è cattedrale dell&apos;esarcato apostolico per i fedeli cattolici ucraini di rito bizantino residenti in Italia. La chiesa è dedicata a due santi martiri siriani, ufficiali dell&apos;esercito romano, martirizzati nel 303 sotto l&apos;imperatore Diocleziano. È la chiesa nazionale degli ucraini.
+È una piccola e antichissima chiesa di rito ucraino-bizantino, affacciata su piazza Madonna dei Monti, tra bei palazzi antichi e vissuti, locali notturni e caffè vivaci. Sergio e Bacco erano due ufficiali dell’esercito romano che subirono il martirio sotto l’imperatore Massimiano nel IV secolo: il loro culto si diffuse rapidamente in tutto l’Impero, tanto che nel IX secolo a Roma c’erano cinque chiese a loro dedicate. Proprio del IX secolo è la prima menzione della chiesa, poi nuovamente ricordata due secoli dopo nelle bolle di Gregorio VI e Gregorio VII come monastero di San Sergio in Suburra.
+Ricostruita dopo il Sacco di Roma nel 1527, la chiesa fu restaurata di nuovo nella prima metà del Seicento a spese del cardinale Antonio Barberini, il cui nome è inciso in un’iscrizione commemorativa sopra il portico della chiesa. Il cardinale era fratello del pontefice Urbano VIII, che assegnò il complesso ai Monaci Ruteni di San Basilio (di rito orientale e della provincia ecclesiastica di Kiev) che tuttora la amministrano. Nel 1718, sotto l’intonaco della sacrestia fu ritrovato un affresco della Madonna: ritenuta miracolosa, l’immagine fu posta sull’altare maggiore, dove è ancora oggi, e la chiesa fu chiamata dal popolo “Madonna del Pascolo”. Fu proprio in seguito a questa scoperta che nel 1741 alcuni fedeli finanziarono la ricostruzione della chiesa su progetto di Francesco Ferrari. La chiesa subì altre modifiche alla fine del Settecento e poi nel 1896. Dal 1961, è una delle tre chiese nazionali degli Ucraini di Roma.
+La bella facciata ottocentesca, restaurata nel 1970, è in forme neoclassiche con un portale in travertino del Seicento. L’interno è a navata unica con la volta a botte finemente decorata con un affresco settecentesco di Sebastiano Ceccaroni. L’altare maggiore è ornato da un’edicola con due colonne in verde antico e capitelli corinzi in bronzo, realizzata nel Settecento da Filippo Barigioni. Al suo interno è posta l’immagine rivestita d’argento della “Madonna del Pascolo”.
+Fonte: https://www.turismoroma.it/it/luoghi/chiesa-dei-santi-sergio-e-bacco-degli-ucraini
+https://it.wikipedia.org/wiki/Cattedrale_dei_Santi_Sergio_e_Bacco_degli_Ucraini
+https://www.ukr-parafia-roma.it/it/principale.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ChiesaSantiSergioBaccoUcrainiDescription</IRI>
+        <Literal>Chiesa dei Santi Sergio e Bacco degli Ucraini Description</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#CimiteroSepolcreto</IRI>
         <Literal>Cimitero / Sepolcreto romano</Literal>
     </AnnotationAssertion>
@@ -3487,6 +4253,24 @@ Nella parete di destra si trovano: un cippo romano con iscrizione, che la tradiz
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Cinema_const</IRI>
         <Literal>Cinema</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CircoloMecenate</IRI>
+        <Literal>Circolo di Mecenate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CircoloMecenateDescription</IRI>
+        <Literal>Augusto conferisce al suo amico Mecenate la libertà di organizzare un vero e proprio circolo letterario imperiale. Il potere si alimenta attraverso l&apos;arte e la poesia poiché crea consensi nell&apos;opinione pubblica. Attorno a Mecenate si raccolgono dunque i principali poeti del tempo. Virgilio, Properzio, Orazio. A questi arrivano doni, aiuti finanziari ed i poeti celebrano nei loro versi Mecenate, Augusto e la sua politica.
+Ad esempio Virgilio, con Il mito di Enea, rende ad Augusto e a Roma una genealogia mitica.
+
+Fonte: https://www.rai.it/dl/televideo/Caio_CittaImperiali_Web/Tracce/2A_Ar1.htm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CircoloMecenateDescription</IRI>
+        <Literal>Circolo di Mecenate Description</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3573,6 +4357,25 @@ Dagli scavi, furono individuati:
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#CriptaSVitoDescription</IRI>
         <Literal>Cripta di S.Vito Description</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CucinaDomus</IRI>
+        <Literal>Cucina (parte della Domus)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CucinaDomusDescription</IRI>
+        <Literal>La cucina (“culina”) nella domus era ubicata in un settore laterale, insieme ad altri ambienti di servizio e solitamente era un ambiente piccolo, caratterizzato dalla presenza di un zoccolo in muratura con un ripiano sul quale si aprivano uno o più focolari. Per la cottura dei cibi si utilizzavano pentole e tegami in terracotta o in metallo, appoggiati su treppiedi o direttamente sulle braci.
+
+Nello zoccolo in muratura erano ricavate una o più nicchie che contenevano le riserve di legno e il vasellame. A volte la cucina poteva essere dotata di un piccolo forno per la cottura del pane. Il vasellame, che a volte vi poteva essere conservato, poteva essere in argento, in bronzo, in rame, in ferro, in vetro, in ceramica aretina, in terracotta, in legno e in vimini. Era un ambiente non molto grande, spesso senza finestra, con un forno per il pane e le focacce, un acquaio e una sorta di fornelli in pietra a legna o carbonella.
+I cibi venivano cotti in pentole di argilla o bronzo. C’erano mestoli e palette di ogni tipo, in legno e in bronzo, con ciotole e vasi di terracotta, paioli per il camino, ventole, barattoli di spezie e di salse. C&apos;erano pure colini con manici graziosamente traforati, e brocche, e contenitori in bronzo, ceramica e pure in ferro, per i formaggi, i datteri, la frutta, la zuppa, e perfino vasetti per la ricotta.
+Fonte: https://www.romanoimpero.com/2009/08/la-cucina-romana.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CucinaDomusDescription</IRI>
+        <Literal>Cucina domus Description</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3780,6 +4583,41 @@ Fonte: https://www.diocesidiroma.it/a-santeusebio-la-festa-di-santantonio-abate/
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GastronomiaAnticaRoma</IRI>
+        <Literal>Gastronomia nell&apos;antica Roma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#GastronomiaAnticaRomaDescription</IRI>
+        <Literal>In tutte le tavole, da quelle più umili a quelle patrizie, il piatto principale era la puls. Si tratta di una polenta ottenuta con farina di farro cotta in acqua e sale a cui si potevano aggiungere le fave (da qui il termine latino puls fabata) oppure altre tipologie di legumi, cavoli, cipolle, formaggio. La puls costituiva l’alimento principale in quanto il pane non era ancora diffuso prima del II secolo a.C.
+Fonte: https://archeofood.com/2022/04/14/puls-fabata-la-zuppa-che-vince-i-canoni-delle-diete-moderne/
+
+La carne suina era molto apprezzata, mentre agnello e capretto erano considerati vere e proprie leccornie: secondo quanto riportato dall’Editto di Diocleziano, il prezzo di questi due prodotti si equivaleva. 
+
+Fonte: https://www.storieparallele.it/carne-cucine-antica-roma/
+L’abbacchio, l’agnello da latte era una leccornia ed è considerato il piatto tipico della Roma odierna
+
+
+Sull&apos;origine del termine “abbacchio” ci sono discordanze:  quella puramente etimologica lo fa risalire ad abecula o avecula, a sua volta derivante da ovacula o ovecula, diminutivo del latino ovis (pecora);
+un&apos;interpretazione popolana fa derivare il termine da ad baculum, &quot;vicino al bastone&quot;, ad indicare l&apos;agnello da latte, non ancora svezzato e che, in quanto tale, si usa tutt&apos;oggi legare ad un bastone conficcato nel terreno (ad baculum), al fine di costringere la madre a rimanere nei pressi senza allontanarsi;
+un&apos;altra interpretazione popolana la fa originare dal termine abbacchiare, nel senso di abbattere, uccidere con il bastone[3] (dal latino baculum, quindi un agnello che è prossimo all&apos;abbattimento &quot;ad baculum&quot;, &quot;vicino al bastone&quot;). Questo verbo è tuttora in uso nel dialetto romanesco e da lì nell&apos;uso colloquiale della lingua italiana, soprattutto con il participio passato e aggettivo abbacchiato, nel senso di persona abbattuta, affranta, distrutta, fortemente dispiaciuta. L&apos;abbattimento dell&apos;agnello era solitamente effettuato mediante bastonata in testa e poi taglio della gola con coltello.
+Fonte: Wikipedia: https://it.wikipedia.org/wiki/Abbacchio
+
+
+Le “lagane”, sottili sfoglie di pasta cotta in forno, a strisce un po&apos; più larghe delle moderne pappardelle, che possono essere considerate le “nonne” delle lasagne.
+Prelibate le ulivae Picenae di cui parlano Catone il Censore, Varrone, Cicerone e Marziale, e che il Satyricon di Petronio Arbitro porta sulla tavola di Trimalcione. Olive che (oltre ad alimentare l&apos;esercito) già in Roma antica erano servite come aperitivo, compresa una versione ripiena con carne trita, pesce sminuzzato e farina, oggi conosciute come “olive ascolane”. A proposito di formaggi: anche il Pecorino Romano è uno dei più antichi di cui si hanno tracce certe, con oltre 2000 anni di vita.
+
+Plinio il Vecchio racconta di un gelato fatto con neve (che veniva portata nella capitale dal Terminillo, e conservata), miele e frutta. Un antesignano della grattachecca ancora gustata a Roma, fatta con ghiaccio tritato, ancora offerta a piazza Vittorio.
+
+Fonte: https://www.repubblica.it/il-gusto/2023/07/18/news/cucina_dellantica_roma_piatti_e_ingredienti_moderni-407950677/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GastronomiaAnticaRomaDescription</IRI>
+        <Literal>Gastronomia nell&apos;antica Roma Description</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#GiardinodiPiazzaVittorio</IRI>
         <Literal>Giardino di Piazza Vittorio</Literal>
     </AnnotationAssertion>
@@ -3877,6 +4715,27 @@ Fonte: https://it.wikipedia.org/wiki/Horti</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#IpogeoLanza</IRI>
+        <Literal>Ipogeo di via Lanza</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#IpogeoLanzaDescription</IRI>
+        <Literal>In via Giovanni Lanza, all&apos;altezza del n. civico 130, un tombino nel marciapiede consente l&apos;accesso ad un antico ambiente ipogeo
+Nel 1883, nel corso dei lavori di sistemazione della viabilità del quartiere Esquilino, presso il civico 128 di via G. Lanza, alle spalle della chiesa di S. Martino ai Monti, vennero individuate alcune strutture appartenenti ad una ricca domus di età tardo antica.
+La struttura, identificata anche con un Mitreo presenta le tracce di diversi e antichi rimaneggiamenti. Al suo interno è ancora visibile un capitello ionico rovesciato posto su un basamento, probabilmente adibito a piccolo altare per la venerazione di divinità misteriose.
+E’ un Mitreo piccolissimo per uso personale del proprietario della domus e dei suoi familiari. Si accede a un piccolo larario (un sacrario per il culto domestico) e attraverso un piccolo arco si scendono due rampe di scale con un pianerottolo intermedio. All’ingresso del Mitreo, troviamo le due nicchie contrapposte dei dadofori, poi uno spazio con un capitello ionico capovolto con funzione di altare, e, al di sopra due mensole sul muro dove era appoggiata la tauroctonia. Sia il rilievo con la tauroctonia che i dadofori , sono di dimensioni minuscole, adatte alla piccola superficie.
+Nelle pareti dell&apos;ambiente furono ricavate varie nicchie per fare posto alle lucerne di illuminazione.
+Fonte: https://www.sovraintendenzaroma.it/i_luoghi/roma_antica/monumenti/ipogeo_di_via_giovanni_lanza
+-C. Pavia, “Guida dei Mitrei di Roma Antica” – Gangemi Editore, Roma 1999</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#IpogeoLanzaDescription</IRI>
+        <Literal>Ipogeo di via Lanza Description</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#LeggendaPortaMagica</IRI>
         <Literal>Leggenda della Porta Magica</Literal>
     </AnnotationAssertion>
@@ -3907,6 +4766,42 @@ Fonte: https://www.sovraintendenzaroma.it/content/porta-magica</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Mathematics_const</IRI>
         <Literal>Matematica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Mecenate</IRI>
+        <Literal>Mecenate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MecenateDescription</IRI>
+        <Literal>Gaio Cilnio Mecenate (in latino: Gaius Cilnius Maecenas; Arezzo, 13 aprile 68 a.C.[1] – 8 a.C.) è stato un politico romano, influente consigliere e alleato dell&apos;imperatore Augusto.
+Fu un importante protettore della nuova generazione di poeti augustei, tra i quali Orazio, Vario Rufo e Virgilio. Durante il regno di Ottaviano Augusto, Mecenate prestò servizio come ministro de facto della cultura, ma nonostante la ricchezza e il potere accumulati scelse di non sedere nel Senato capitolino, preferendo rimanere di rango equestre.
+Mecenate è celebre per il suo sostegno ai giovani poeti, tanto che il suo nome è divenuto nel tempo sinonimico di &quot;protettore di artisti&quot;. Virgilio scrisse le Georgiche in suo onore e fu lui che, impressionato dalla poesia di Orazio, lo presentò a Mecenate, cosa che gli permise di iniziare la prima delle sue Odi (Odi, I,1) grazie alla direzione del suo nuovo protettore. Mecenate diede a costui pieno appoggio finanziario, come pure una proprietà nei monti della Sabina, in pieno spirito di Evergetismo. Furono altresì suoi protetti sia Properzio sia i poeti minori Lucio Vario Rufo, Cornelio Gallo, Aristio Fusco, Plozio Tucca, Valgio Rufo, Domizio Marso, Quintilio Varo, Caio Melisso e Emilio Macro.
+
+https://it.wikipedia.org/wiki/Gaio_Cilnio_Mecenate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MecenateDescription</IRI>
+        <Literal>Mecenate Description</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Mecenatismo</IRI>
+        <Literal>Mecenatismo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MecenatismoDescription</IRI>
+        <Literal>Tendenza a favorire le arti e la letteratura attraverso il sostegno economico. Il m., che affiancò all’aspetto della liberalità quello, più interessato, dell’investimento di denaro nell’arte, fu un tratto caratteristico dei principi del Rinascimento (per es. i Gonzaga e i Medici), e di numerosi papi e sovrani dell’Età moderna. Il termine deriva dal nome di C. Clinio Mecenate (m. 8 a.C.), amico di Ottaviano Augusto, letterato e protettore di artisti.
+
+Fonte: https://www.treccani.it/enciclopedia/mecenatismo_(Dizionario-di-Storia)/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MecenatismoDescription</IRI>
+        <Literal>Mecenatismo Description</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3998,6 +4893,24 @@ Fonte: http://www.iccd.beniculturali.it/getFile.php?id=7392</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#NinfeoRomano_const</IRI>
         <Literal>Ninfeo Romano</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Orazio</IRI>
+        <Literal>Orazio</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OrazioDescription</IRI>
+        <Literal>Poeta latino (Venosa 65 a. C. - Roma 8 a. C.). Nacque da padre libertinus, come egli stesso dice, e fu educato a Roma, dove ebbe come primo maestro Orbilio; compiuti i vent&apos;anni si recò ad Atene, a completare gli studî retorici.
+La pubblicazione del I libro delle Satire poco dopo, attorno al 35 a.C., e la vicinanza a Virgilio e Vario gli consentono di essere introdotto alla conoscenza di Mecenate: un incontro determinante nella vita di Orazio, che al ministro di Augusto dedica ampia parte della sua produzione. Autore prolifico, conosce il picco della celebrità pubblica quando, in occasione dei grandiosi ludi saeculares, fa recitare da un coro di ragazzi e ragazze il Carmen saeculare in onore di Apollo e Diana, che lo stesso Augusto lo ha incaricato di comporre. È il 3 giugno del 17 a.C. Gli anni a seguire saranno più defilati: ritiratosi progressivamente nei suoi possedimenti in campagna, muore il 27 novembre dell’8 a.C. e viene sepolto sull’Esquilino vicino alla tomba dell’amico Mecenate.
+
+Fonte: https://www.treccani.it/enciclopedia/orazio-poesia-e-saggezza-di-fronte-alla-precarieta-della-vita_(Storia-della-civilt%C3%A0-europea-a-cura-di-Umberto-Eco)/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrazioDescription</IRI>
+        <Literal>Orazio Description</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -4156,6 +5069,53 @@ Fonte: https://it.wikipedia.org/wiki/Chiesa_di_Sant%27Antonio_Abate_all%27Esquil
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RitoOrtodossoEtiope</IRI>
+        <Literal>Rito ortodosso etiope</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RitoOrtodossoEtiopeDescription</IRI>
+        <Literal>La fede e la pratica dei cristiani ortodossi etiopi comprendono elementi di Miafisismo, teoria che si è sviluppata in Etiopia nel corso dei secoli. Le credenze comprendono la fede in Dio (in Ge&apos;ez / amarico, &apos;Egziabeher, letteralmente &quot;Signore dell&apos;Universo&quot;, nell&apos;antica lingua ge&apos;ez), la venerazione per la Vergine Maria, gli angeli e i santi. Una gerarchia di Kidusan (messaggeri angelici e santi) trasmettono le preghiere dei fedeli a Dio e svolgono la volontà divina, così quando un cristiano etiope è in difficoltà lui o lei si appellano a questi così come a Dio. Nei rituali più formali e regolari, solo i sacerdoti possono entrare nel sancta sanctorum della chiesa, solitamente circolare o ottagonale, in cui il tabot (&quot;Arca&quot;) è alloggiato, dedicato al santo patrono della chiesa. Durante le feste religiose importanti il tabot è scortato in processione fuori della chiesa. Nelle funzioni religiose la maggior parte dei membri della parrocchia rimane nell&apos;anello esterno, dove i fedeli e gli ecclesiasti cantano inni e ballano.
+
+L&apos;Eucaristia è data solo a coloro che si sentono puri, hanno digiunato regolarmente, e hanno in generale avuto una condotta corretta. Generalmente la comunione è principalmente limitata ai bambini e agli anziani; coloro che sono in età sessualmente attiva o che hanno desideri sessuali in genere non ricevono l&apos;Eucaristia.
+
+Fonte: https://it.wikipedia.org/wiki/Chiesa_ortodossa_etiope</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RitoOrtodossoEtiopeDescription</IRI>
+        <Literal>Rito ortodosso etiope Description</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RitoOrtodossoEtiope_const</IRI>
+        <Literal>Rito Ortodosso Etiope</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RitoUcrainoBizantino_const</IRI>
+        <Literal>Rito ucraino-bizantino</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RitualiaCattolicaUcrainaRitoBizantino</IRI>
+        <Literal>Ritualità cattolica ucraina di rito bizantino</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RitualiaCattolicaUcrainaRitoBizantinoDescription</IRI>
+        <Literal>Nel rito bizantino i sacramenti principali dell&apos;iniziazione alla vita cristiana (battesimo, comunione e cresima) vengono celebrati insieme, nel momento del battesimo. Il battesimo si fa per immersione o per aspersione (l&apos;acqua deve scorrere prima sulla testa e poi sul resto del corpo del bambino).
+Nel matrimonio bizantino è previsto il rituale dell&apos;&quot;incoronazione degli sposi&quot;. Il sacerdote pone davanti all&apos;altare un tavolo; il rito segue con la coppia che bacia il Vangelo e la Santa Croce e poi gira tre volte attorno al tavolo insieme al celebrante.
+Per l&apos;eucaristia il rito bizantino non usa pane azzimo, cioè senza lievito (come le ostie e le particole della tradizione latina), bensì il pane lievitato. Inoltre, il pane usato per la celebrazione (detto in greco pròsphora, cioè &quot;offerta&quot;) viene predisposto poco prima della celebrazione eucaristica vera e propria, durante il rito della Pròthesis, cioè &quot;Preparazione&quot;, secondo un complesso simbolismo. La comunione si fa abitualmente sotto le due specie eucaristiche, il pane e il vino. Per questo la comunione si riceve solo in bocca e non c&apos;è la possibilità di riceverla in mano. Anche i bambini che hanno ricevuto tutti i sacramenti possono ricevere la comunione, attraverso l&apos;uso di un cucchiaino
+Fonte: https://it.wikipedia.org/wiki/Rito_bizantino</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RitualiaCattolicaUcrainaRitoBizantinoDescription</IRI>
+        <Literal>Ritualità cattolica ucraina di rito bizantino Description</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#RitualitaEgizia</IRI>
         <Literal>Culti egizi</Literal>
     </AnnotationAssertion>
@@ -4250,6 +5210,11 @@ Fonte: https://it.wikipedia.org/wiki/Mitra_(divinit%C3%A0)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RomanReligiousPlace_const</IRI>
+        <Literal>Luoghi di culto degli antichi romani</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#RomanRitual_const</IRI>
         <Literal>Riti degli antichi romani</Literal>
     </AnnotationAssertion>
@@ -4300,6 +5265,40 @@ Sant&apos;Eusebio nacque a Roma attorno al 319, in quel periodo governava l&apos
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SanBacco</IRI>
+        <Literal>San Bacco</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SanBaccoDescription</IRI>
+        <Literal>Bacco, insieme a Sergio, era soldato delle Legioni di confine, ed occupava un alto grado nel palazzo di Massimino Daia († 313), divenuto Cesare nel 305 con il governo dell’Oriente; accusato come cristiani da nemici invidiosi, fu condotto al tempio di Giove ed invitato a sacrificare, ma rifiutò, venendo così degradato e fatto girare per dileggio per le vie della città, vestito da donna. Lo stesso imperatore fece invano un tentativo di farlo apostatare, poi fu inviato da Antioco, prefetto della Provincia Siro-Eufratese, perché fosse ucciso
+Nel ‘castrum’ di Barbalisso, Bacco fu sottoposto ad una cruenta flagellazione, tanto spietata che sotto i colpi morì; il suo corpo fu lasciato insepolto, ma di notte i cristiani lo raccolsero seppellendolo in una grotta vicina.
+
+Fonte: https://ukr-parafia-roma.it/it/chi-siamo/vita-dei-santi.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SanBaccoDescription</IRI>
+        <Literal>San Bacco Description</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SanSergio</IRI>
+        <Literal>San Sergio</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SanSergioDescription</IRI>
+        <Literal>Sergio, insieme a Bacco, era soldato delle Legioni di confine, ed occupava un alto grado nel palazzo di Massimino Daia († 313), divenuto Cesare nel 305 con il governo dell’Oriente; accusato come cristiano da nemici invidiosi, fu condotto al tempio di Giove ed invitato a sacrificare, ma rifiutò, venendo così degradato e fatto girare per dileggio per le vie della città, vestito da donna. Lo stesso imperatore fece invano un tentativo di farlo apostatare, poi fu inviato da Antioco, prefetto della Provincia Siro-Eufratese, perché fosse ucciso. Sergio fu costretto a camminare con dei chiodi conficcati nei piedi, attraverso i ‘castra’ di Saura, Tetrapirgio e Rosapha, finché in quest’ultima città fortificata venne decapitato. Fu sepolto nello stesso luogo del martirio e sulla sua tomba venne eretta una piccola chiesa; quando finite le persecuzioni, tornò la pace anche per i cristiani, accanto al ‘castrum’ di Rosapha, fu costruita una grande chiesa, in cui venne trasferito il corpo del martire, nel giorno anniversario della sua morte, il 7 ottobre.
+Fonte: https://ukr-parafia-roma.it/it/chi-siamo/vita-dei-santi.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SanSergioDescription</IRI>
+        <Literal>San Sergio Description</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#SanVito</IRI>
         <Literal>San Vito</Literal>
     </AnnotationAssertion>
@@ -4320,6 +5319,23 @@ La figura di S. Vito è stata avvolta dalla leggenda, che si è concretizzata ne
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#SantaCroceInGerusalemme</IRI>
         <Literal>Santa Croce in Gerusalemme</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SantaPrassede</IRI>
+        <Literal>Santa Prassede</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SantaPrassedeDescription</IRI>
+        <Literal>Santa Prassede
+Prassede, tradizionalmente vissuta nel II secolo, durante l’impero di Antonino Pio,  si adoperò  per accogliere e nascondere i cristiani perseguitati, dando  loro, nel caso, sepoltura. Una delle iconografie che ce la fanno immediatamente riconoscere è la fanciulla in ginocchio, china sul pavimento, mentre asciuga con una spugna il sangue dei martiri che secondo la tradizione fu raccolto in un pozzo ora al centro della chiesa, ricoperto da un disco di porfido del pavimento cosmatesco. La sua vita è raccontata assieme a quelle della sorella Pudenziana e del padre Pudente nei Leggendari di V e VI secolo e poi molto diffusi nel medioevo.  Prassede sarebbe morta non direttamente per martirio, ma perché, sopraffatta dall&apos;orrore delle persecuzioni, chiese e ottenne di morire.
+https://www.vaticannews.va/it/chiesa/news/2021-03/la-basilica-di-santa-prassede-dove-incontenibile-e-la-fede.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SantaPrassedeDescription</IRI>
+        <Literal>Santa Prassede Description</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4474,6 +5490,27 @@ Fonte: https://it.wikipedia.org/wiki/Villa_Palombara</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#VillaPalombaraDescription</IRI>
         <Literal>Villa Palombara Description</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Virgilio</IRI>
+        <Literal>Virgilio</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#VirgilioDescription</IRI>
+        <Literal>Publio Virgilio Marone nasce nel 70 a.C. presso Mantova. Va a scuola prima a Cremona e a Milano, e poi a Roma, ma la maggior parte della sua vita adulta la trascorre a Napoli, dove è in contatto con i seguaci dell’epicureismo.
+
+Compone la prima raccolta di poesie, le Bucoliche, tra i 28 e i 31 anni di età. Quest’opera lo rende subito famoso, e Virgilio entra nel circolo di Mecenate, il gruppo di poeti e intellettuali vicino al nuovo signore di Roma, Ottaviano Augusto. La sua seconda opera, le Georgiche, lo tiene occupato per una decina d’anni: sarà pubblicata intorno al 29 a.C., quando il poeta ha poco più di quarant’anni. Da allora in poi, Virgilio si dedica alla sua opera più impegnativa, l’Eneide.
+
+Durante un viaggio in Grecia, Virgilio si ammala. Torna indietro, ma la febbre si aggrava; muore a Brindisi, nel 19 a.C., a cinquantuno anni, lasciando la sua Eneide priva della revisione finale.
+
+Fonte: https://www.treccani.it/enciclopedia/publio-virgilio-marone_(Enciclopedia-dei-ragazzi)/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VirgilioDescription</IRI>
+        <Literal>Virgilio Description</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="https://w3id.org/italia/onto/ADMS/hasContributor"/>
