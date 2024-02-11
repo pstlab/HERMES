@@ -505,12 +505,6 @@
     
 
 
-    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Farm -->
-
-    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Farm"/>
-    
-
-
     <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Festivity -->
 
     <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Festivity">
@@ -574,12 +568,6 @@
         <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#UnitaTerritoriale"/>
         <rdfs:comment xml:lang="it">Tipo di unità territoriale caratterizzata da un&apos;infrastruttura urbana che è di per sé considerata un patrimonio culturale. Es. Vie o piazze</rdfs:comment>
     </owl:Class>
-    
-
-
-    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Lake -->
-
-    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Lake"/>
     
 
 
@@ -657,12 +645,6 @@
         <rdfs:subClassOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Location_Infrastructure"/>
         <rdfs:label>Metro Line</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Mountain -->
-
-    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Mountain"/>
     
 
 
@@ -1132,18 +1114,6 @@
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
-    
-
-
-    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Waterfall -->
-
-    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Waterfall"/>
-    
-
-
-    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Zoo -->
-
-    <owl:Class rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Zoo"/>
     
 
 

@@ -3,13 +3,18 @@
      xml:base="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes/"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:l0="https://w3id.org/italia/onto/l0/"
+     xmlns:ns="http://www.w3.org/2006/vcard/ns#"
+     xmlns:CLV="https://w3id.org/italia/onto/CLV/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:ADMS="https://w3id.org/italia/onto/ADMS/"
      xmlns:core="https://w3id.org/arco/ontology/core/"
+     xmlns:dcat="http://www.w3.org/ns/dcat#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:opla="http://ontologydesignpatterns.org/opla/"
+     xmlns:prov="http://www.w3.org/ns/prov#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:opla1="http://www.ontologydesignpatterns.org/opla/"
      xmlns:terms="http://purl.org/dc/terms/"
@@ -121,6 +126,7 @@ Ad esempio: La Leggenda della Porta magica e&apos; strettamente legata a Villa P
 
     <owl:DatatypeProperty rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#accessibility_elderly">
         <rdfs:subPropertyOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#accessibility"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
     </owl:DatatypeProperty>
     
 
@@ -129,6 +135,7 @@ Ad esempio: La Leggenda della Porta magica e&apos; strettamente legata a Villa P
 
     <owl:DatatypeProperty rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#accessibility_groups">
         <rdfs:subPropertyOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#accessibility"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
     </owl:DatatypeProperty>
     
 
@@ -137,6 +144,7 @@ Ad esempio: La Leggenda della Porta magica e&apos; strettamente legata a Villa P
 
     <owl:DatatypeProperty rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#accessibility_hearing_disability">
         <rdfs:subPropertyOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#accessibility"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
     </owl:DatatypeProperty>
     
 
@@ -145,6 +153,7 @@ Ad esempio: La Leggenda della Porta magica e&apos; strettamente legata a Villa P
 
     <owl:DatatypeProperty rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#accessibility_motor_disability">
         <rdfs:subPropertyOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#accessibility"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
     </owl:DatatypeProperty>
     
 
@@ -153,6 +162,7 @@ Ad esempio: La Leggenda della Porta magica e&apos; strettamente legata a Villa P
 
     <owl:DatatypeProperty rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#accessibility_visual_disability">
         <rdfs:subPropertyOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#accessibility"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
     </owl:DatatypeProperty>
     
 
@@ -169,6 +179,7 @@ Ad esempio: La Leggenda della Porta magica e&apos; strettamente legata a Villa P
 
     <owl:DatatypeProperty rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#opening_hours">
         <rdfs:subPropertyOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#visitability"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
@@ -186,6 +197,7 @@ Ad esempio: La Leggenda della Porta magica e&apos; strettamente legata a Villa P
 
     <owl:DatatypeProperty rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#visitability">
         <rdfs:subPropertyOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#visiting_information"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>Questa property descrive la visitabilita&apos; di un bene culturale. Es. Visitabile solo su prenotazione, visitabile solo esternamente etc.</rdfs:comment>
     </owl:DatatypeProperty>
     
@@ -201,6 +213,7 @@ Ad esempio: La Leggenda della Porta magica e&apos; strettamente legata a Villa P
 
     <owl:DatatypeProperty rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#visiting_price">
         <rdfs:subPropertyOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#visiting_information"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>Questa property descrive il prezzo del biglietto di un bene culturale</rdfs:comment>
     </owl:DatatypeProperty>
     
@@ -210,6 +223,7 @@ Ad esempio: La Leggenda della Porta magica e&apos; strettamente legata a Villa P
 
     <owl:DatatypeProperty rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#visiting_time">
         <rdfs:subPropertyOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#visiting_information"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <rdfs:comment>Questa property descrive il tempo di visita minimo di un bene culturale.</rdfs:comment>
     </owl:DatatypeProperty>
     
@@ -1228,8 +1242,8 @@ Ad esempio: La Leggenda della Porta magica e&apos; strettamente legata a Villa P
         <core:isPartOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#RioneMonti"/>
         <l0:hasDescription rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#AraMercurioDescription"/>
         <hermes:visitability>Ingresso Libero, suonare al civico 8, visita guidata: condominio</hermes:visitability>
-        <hermes:visiting_price>Gratis</hermes:visiting_price>
-        <hermes:visiting_time rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.15</hermes:visiting_time>
+        <hermes:visiting_price rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingresso gratuito</hermes:visiting_price>
+        <hermes:visiting_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</hermes:visiting_time>
         <context-description:address>Via di S. Martino ai Monti 8</context-description:address>
         <location:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.89529799641094</location:lat>
         <location:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.497934861378887</location:long>
@@ -1307,8 +1321,8 @@ Fonte: https://www.romanoimpero.com/2022/08/sotto-s-silvestro-e-martino-ai-monti
         <hermes:accessibility_motor_disability rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_motor_disability>
         <hermes:accessibility_visual_disability rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_visual_disability>
         <hermes:visitability>Ingresso Libero</hermes:visitability>
-        <hermes:visiting_price>Gratis</hermes:visiting_price>
-        <hermes:visiting_time rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.20</hermes:visiting_time>
+        <hermes:visiting_price rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingresso gratuito</hermes:visiting_price>
+        <hermes:visiting_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</hermes:visiting_time>
         <context-description:address>Piazza Manfredo Fanti 4</context-description:address>
         <location:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.89682481077789</location:lat>
         <location:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.501296086056385</location:long>
@@ -1382,7 +1396,7 @@ Forse si trattava solo di una forma di adulazione per un sovrano dalla personali
         <hermes:opening_hours>da concordare</hermes:opening_hours>
         <hermes:visitability>Solo gruppi con guida propria /per individuali v. calendario in: https://www.sovraintendenzaroma.it/content/modalit%C3%A0-di-accesso-e-prenotazione-ai-monumenti-del-territorio</hermes:visitability>
         <hermes:visiting_price>Intero: 6 Euro, Ridotto: 5 Euro</hermes:visiting_price>
-        <hermes:visiting_time rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.45</hermes:visiting_time>
+        <hermes:visiting_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</hermes:visiting_time>
         <context-description:address>Largo Leopardi /via Merulana</context-description:address>
         <location:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">418945227967415</location:lat>
         <location:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.500913846552791</location:long>
@@ -1420,7 +1434,7 @@ Fonte: https://www.sovraintendenzaroma.it/i_luoghi/roma_antica/monumenti/auditor
         <hermes:opening_hours>09:00 – 12:30  e 16:00 – 19:00</hermes:opening_hours>
         <hermes:visitability>Ingresso libero la Chiesa, / Visita guidata: gruppi (15 persone)</hermes:visitability>
         <hermes:visiting_price>Gratis la Chiesa, Visita guidata:13 Euro soci; 12 Euro; 11 Euro disabili, 5 Euro bambini</hermes:visiting_price>
-        <hermes:visiting_time>0.30 m / visita guidata: 1.30 min</hermes:visiting_time>
+        <hermes:visiting_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</hermes:visiting_time>
         <context-description:address>Viale del Monte Oppio 30</context-description:address>
         <location:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.90072509080245</location:lat>
         <location:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.498006048666637</location:long>
@@ -1476,7 +1490,7 @@ https://www.parrocchiasanmartinoaimonti.it/titolo-equizio/</rdfs:comment>
 Domenica: dalle 10.00 alle 11.00 / dalle 16.00 alle 18.00</hermes:opening_hours>
         <hermes:visitability>Ingresso libero</hermes:visitability>
         <hermes:visiting_price>Gratis</hermes:visiting_price>
-        <hermes:visiting_time rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.20</hermes:visiting_time>
+        <hermes:visiting_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</hermes:visiting_time>
         <context-description:address>via di Santa Prassede, 9/A</context-description:address>
         <location:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.896458206980476</location:lat>
         <location:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.49869321349146</location:long>
@@ -1526,12 +1540,12 @@ https://www.vaticannews.va/it/chiesa/news/2021-03/la-basilica-di-santa-prassede-
         <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Chiesa"/>
         <core:isPartOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#RioneMonti"/>
         <l0:hasDescription rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#ChiesaAnnaGioaccMontiDesc"/>
-        <hermes:accessibility_elderly>true</hermes:accessibility_elderly>
+        <hermes:accessibility_elderly rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_elderly>
         <hermes:accessibility_groups rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_groups>
         <hermes:opening_hours>dalle 6 alle 8,45 .feriali e dalle 6 alla 10 la domenica</hermes:opening_hours>
         <hermes:visitability>Ingresso libero</hermes:visitability>
         <hermes:visiting_price>Gratis</hermes:visiting_price>
-        <hermes:visiting_time rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.20</hermes:visiting_time>
+        <hermes:visiting_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</hermes:visiting_time>
         <context-description:address>Via Monte Polacco 3 /Largo Venosta</context-description:address>
         <location:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.89797092784546</location:lat>
         <location:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.495351362458532</location:long>
@@ -1569,7 +1583,7 @@ https://turismoroma.it/it/luoghi/ss-gioacchino-e-anna-ai-monti</rdfs:comment>
         <hermes:accessibility_motor_disability rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_motor_disability>
         <hermes:visitability>Ingresso libero</hermes:visitability>
         <hermes:visiting_price>Gratis</hermes:visiting_price>
-        <hermes:visiting_time rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.30</hermes:visiting_time>
+        <hermes:visiting_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</hermes:visiting_time>
         <context-description:address>via Carlo Alberto 2</context-description:address>
         <location:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.89773273323775</location:lat>
         <location:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.500062592586954</location:long>
@@ -1606,7 +1620,7 @@ Fonte: Centro Astalli: https://www.centroastalli.it/18256-2/</rdfs:comment>
         <l0:hasDescription rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#ChiesaSEusebioDescription"/>
         <hermes:visitability>Ingresso libero</hermes:visitability>
         <hermes:visiting_price>Gratis</hermes:visiting_price>
-        <hermes:visiting_time rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.30</hermes:visiting_time>
+        <hermes:visiting_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</hermes:visiting_time>
         <context-description:address>P.za Vittorio Emanuele II, 12/a</context-description:address>
         <location:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.89700101858133</location:lat>
         <location:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.503479123276394</location:long>
@@ -1649,7 +1663,7 @@ Fonte: https://it.wikipedia.org/wiki/Chiesa_di_Sant%27Eusebio_(Roma)</rdfs:comme
         <hermes:opening_hours>08-18.30</hermes:opening_hours>
         <hermes:visitability>Ingresso libero</hermes:visitability>
         <hermes:visiting_price>Gratis</hermes:visiting_price>
-        <hermes:visiting_time rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.30</hermes:visiting_time>
+        <hermes:visiting_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</hermes:visiting_time>
         <context-description:address>Via di S. Vito, 12D</context-description:address>
         <location:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.89592215724537</location:lat>
         <location:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.50120615641369</location:long>
@@ -1688,13 +1702,13 @@ Nella parete di destra si trovano: un cippo romano con iscrizione, che la tradiz
         <hermes:isCorrelatedWith rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#SanSergio"/>
         <core:isPartOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#RioneMonti"/>
         <l0:hasDescription rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#ChiesaSantiSergioBaccoUcrainiDescription"/>
-        <hermes:accessibility_elderly>true</hermes:accessibility_elderly>
+        <hermes:accessibility_elderly rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_elderly>
         <hermes:accessibility_groups rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_groups>
         <hermes:accessibility_motor_disability rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_motor_disability>
         <hermes:opening_hours>Tutti i giorni 6:30 - 19 // Lunedì, martedì, mercoledi, venerdì e sabato dalle ore 07:00 alle ore 08:00, domenica dalle ore 08 - 12 alle ore 15 - 18, giovedì dalle ore 17:00 alle ore 19:00</hermes:opening_hours>
         <hermes:visitability>Ingresso libero</hermes:visitability>
         <hermes:visiting_price>Gratis</hermes:visiting_price>
-        <hermes:visiting_time rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.30</hermes:visiting_time>
+        <hermes:visiting_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</hermes:visiting_time>
         <context-description:address>piazza della Madonna dei Monti ( 3 la Chiesa non ha numero civico; al civico 3 c&apos;è la Casa per Ferie Santa Sofia e la Casa di Procura delle Suore Catechiste di Sant&apos;Anna)</context-description:address>
         <location:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.894997338009</location:lat>
         <location:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.490791494737593</location:long>
@@ -1869,7 +1883,7 @@ Fonte: https://seusebio.weebly.com/home2-860811-148402-939407-806222.html</rdfs:
         <hermes:accessibility_visual_disability rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_visual_disability>
         <hermes:visitability>Ingresso libero</hermes:visitability>
         <hermes:visiting_price>Gratis</hermes:visiting_price>
-        <hermes:visiting_time rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.20</hermes:visiting_time>
+        <hermes:visiting_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</hermes:visiting_time>
         <context-description:address>Viale del Monte Oppio</context-description:address>
         <location:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.89208181402528</location:lat>
         <location:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.496090782419026</location:long>
@@ -1916,7 +1930,7 @@ Fonte: https://www.sovraintendenzaroma.it/i_luoghi/ville_e_parchi_storici/passeg
         <hermes:opening_hours>Lunedì-Sabato: 10.00-12.45 / 14.30-18.00 / Domenica: 14.30-18.00</hermes:opening_hours>
         <hermes:visitability>Ingresso Libero</hermes:visitability>
         <hermes:visiting_price>2 euro</hermes:visiting_price>
-        <hermes:visiting_time rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.20</hermes:visiting_time>
+        <hermes:visiting_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</hermes:visiting_time>
         <context-description:address>via Carlo Alberto 47 (Area Archeologica di San Vito)</context-description:address>
         <location:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.89589758782159</location:lat>
         <location:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.501708361141558</location:long>
@@ -2069,7 +2083,7 @@ Il servizio ai fratelli costituisce un elemento essenziale della cura che Gesù 
         <hermes:opening_hours>09.00-17.00</hermes:opening_hours>
         <hermes:visitability>Visita guidata obbligatoria, estesa a tutto il monumento / ingressi contingentati e turni di massimo 23 persone ogni 15 minuti (guida inclusa).  Da venerdì a domenica: cantiere e mostra; da lunedì a giovedì: solo mostra. Fonte:  https://www.coopculture.it/it/poi/domus-aurea</hermes:visitability>
         <hermes:visiting_price>Intero per individuali da venerdì a domenica € 23.00). Intero per individuali da lunedì a giovedì € 18.00. Ridotto per individuali da venerdì a domenica € 19.00/ Ridotto per individuali da lunedì a giovedì € 14.00/ Prenotazione € 1.00</hermes:visiting_price>
-        <hermes:visiting_time rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</hermes:visiting_time>
+        <hermes:visiting_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</hermes:visiting_time>
         <context-description:address>via Serapide (Colle Oppio)</context-description:address>
         <location:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.89111032269641</location:lat>
         <location:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.49647243379361</location:long>
@@ -2305,7 +2319,7 @@ Fonte: https://www.repubblica.it/il-gusto/2023/07/18/news/cucina_dellantica_roma
         <hermes:accessibility_visual_disability rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_visual_disability>
         <hermes:visitability>Ingresso libero</hermes:visitability>
         <hermes:visiting_price>Gratis</hermes:visiting_price>
-        <hermes:visiting_time rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.30</hermes:visiting_time>
+        <hermes:visiting_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</hermes:visiting_time>
         <context-description:address>Piazza Vittorio Emanuele II</context-description:address>
         <location:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.89466381783158</location:lat>
         <location:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.504401842096193</location:long>
@@ -2348,7 +2362,7 @@ Fonte: FAI: https://fondoambiente.it/luoghi/giardino-di-piazza-vittorio-emanuele
         <hermes:opening_hours>v. calendario (anche per individuali: https://www.sovraintendenzaroma.it/content/modalit%C3%A0-di-accesso-e-prenotazione-ai-monumenti-del-territorio</hermes:opening_hours>
         <hermes:visitability>Prenotazione obbligatoria max 25 persone  (060608, h1 0-19)</hermes:visitability>
         <hermes:visiting_price>Intero: 4 euro, Ridotto: 3 euro</hermes:visiting_price>
-        <hermes:visiting_time rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.30</hermes:visiting_time>
+        <hermes:visiting_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</hermes:visiting_time>
         <context-description:address>Piazza Vittorio Emanuele ingresso lato Via Carlo Alberto del giardino Nicola Calipari</context-description:address>
         <location:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.896076141328884</location:lat>
         <location:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.503601769310556</location:long>
@@ -2390,7 +2404,7 @@ Fonte: https://sovraintendenzaroma.it/content/il-trionfo-dell%E2%80%99acqua-il-n
         <hermes:opening_hours>8.00 - 18.00</hermes:opening_hours>
         <hermes:visitability>Su prenotazione</hermes:visitability>
         <hermes:visiting_price>Intero: 10 Euro, Ridotto: 6 Euro</hermes:visiting_price>
-        <hermes:visiting_time rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.00</hermes:visiting_time>
+        <hermes:visiting_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">120</hermes:visiting_time>
         <context-description:address>Piazza Vittorio Emanuele II, 78</context-description:address>
         <context-description:synonym>Museo scavo Ninfeo</context-description:synonym>
         <location:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.893799219837625</location:lat>
@@ -2615,7 +2629,7 @@ Fonte: https://www.treccani.it/enciclopedia/mecenatismo_(Dizionario-di-Storia)/<
         <hermes:accessibility_visual_disability rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hermes:accessibility_visual_disability>
         <hermes:visitability>Ingresso Libero</hermes:visitability>
         <hermes:visiting_price>Gratis</hermes:visiting_price>
-        <hermes:visiting_time rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.20</hermes:visiting_time>
+        <hermes:visiting_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</hermes:visiting_time>
         <context-description:address>nei pressi della stazione di Roma Termini</context-description:address>
         <location:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.90186710838075</location:lat>
         <location:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.50166955713403</location:long>
@@ -3334,7 +3348,7 @@ II e IV domenica del mese
 Ingressi per singoli alle ore 10,00
 Ingressi per gruppi alle ore 11,30 per un massimo di 20 persone a visita oltre la guida.</hermes:opening_hours>
         <hermes:visitability>Visita guidata con prenotazione obbligatoria www.coopculture.it</hermes:visitability>
-        <hermes:visiting_time rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.00</hermes:visiting_time>
+        <hermes:visiting_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</hermes:visiting_time>
         <context-description:address>Piazza Santa Croce in Gerusalemme, 1</context-description:address>
         <location:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.889610397194005</location:lat>
         <location:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.518189545865932</location:long>
@@ -3593,5 +3607,5 @@ Fonte: https://www.treccani.it/enciclopedia/publio-virgilio-marone_(Enciclopedia
 
 
 
-<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 

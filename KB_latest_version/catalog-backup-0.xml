@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+<<<<<<< HEAD
+        <uri id="Automatically generated entry, Timestamp=1706916523495" name="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes" uri="hermes_20240201.owx"/>
+        <uri id="Automatically generated entry, Timestamp=1706916523495" name="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes/" uri="hermes_20240202.owl"/>
+=======
+        <uri id="Automatically generated entry, Timestamp=1706809575506" name="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes" uri="hermes_01_02_24.owx"/>
+        <uri id="Automatically generated entry, Timestamp=1706809575506" name="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes/" uri="hermes_01_02_rdf.rdf"/>
+>>>>>>> 709927280b2eb240bb0b4af4a6a003b36e80c1dd
+    </group>
+</catalog>
