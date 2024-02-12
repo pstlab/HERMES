@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1700753826040" name="duplicate:http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes" uri="hermes_16_10_test.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1700753826040" name="duplicate:http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes" uri="hermes_16_10.owx"/>
-        <uri id="Automatically generated entry, Timestamp=1700753826040" name="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes/" uri="hermes_v0.0.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1707671847019" name="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes" uri="KB_latest_version/hermes_20240201.owx"/>
+        <uri id="Automatically generated entry, Timestamp=1707671847019" name="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes/" uri="hermes_09_02_24.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1707671847019" name="shadowed:http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes" uri="KB_old_versions/hermes_23_01_2.owx"/>
+        <uri id="Automatically generated entry, Timestamp=1707671847019" name="shadowed:http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes" uri="KB_old_versions/hermes_16_10.owx"/>
+        <uri id="Automatically generated entry, Timestamp=1707671847019" name="shadowed:http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes" uri="KB_old_versions/hermes_23_01.owx"/>
+        <uri id="Automatically generated entry, Timestamp=1707671847019" name="shadowed:http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes" uri="KB_old_versions/hermes_16_10_test.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1707671847019" name="shadowed:http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes" uri="KB_old_versions/hermes_27_12.owx"/>
+        <uri id="Automatically generated entry, Timestamp=1707671847019" name="shadowed:http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes/" uri="KB_latest_version/hermes_20240202.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1707671847019" name="shadowed:http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes/" uri="KB_old_versions/hermes_v0.0.owl"/>
     </group>
 </catalog>
