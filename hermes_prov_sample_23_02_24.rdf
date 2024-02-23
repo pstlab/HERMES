@@ -84,6 +84,14 @@ Ad esempio: La Leggenda della Porta magica e&apos; strettamente legata a Villa P
     
 
 
+    <!-- http://www.w3.org/ns/prov#wasAttributedTo -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/prov#wasAttributedTo">
+        <rdfs:domain rdf:resource="http://dati.beniculturali.it/cis/CulturalEntity"/>
+    </rdf:Description>
+    
+
+
     <!-- https://w3id.org/arco/ontology/cataloguing-campaign/hasApplication -->
 
     <rdf:Description rdf:about="https://w3id.org/arco/ontology/cataloguing-campaign/hasApplication">
@@ -1234,6 +1242,7 @@ Ad esempio: La Leggenda della Porta magica e&apos; strettamente legata a Villa P
 
     <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#AraMercurio">
         <rdf:type rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#UnitaMonumentale"/>
+        <prov:wasAttributedTo rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Hermes_Admin"/>
         <core:isPartOf rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#RioneMonti"/>
         <l0:hasDescription rdf:resource="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#AraMercurioDescription"/>
         <hermes:visitability>Ingresso Libero, suonare al civico 8, visita guidata: condominio</hermes:visitability>
@@ -2322,6 +2331,26 @@ Fonte: https://www.repubblica.it/il-gusto/2023/07/18/news/cucina_dellantica_roma
         <rdfs:comment>Il giardino di Piazza Vittorio e&apos; un giardino-piazza inaugurato nel 1888, cuore verde del quartiere Esquilino. Pensato come un&apos;addizione organica alla città, venne concepito all&apos;epoca come un&apos;oasi paesaggistica di gusto esotico all&apos;interno di una scacchiera di viali e piazze rigidamente ortogonali. Si pone al centro dello storico asse che collega le due basiliche di S. Maria maggiore e S. Croce in Gerusalemme, dialogando così con i monumento circostanti. Parte integrante del disegno del giardino sono gli antichi trofei di Mario e la misteriosa Porta Magica,una porta ricca di criptiche iscrizioni, un tempo ingresso secondario della non più esistente villa del marchese Palombara. Dopo un lungo periodo di abbandono, negli anni &apos;90 del secolo scorso il giardino e&apos; stato riprogettato con l&apos;aggiunta di nuove alberature, pavimentazioni in travertino e ripristino della vecchia cancellata. Oggi il giardino e diventato il cuore pulsante di un quartiere multiculturale, multireligioso, multietnico, colorato e vivo come la famosa orchestra di piazza Vittorio che qui e&apos; nata. Il grande movimento di opinione nato con il censimento ha riacceso l&apos;interesse sul recupero del bene portando il Comune stesso a impegnarsi a favore del giardino. “Cittadinanza Attiva Lazio ONLUS”, ha promosso la raccolta delle segnalazioni in occasione del censimento del 2012, ottenendo così anche un intervento da parte de I Luoghi del Cuore.
 Fonte: FAI: https://fondoambiente.it/luoghi/giardino-di-piazza-vittorio-emanuele-ii?ldc</rdfs:comment>
         <rdfs:label>Giardino di Piazza Vittorio Description</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Hermes_Admin -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Hermes_Admin">
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Person"/>
+        <rdfs:comment>Hermes Administrator: etto che fa parte del team Hermes</rdfs:comment>
+        <rdfs:label>Hermes Admin</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Hermes_User -->
+
+    <owl:NamedIndividual rdf:about="http://www.istc.cnr.it/pstlab/ontologies/2023/1/hermes#Hermes_User">
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Person"/>
+        <rdfs:comment>Utente Hermes</rdfs:comment>
+        <rdfs:label>Hermes User</rdfs:label>
     </owl:NamedIndividual>
     
 
